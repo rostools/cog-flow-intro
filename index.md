@@ -15,6 +15,14 @@ references:
     issued: 
       year: 2023
     URL: https://blog.logrocket.com/product-management/a-guide-to-trunk-based-development/#whatistrunkbaseddevelopment
+  - id: tilburg
+    title: Git Branching Strategies (Tilburg Science Hub)
+    author: 
+      family: Ambroziak
+      given: Paulina
+    issued: 
+      year: n.d.
+    URL: https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/git-branching-strategies/
   - id: tbd
     title: Trunk-based development
     author: 
@@ -112,7 +120,7 @@ NB: To keep this decision post from getting too long, the strategies and their d
 
 ### Trunk-Based Development
 
-In [trunk-based development](https://trunkbaseddevelopment.com), developers frequently integrate their code changes into a shared main branch, the **trunk**, instead of working on long-lived additional branches that will be merged into main less frequently. This workflow focuses on making smaller, self-contained changes which helps reduce complexity, minimise conflicts, and enable faster review processes and integration [@sooni]. Naturally, this leads to a more continuous integration with frequent merges to the main branch.
+In [trunk-based development](https://trunkbaseddevelopment.com), developers frequently integrate their code changes into a shared main branch, the **trunk**, instead of working on long-lived additional branches that will be merged into main less frequently [@tilburg]. This workflow focuses on making smaller, self-contained changes which helps reduce complexity, minimise conflicts, and enable faster review processes and integration [@sooni]. Naturally, this leads to a more continuous integration with frequent merges to the main branch.
 Some smaller teams might even avoid branching altogether and commit directly to the trunk/main branch.
 
 #### Benefits of Trunk-Based Development
@@ -190,10 +198,8 @@ For a more thorough review of this branching strategy and how we use it, includi
 List some potential consequences of this decision.
 :::
 
-Eventhough, the GitHub flow is the most suitable branching strategy for the Seedcase project at this point in time, this choice does come with consequences. For example, working on longer-living branches could increase the risk of merge conflicts (which is easier to avoid using trunck-based-development). This strategy also comes without release tagging (as Git flow does), something we might want to implement for the Seedcase Software Product later on.
+Eventhough, the GitHub flow is the most suitable branching strategy for the Seedcase project at this point in time, this choice does come with consequences. For example, working on longer-living branches (compared to trunk-based-development) could increase the risk of merge conflicts (which is easier to avoid using trunck-based-development). This strategy also comes without release tagging (as Git flow does), something we might want to implement for the Seedcase Software Product later on.
 
 In the future, when we the Seedcase repositories are at a more stable state and we have more contributors, we might need a more complex branching strategy, like Git flow, that revolves around formal releases. But currently, when we deploy continuously, a simpler workflow like GitHub flow is the best fit for us.
 
 "The Git-Flow suits large teams and complex projects, while GitHub-Flow excels in open-source and small team environments. GitLab-Flow provides a compromise between Git-Flow and GitHub-Flow, while Trunk Based Development is ideal for experienced teams focused on collaboration and quick releases. Select the strategy that aligns with your team’s capabilities, project complexity, and desired workflow to maximize efficiency and success [@thummala]."
-
-https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/git-branching-strategies/
