@@ -1,0 +1,12 @@
+@startuml github_flow
+
+title GitHub Flow
+"Main branch" -> "Feature branch": Create feature branch from main
+"Feature branch" -> "Feature branch": Add and/or change files\n to implement feature
+"Feature branch" --> "Main branch": Create pull request
+"Feature branch" -> "Feature branch": Review
+"Feature branch" --> "Feature branch": Implement suggested\n changes (if any)
+"Feature branch" -> "Main branch": When approved, merge feature\n branch to main branch
+"Feature branch" -> "Feature branch" !! : Delete
+
+@enduml
