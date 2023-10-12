@@ -195,3 +195,5 @@ Eventhough, the GitHub flow is the most suitable branching strategy for the Seed
 In the future, when we the Seedcase repositories are at a more stable state and we have more contributors, we might need a more complex branching strategy, like Git flow, that revolves around formal releases. But currently, when we deploy continuously, a simpler workflow like GitHub flow is the best fit for us.
 
 "The Git-Flow suits large teams and complex projects, while GitHub-Flow excels in open-source and small team environments. GitLab-Flow provides a compromise between Git-Flow and GitHub-Flow, while Trunk Based Development is ideal for experienced teams focused on collaboration and quick releases. Select the strategy that aligns with your team’s capabilities, project complexity, and desired workflow to maximize efficiency and success [@thummala]."
+
+https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/git-branching-strategies/
