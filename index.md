@@ -44,7 +44,7 @@ This approach has, generally speaking, the following steps:
 6. When the changes has been approved, merge the feature branch into the main branch
 7. Delete the feature branch
 
-![Example of the GitHub flow showing the process of creating and merging a feature branch](/entries/images/github_flow.png)
+![Example of the GitHub flow showing the process of creating and merging a feature branch](/entries/images/github-flow.png)
 
 There are a few points about this kind of workflow, we would like to emphasise:
 
