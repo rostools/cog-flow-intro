@@ -1,0 +1,7 @@
+@startuml branching-simple
+
+"Main branch" -> "New branch": Create new branch from main
+"New branch" -> "New branch": Add and/or change files\n
+"New branch" -> "Main branch": After PR and review, merge\nnew branch into main branch
+
+@enduml
