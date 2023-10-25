@@ -132,7 +132,8 @@ The naming scheme presented in this post is inspired by the following posts:
 
 - [Organizing git branches with naming conventions](https://code.erpenbeck.io/git/2021/03/01/git-naming-conventions/)
 - [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)
-- [Best Practices for Naming Git Branches](https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/naming-git-branches/).
+- [Best Practices for Naming Git Branches](https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/naming-git-branches/)
+- [Naming conventions for Git Branches — a Cheatsheet](https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534)
 
 ## should these "branch types" be included as well?
 
