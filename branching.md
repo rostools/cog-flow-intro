@@ -38,7 +38,7 @@ As an example, a branch could cover a fix to a particular bug or [issue](issues.
 
 ## Branch Naming
 
-When you create a branch, it's important to give the branch a short, descriptive name to clearly communicate to your collaborators what this work is on. We encourage the use of prefixes so anyone can easily identify what kind of work is being done on a certain branch. In addition, we recommend using a forward slash (/) after the prefix. The use of  slash results in the name being interpreted by many IDEs and Git tools as a directory structure, which creates a nice grouping of the branches. For prefixes and examples, see the table below.
+When you create a branch, it's important to give the branch a short, descriptive name to clearly communicate to your collaborators what this work is on. When naming a branch, stick to lowercase alphanumeric characters (a-z, 0-9) and use hyphens to separate words. Avoid punctuation, spaces, underscores, or other any non-alphanumeric characters than hyphen. We encourage the use of prefixes so anyone can easily identify what kind of work is being done on a certain branch. In addition, we recommend using a forward slash (/) after the prefix. The use of  slash results in the name being interpreted by many IDEs and Git tools as a directory structure, which creates a nice grouping of the branches. For prefixes and examples of branch names, see the table below.
 
 | Type | Usecase | Pattern | Example |
 |-|-----|-----|-----|
