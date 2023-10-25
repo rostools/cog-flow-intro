@@ -45,6 +45,7 @@ When you create a branch, it's important to give the branch a short, descriptive
 | Bugfix | For fixing a bug | bugfix/(short-description) | bugfix/fix-data-cleaning-error |
 | Feature | For adding, removing, or modifying a feature* | feature/(short-description) | feature/add-variance-plot |
 | Hotfix | For quickly fixing critical issues, usually with a temporary solution | hotfix/(short-description) | hotfix/fix-select-button |
+| Doc | For writing, updating, or fixing documentation | doc/(short-description) | doc/git-guidelines |
 
 In the table above, (short-description) in the "Pattern" column is a short phrase, concisely describing the work done on the branch. Examples of short descriptions could be *fix-data-cleaning-error*, *add-variance-plot*, *fix-recursive-loop*, or *init-git-entry*. As with file naming, we use the [kebab-case](https://www.tuple.nl/knowledge-base/kebab-case) naming convention. :warning: not written anywhere why we do it or that we do it. Should we add a decision post on this somewhere? :warning:
 
