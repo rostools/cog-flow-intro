@@ -58,6 +58,8 @@ If you want your branch to refer to a specific issue, this can also be included 
 
 In addition, some teams include author initials in the branch names to keep track of developers' work, e.g., feature/skb-add-variance-plot.
 
+These naming practices will help you avoid bad practices such as using numbers only and long branch names, as well as support consistency. Consistency in branch naming is important, so whenever you have chosen a convention, stick to it throughout the project to avoid confusion.
+
 ## Summary
 
 - By default, a Git repository has one default branch called **main**
@@ -67,6 +69,7 @@ In addition, some teams include author initials in the branch names to keep trac
 - In addition, we recommend the use of forward slash (/) after the prefix to create a nice ordering in many IDEs. E.g., "feature/" or "bugfix/"
 - If the work you are doing on a branch should refer to a particular issue, you can add the issue ID to the branch name after the prefix. E.g., "feature/12-fix-data-cleaning-error"
 - Collecting these recommendations, a branch name could be "feature/add-variance-plot" or "bugfix/12-fix-data-cleaning-error"
+- When you have chosen a branch naming convention, be consistent and stick to it
 
 The naming scheme presented in this post is inspired by the following posts:
 
