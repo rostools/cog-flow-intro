@@ -60,6 +60,62 @@ In addition, some teams include author initials in the branch names to keep trac
 
 These naming practices will help you avoid bad practices such as using numbers only and long branch names, as well as support consistency. Consistency in branch naming is important, so whenever you have chosen a convention, stick to it throughout the project to avoid confusion.
 
+## Branching in Practice
+
+Depending on whether you use the Terminal or prefer to click around in VS Code, how you create a new branch is a bit different. Below, we will go through how to create and switch branches using the Terminal and VS Code. If you prefer to use another editor, you can Google how it's done for that specific editor. Usually, there are plenty of nice beginner-friendly guides out there.
+
+::: panel-tabset
+
+### Branching using the Terminal
+
+When you have cloned, i.e., downloaded a Git repository or created your own, open that folder in VS Code.
+
+Open a Terminal by going to Terminal in the menu > New Terminal.
+
+Make sure you are in the root directory (i.e., the repository folder) and not in a subfolder in the directory.
+
+To check which branch you are currently on:
+
+```bash
+git status
+```
+
+The terminal will write "On branch name-of-branch", where name-of-branch could be e.g., *main* or *feature/add-variance-plot*.
+
+To see the local branches currently in your repository:
+
+```bash
+git branch
+```
+
+To go to an existing branch:
+
+```bash
+git checkout <name-of-existing-branch>
+```
+
+To create a new branch and go to that branch:
+
+```bash
+git checkout -b <name-of-new-branch>
+```
+
+The flag '-b' creates a new branch.
+
+If you want to learn more about using the Terminal within VS Code, the [Terminal Basics](https://code.visualstudio.com/docs/terminal/basics) post by VS Code can help you along.
+
+### Branching in VS Code
+
+When you have cloned, i.e., downloaded a Git repository or created your own, open that folder in VS Code. If you are in a Git repository in VS Code, you can see which branch you are currently on in the bottom left corner of the window.
+
+To switch branches, you can click on the branch name in the bottom left corner and a window with a "+ Create New Branch" option will appear.
+
+Alternatively, you can open the Command Palette by pressing shift+command+P on a Mac or shift+ctrl+P on a Windows. Then, write "Git: Create Branch". To go to another branch, write "Git: Checkout to"
+
+If you would like to *see* these steps, go to the [Branches and Tags](https://code.visualstudio.com/docs/sourcecontrol/overview#_branches-and-tags) part of the [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository) post.
+
+:::
+
 ## Summary
 
 - By default, a Git repository has one default branch called **main**
