@@ -119,3 +119,76 @@ If you make an error in your commit, there are ways to undo them and rewrite you
 ![Figure of committing workflow.. I would like a better example here, but think that a figure is a nice way of visualising it. NB: Within the GitHub flow, you always create a supporting branch, commit your changes there, and after a PR and review, the approved changes will be merged into main.
 ](../images/commits.png)
 
+## Commits in Practice
+
+Staging and committing files are possible both through the command line and with most Git interfaces. Whether you use the command line or an interface like VS Code, how this is done specifically looks a little different, but the concepts are the same.
+
+See below for resources on how to use the command line and VS Code for committing. If you use another source-code editor, try searching online - there's typically plenty of nice guides out there.
+
+::: panel-tabset
+
+### Using VS Code
+
+If you use VS Code, see their posts [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) and [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
+
+### Using the command line
+
+GitHub's [Git Guides](https://github.com/git-guides/git-commit) go through the different steps of committing using the command line.
+
+The [Git Documentation](https://git-scm.com/docs/git-commit) also covers how to commit, however, in a bit more technical manner.
+
+:::
+
+## Partial Commits
+
+Sometimes, when you are working on a project, you start to add do several things before you start committing. This can seem like a no-go when we want to create atomic commits, but don't worry: Git can handle this with partial commits.
+
+::: panel-tabset
+
+## Using VS Code
+
+After you have completed some changes and you want to commit them, go to the "Source Control" Panel in the menu on the left.
+
+Click on the file you would like to do a partial commit on. This will show you the "working tree" of the file, i.e., the changes you have made since the last commit.
+
+Select the lines you would like to add to the staging area, and right click. Choose "Stage Selected Lines" to add the lines to the staging area.
+
+Repeat until you have staged the lines you would like to include in your next commit.
+
+Then, write a commit message in the box saying "Message" and press the "Commit" button.
+
+Now, you have completed a partial commit!
+
+## Using the command line
+
+There are multiple ways to do a partial commit in the command line. A beginner-friendly way is to use the interactive flag with the git add command, like so:
+
+```bash
+git add -i <name-of-file>
+```
+
+This brings up a Commands menu and Git asks you "What now". Press 5 for "patch" and press Enter.
+
+Now, you will see a list of files (only one if you specified the file git add -i command above). Choose the number of the file you want to do a partial commit and then Enter (you might have to press Enter twice).
+
+Now, Git will show you the first part of the file with changes and you have to choose whether you want to add it to the staging area. You'll have many options, including "y" (for yes) and "n" (for no).
+Press "y" or "n" followed by Enter, depending on whether you want to add this part of the file to the staging area.
+
+Continue with this until you reach the end of the file changes. The Commands menu will return. Press "7" to quit.
+
+Now you have added the parts of the file that you pressed "y" to to the staging area, ready for commit.
+
+To commit and write the commit message, write:
+
+```bash
+git commit -m <commit-message>
+```
+
+Now, you have completed a partial commit!
+
+These steps are also shown in the video below:
+
+{{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
+
+:::
+
