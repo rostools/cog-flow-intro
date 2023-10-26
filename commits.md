@@ -47,3 +47,75 @@ This might sound simple, but working with atomic commits takes practice.
 You might start working on a couple of different problems before you commit, and how do you describe that work in a short, simple sentence?
 
 Fear not, we have some tips for you! The first tip concerns best practices for commit messages, the second covers how to do partial commits (i.e., including some, but not all, of the changes you have made to the same file).
+
+## Commit Messages
+
+What constitutes a good commit message can differ according to different conventions, but generally, we recommend the following guidelines for writing commit messages (inspired by the [Conventional Commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/), the post [A note about Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) by Tim Pope, [Writing Good Commit Messages: A Practical Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/) by Bolaji Ayodeji, and [Bad Commit Messages Hall of Shame](https://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/))
+
+Generally, commit messages should be structured like so:
+
+```bash
+<type>([optional scope]): <description>
+
+[optional body]
+
+[optional footer]
+```
+
+Below, we unpack this structure by first presenting the required items and, subsequently, the optional items:
+
+- **type**: Specify the type of commit, using one of the types below:
+  - feat: Introduces a new feature to the codebase
+  - fix: Fixes a bug in the codebase
+  - style: Introduces updates related to styling
+  - refactor: Refactors a specific section of the codebase
+  - test: Everything related to testing
+  - docs: Everything related to documentation
+  - chore: Regular code maintenance
+
+- **description**: A short, precise summary of the code changes, immediately following the colon and space after the type/scope prefix.
+  - The description briefly describes what was done, enabling future collaborators or your future self to effectively glance through the history and find what is needed
+  - It's written in present tense: "Fix button disappearance on click", not "Fixed", "Fixing", or "Fixes"
+  - It's self-contained. You can refer to an issue that the commit fixes using hash (e.g., #13), but remember to include what the changes were, so the reviewer don't have to go to that issue to understand the changes
+
+- **optional scope**: If needed, provide additional contextual information
+
+- **optional body**: If needed, provide additional contextual information about the code changes in the body.
+  - If your commit requires additional text, separate the subject from the body with a blank line. Use the body to explain the changes you made and *why* you made them. This way you ensure that the reviewer understand what the original problem was.
+
+- **optional footer**: If needed, provide one or more footers consisting of a word token, :<space> or <space>#, and a string value
+  - In the footer, you can refer to who has reviewed the changes or refer to an issue this commit solves.
+  - E.g., "Reviewed-by: Z" and/or "Issue: #123"
+  - :warning: maybe not include footer? I would rarely use it, and I think it just complicates things? :warning:
+
+To help you visualise this, here are some examples:
+
+### Commit Message with Only Required Items
+
+```bash
+fix: allow users to filter based on age
+```
+
+
+### Commit Message with Optional Items (except body)
+
+```bash
+feat(parser): add ability to parse arrays
+```
+
+### Commit Message with All Optional Items
+
+```bash
+docs(decision-posts): update headers to fit template
+
+The headers of these posts to not follow the new decision post template. 
+Therefore, I have re-ordered the sections to fit this new template.
+```
+
+Remember to follow the commit convention defined by your team. The conventions might change depending on the needs of the particular project or team you are working with.
+
+If you make an error in your commit, there are ways to undo them and rewrite your repository's history. Importantly, this is a lot "safer" as long as you haven't pushed your commit to the remote repository on e.g., GitHub. Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-commits-in-git) for a run-through of how to undo a commit.
+
+![Figure of committing workflow.. I would like a better example here, but think that a figure is a nice way of visualising it. NB: Within the GitHub flow, you always create a supporting branch, commit your changes there, and after a PR and review, the approved changes will be merged into main.
+](../images/commits.png)
+
