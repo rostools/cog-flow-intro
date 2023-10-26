@@ -27,11 +27,11 @@ Hopefully, this gave you an intuition about what a branch is and what the benefi
 
 ## When To Create Branches (and How Much They Should Cover)
 
-Every time you want to add something new to or modify existing work in a Git repository, you should create a new branch (following [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)). Importantly, each branch should represent a specific task or development effort. I.e., a branch should be created for one particular purpose, independelty of how many new lines of work is required for that purpose.
+Every time you want to add something new to or modify existing work in a Git repository, you should create a new branch (following [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)). Importantly, each branch should represent a specific task or development effort. I.e., a branch should be created for one particular purpose, independently of how many new lines of work is required for that purpose.
 
 If you create branches for *one* particular purpose, it benefits your (and your collaborators') workflow in (at least) two ways:
 
-1. It enables you to give the branch a short, decriptive name that clearly communicates to your collaborators what work has been done on this particular branch.
+1. It enables you to give the branch a short, descriptive name that clearly communicates to your collaborators what work has been done on this particular branch.
 2. Smaller changes allows for a faster reviewing and merging to the main branch, since it is easier for your collaborators to get an overview of the work you have done.
 
 As an example, a branch could cover a fix to a particular bug or [issue](issues.md) or add a new feature, such as a new plot, like in the figure showing parallel development above.
@@ -40,7 +40,7 @@ As an example, a branch could cover a fix to a particular bug or [issue](issues.
 
 When you create a branch, it's important to give the branch a short, descriptive name to clearly communicate to your collaborators what this work is on. When naming a branch, stick to lowercase alphanumeric characters (a-z, 0-9) and use hyphens to separate words. Avoid punctuation, spaces, underscores, or other any non-alphanumeric characters than hyphen. We encourage the use of prefixes so anyone can easily identify what kind of work is being done on a certain branch. In addition, we recommend using a forward slash (/) after the prefix. The use of  slash results in the name being interpreted by many IDEs and Git tools as a directory structure, which creates a nice grouping of the branches. For prefixes and examples of branch names, see the table below.
 
-| Type | Usecase | Pattern | Example |
+| Type | Use case | Pattern | Example |
 |-|-----|-----|-----|
 | Bugfix | For fixing a bug | bugfix/(short-description) | bugfix/fix-data-cleaning-error |
 | Feature | For adding, removing, or modifying a feature* | feature/(short-description) | feature/add-variance-plot |
@@ -120,7 +120,7 @@ If you would like to *see* these steps, go to the [Branches and Tags](https://co
 ## Summary
 
 - By default, a Git repository has one default branch called **main**
-- Additional branches should be created whenever you want to modify or add to your respository. This enables several developers to work in parallel
+- Additional branches should be created whenever you want to modify or add to your repository. This enables several developers to work in parallel
 - A branch should be created for one particular purpose and have a short descriptive name, like "add-variance-plot"
 - We recommend using prefixes to clearly show what kind of work has been done in this branch. E.g., "feature" or "bugfix"
 - In addition, we recommend the use of forward slash (/) after the prefix to create a nice ordering in many IDEs. E.g., "feature/" or "bugfix/"
