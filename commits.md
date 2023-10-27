@@ -96,7 +96,6 @@ To help you visualise this, here are some examples:
 fix: allow users to filter based on age
 ```
 
-
 ### Commit Message with Optional Items (except body)
 
 ```bash
@@ -116,8 +115,22 @@ Remember to follow the commit convention defined by your team. The conventions m
 
 If you make an error in your commit, there are ways to undo them and rewrite your repository's history. Importantly, this is a lot "safer" as long as you haven't pushed your commit to the remote repository on e.g., GitHub. Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-commits-in-git) for a run-through of how to undo a commit.
 
-![Figure of committing workflow.. I would like a better example here, but think that a figure is a nice way of visualising it. NB: Within the GitHub flow, you always create a supporting branch, commit your changes there, and after a PR and review, the approved changes will be merged into main.
+## Example
+
+Let's say you want to create a scatter plot in your code. Since we follow, the GitHub flow, you need to create a new branch for your changes. Adding a scatter plot will be to add a new feature, and following the branching naming convention described in [Branching](branching.md), the branch will be called `feature/add-scatter-plot`. When you have switched to this new branch, you can start making the scatter plot.
+
+![Figure of committing workflow following the guidelines in this post. NB: Within the GitHub flow, you always create a supporting branch, commit your changes there, and after a PR and review, the approved changes will be merged into main.
 ](../images/commits.png)
+
+First, you create the initial version of the scatter plot showing the data points on relevant axes. You add these changes to the staging area and commit with the message `feat: init scatter plot`.
+
+Then, you decide that it would be nice to add a linear regression line to the scatter plot to see the trend line in the data points. You commit these changes with the message `feat: add regression line`.
+
+After your commit, you found that data points make the regression line a bit difficult to see. Therefore, you lower the opacity of the data points, and commit these changes with the message `fix: lower opacity of data points to see regression line more clearly`.
+
+Last, you add legends to the plot to make it easier to understand. You commit these changes with the message `feat: add legends`.
+
+Now your work on the scatter plot is complete and you would like feedback from your collaborators before the changes are merged to the main branch. So, you create a pull request (more on those in the [Pull Request](prs.md) post). After your changes has been reviewed, your feature branch `feature/add-scatter-plot` is merged into the main branch and deleted.
 
 ## Commits in Practice
 
@@ -192,3 +205,4 @@ These steps are also shown in the video below:
 
 :::
 
+## Summary
