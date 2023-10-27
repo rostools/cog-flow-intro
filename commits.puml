@@ -1,0 +1,11 @@
+@startuml commits
+
+"Main branch" -> "feature/add-scatter-plot": Create a new branch\nto create a scatter plot
+"feature/add-scatter-plot" -> "feature/add-scatter-plot": Commit message:\n"feat: init scatter plot"
+"feature/add-scatter-plot" -> "feature/add-scatter-plot": Commit message:\n"feat: add regression line"
+"feature/add-scatter-plot" -> "feature/add-scatter-plot": Commit message:\n"fix: lower opacity of data points\n to see regression line more clearly"
+"feature/add-scatter-plot" -> "feature/add-scatter-plot": Commit message:\n"feat: add legends"
+"feature/add-scatter-plot" -> "Main branch": After PR and review,\nchanges are merged into main
+"feature/add-scatter-plot" -> "feature/add-scatter-plot" !! : Delete
+
+@enduml 
