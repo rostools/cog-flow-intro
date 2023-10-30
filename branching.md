@@ -45,7 +45,7 @@ When you create a branch, it's important to give the branch a short, descriptive
 | Bugfix | For fixing a bug | bugfix/(short-description) | bugfix/fix-data-cleaning-error |
 | Feature | For adding, removing, or modifying a feature* | feature/(short-description) | feature/add-variance-plot |
 | Hotfix | For quickly fixing critical issues, usually with a temporary solution | hotfix/(short-description) | hotfix/fix-select-button |
-| Doc | For writing, updating, or fixing documentation | doc/(short-description) | doc/git-guidelines |
+| Docs | For writing, updating, or fixing documentation | docs/(short-description) | docs/git-guidelines |
 
 In the table above, (short-description) in the "Pattern" column is a short phrase, concisely describing the work done on the branch. Examples of short descriptions could be *fix-data-cleaning-error*, *add-variance-plot*, *fix-recursive-loop*, or *init-git-entry*. As with file naming, we use the [kebab-case](https://www.tuple.nl/knowledge-base/kebab-case) naming convention. :warning: not written anywhere why we do it or that we do it. Should we add a decision post on this somewhere? :warning:
 
@@ -57,7 +57,7 @@ Elaborating on the use cases of each type of branch:
 
 If you want your branch to refer to a specific issue, this can also be included in the branch name. For example, the branch name "feature/30-optimise-data-load-with-parquets" shows that the work on this branch includes a feature related to issue 30 which optimised the data loading process with parquets (which is a column-oriented data storage format)
 
-In addition, some teams include author initials in the branch names to keep track of developers' work, e.g., feature/skb-add-variance-plot.
+In addition, some teams include author initials in the branch names to keep track of developers' work, e.g., feature/skb-add-variance-plot. :warning: do we want to do that? :warning:
 
 These naming practices will help you avoid bad practices such as using numbers only and long branch names, as well as support consistency. Consistency in branch naming is important, so whenever you have chosen a convention, stick to it throughout the project to avoid confusion.
 
@@ -141,3 +141,5 @@ The naming scheme presented in this post is inspired by the following posts:
 - | Topic | topic/(id)-(short-description) | topic/456-query-optimization |
 - | Release | release/(release-id) | release/2021-04-13 |
 - | Support | support/(id)-(short-description) | support/876-app-support-reboot-fix |
+- test for experimenting something which is not an issue
+- wip for a work in progress

@@ -7,10 +7,12 @@ date: last-modified
 
 ### Introduction
 
-When using Git in a collaborative setting, there are several workflow conventions to choose from. For the Seedcase project, we want to make explicit how we work with Git to ensure a more homogeneous and clear structure across contributions. This includes how and when we create *branches*, *pull requests*,
-*reviews*, *issues*, and *commits*, as well as naming conventions for all of the above.
+Note: In this and the following Git workflow posts, we assume that you know the basics of what Git is. If this is not the case, the Git-scm website includes great documentation, videos to get you started, as well as cheat sheets. (from VS code post)
+Otherwise, we will briefly introduce Git below.
 
-In short, we follow the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow), a simple Git workflow for collaboration, which will be explained below. See the [GitHub flow decision post](../why-github-flow/index.md) for why we made this decision.
+When using Git in a collaborative setting, there are several workflow conventions to choose from. For the Seedcase project, we want to make explicit how we work with Git to ensure a more homogeneous and clear structure across contributions. This includes how and when we create *branches*, *pull requests*, *reviews*, *issues*, and *commits*, as well as naming conventions for all of the above.
+
+In short, we encourage the practice of the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow), a simple, yet structured, Git workflow suitable for smaller teams and parallel developmet. See the [GitHub flow decision post](../why-github-flow/index.md) for why we made this decision.
 
 In this post, we will go through the practices of the GitHub flow and clarify the conventions we follow. This is meant as guidelines for streamlining how we work together so we, as a team, can collaborate more effortless and efficiently across repositories.
 
@@ -18,17 +20,11 @@ Remember that this is all a learning process. It takes time to get these practic
 
 --- issue templates, in another post? "Furthermore, we have implemented a couple of issue templates to follow."
 
-### Introduction to Branches (is this too basic? / should we remove this?)
+### What is Git?
 
-In Git, a branch is a separate line of development that allows you to work on a feature, bug fix, or other code changes without affecting the main branch of your repository. When the work is complete, the changes can be merged to the main branch. Branches are essential for collaborative software development, and they serve several purposes:
+https://github.com/git-guides
 
-- **Isolating Changes and Parallel Development**: Branches provide isolation for different features or bug fixes. Each branch represents a specific task or development effort, allowing multiple developers to work on different parts of a project simultaneously without interfering with each other's code. This speeds up development and reduces conflicts that may arise when multiple people modify the same code simultaneously.
-- **Testing and Experimentation**: You can create branches to experiment with new features or changes without affecting the main project. This is useful for testing ideas or implementing potentially disruptive changes before deciding whether to merge them into the main codebase.
-- **Bug Fixing**: When a bug is discovered in the main branch, you can create a branch specifically to fix that bug. Once the fix is ready, it can be merged back into the main branch.
-
-Overall, branches facilitate collaboration among team members by allowing them to work on their individual branches and then merge their changes into the main branch when they're ready. Once you've completed your work in a branch and tested it thoroughly, you can merge it back into the main branch through a pull request (PR). Branches are a fundamental concept in Git and GitHub, and they play a crucial role in managing code changes and ensuring a smooth and organised development workflow.
-
-For a more thorough, general introduction to branches, see the [Git Documentation Book](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) and [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches).
+This could also be the place for explaining how Git tracks files and local vs. remote repositories?
 
 ### Branching Strategy: GitHub Flow
 
@@ -53,9 +49,18 @@ There are a few points about this kind of workflow, we would like to emphasise:
 - **Collaboration happens in the PRs**: Better work is created when you are not working in a silo. During PRs, you'll have a conversations about the proposed changes and your collaborators might have some ideas for improvement. PRs is a chance to utilise each other's experiences and expertise
 - **The change does not have to be fully implemented before creating a PR**: When you create a PR, you communicate to your collaborators what you are working on. In this [talk](https://www.youtube.com/watch?v=vCwuZfK0VG4), it is recommended to create your PRs early and not wait until your work is complete, for two reasons: 1) it helps prevent that someone else does not start doing the same work as you are currently working on, and 2) you can start the discussion of the changes you are currently implementing. Remember to mark the PR as a [draft](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft), if it's still a work in progress.
 
+- When a developer should branch? From where?
+- When they should merge (and how often)? To where?
+
+Following the GitHub flow, branches should be created whenever a developer wants to make changes or add something new to the codebase. They will create the new branch from the main branch. Aim for shorter living branches - e.g., max two weeks? Idk. but be specific!
+
+Before a branch can be merged, it needs to be reviewed and approved by a collaborator. In this way, new or edited code or documentation will only be merged into the main branch after review and the main branch will contain deployable code and documentation.
+
 ## Overview of Git Workflow Guideline Entries
 
-1. [Branching](branches.md)
+**Disclaimer**: With software development comes a lot of creative freedom. There is not one *best* way to do things. The same goes for working with Git. We have tried to collect what we believe to be good practices when working with Git. However, don't worry too much about how you will have to implement all of these recommendations into your practices. You might be able to incorporate some of them into your development process naturally, with practice. However, each can actually be applied iteratively after you have written your code (if need be). ???
+
+1. [Branching](branching.md)
 2. [Commits](commits.md)
 3. [Pull requests](prs.md)
 4. [Issues](issues.md)
@@ -63,7 +68,7 @@ There are a few points about this kind of workflow, we would like to emphasise:
 
 ### Git workflows in practice ... remove/move?
 
-If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contins thorough description of git commands.
+If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contains thorough description of git commands.
 If you prefer not to use the Terminal, GitHub has great [Documentation](https://docs.github.com/en).
 
 ## Automatic workflows (CI pipeline?) ... remove/move?

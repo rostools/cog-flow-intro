@@ -13,7 +13,7 @@ This post will introduce the notion of issues on GitHub as well as guidelines on
 
 In [GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues#), issues are described as a way to track ideas, feedback, tasks, or bugs for work on GitHub.
 
-Since issues are a part of GitHub, they are well-documented in GitHub's documentation. Go to the [Quickstart for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart) post for an introduction to what they are and how to open a blank issue and filling in information.
+Since issues are a part of GitHub, they are well-documented in GitHub's documentation. Go to the [Quick start for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart) post for an introduction to what they are and how to open a blank issue and filling in information.
 
 ## Cross-reference
 
@@ -25,7 +25,7 @@ You can find information on linking an issue and a pull request in [Linking a pu
 
 ## Issue Templates
 
-One way to structure an issue is in the form of a [user story](https://www.atlassian.com/agile/project-management/user-stories). This structure helps with 1) keeping the user in mind, 2) explicitly stating the functionality of the change requested, and 3) how this will benefit the user, when writing the issue.
+One way to structure an issue is in the form of a [user story](https://www.atlassian.com/agile/project-management/user-stories). When writing the issue, this structure helps with explicitly 1) keeping the user in mind, 2) explicitly stating the functionality of the change requested, and 3) how this will benefit this kind of user.
 
 The structure is like so:
 

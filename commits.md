@@ -144,6 +144,8 @@ See below for resources on how to use the command line and VS Code for committin
 
 If you use VS Code, see their posts [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) and [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
 
+If you want to follow the Conventional Commits convention, the VS Code extension *Conventional Commits* eases the process. To see how this extension works in VS Code, go to [this video](https://www.youtube.com/watch?v=lwGcnDgwmFc).
+
 ### Using the command line
 
 GitHub's [Git Guides](https://github.com/git-guides/git-commit) go through the different steps of committing using the command line.

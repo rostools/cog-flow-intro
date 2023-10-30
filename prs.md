@@ -5,6 +5,19 @@ date: last-modified
 
 {{< include /includes/_wip.qmd >}}
 
+## Introduction to Pull Requests
+
+:yellow_circle: and facilitate collaboration among team members by allowing them to work on their individual branches and then merge their changes into the main branch when they're ready. Once you've completed your work in a branch and tested it thoroughly, you can merge it back into the main branch through a pull request (PR).:yellow_circle:
+
+## Creating a Pull Request (Checklist)?
+
+- Naming (see below)
+- Description
+- Assign assignee and reviewer
+  - Assignee: Assignee means you own the pull request or issue and are getting it into a merge-ready state. If you are no longer owning a given pull request or issue, take your name off as assignee.
+  - Reviewer: Reviewer means you are actively reviewing a pull request.
+- Is it still a draft?
+
 ## Pull Request Naming
 
 Pull requests (PRs) are proposed changes from one branch to another. However, they are more than just changes; they are the start of a discussion
@@ -51,3 +64,7 @@ Summary
 ### Review guidelines
 
 For guidelines on how to review a pr, see the post [Review through pull requests](https://seedcase-project.org/community/guide-entries/reviewing-prs/index.html) <- maybe move that info here instead.
+
+Tip: How to view "Rich diff" in pull requests --> very helpful for html and markdown reviewing!
+
+- Go to "Files changed" and press the "Rich diff" button in the (looks like a document, much like a "Blank document"-button in Word)
