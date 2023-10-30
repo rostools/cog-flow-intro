@@ -183,7 +183,7 @@ REASONS."
 We decided on using the GitHib flow branching strategy because:
 
 1) it is simple and beginner-friendly strategy
-2) it is both well-known and well documented, creating clear guidelines that enable consitency across contributions
+2) it is both well-known and well documented, creating clear guidelines that enable consistency across contributions
 3) it offers clear guidelines on every step of collaborative development, including branching, committing, and review processes
 4) longer-living branches works well with parallel, asynchronous work
 5) the balance between multiple branches and simplicity supports continuous delivery, while maintaining the **structure** from git flow (what do I mean here?)
