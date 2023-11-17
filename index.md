@@ -10,11 +10,9 @@ date: last-modified
 Note: In this and the following Git workflow posts, we assume that you know the basics of what Git is. If this is not the case, the Git-scm website includes great documentation, videos to get you started, as well as cheat sheets. (from VS code post)
 Otherwise, we will briefly introduce Git below.
 
-When using Git in a collaborative setting, there are several workflow conventions to choose from. For the Seedcase project, we want to make explicit how we work with Git to ensure a more homogeneous and clear structure across contributions. This includes how and when we create *branches*, *pull requests*, *reviews*, *issues*, and *commits*, as well as naming conventions for all of the above.
+When using Git in individually or in a collaborative setting, there are several workflow conventions to choose from. In this and the following posts, we want to make explicit how to organise your work with [Git](https://git-scm.com/) and [GitHub](github.com) to ensure a more homogeneous and clear structure across contributions. This includes how and when to create *branches*, *pull requests*, *reviews*, *issues*, and *commits*, as well as naming conventions.
 
-In short, we encourage the practice of the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow), a simple, yet structured, Git workflow suitable for smaller teams and parallel developmet. See the [GitHub flow decision post](../why-github-flow/index.md) for why we made this decision.
-
-In this post, we will go through the practices of the GitHub flow and clarify the conventions we follow. This is meant as guidelines for streamlining how we work together so we, as a team, can collaborate more effortless and efficiently across repositories.
+In short, we encourage the practice of the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), a simple, yet structured, Git workflow suitable for smaller teams and parallel development. In this post and the following posts, we will go through the practices of the GitHub flow as well as additional naming conventions. This is meant as guidelines for streamlining contributions to enable more effortless and efficient development and collaboration.
 
 Remember that this is all a learning process. It takes time to get these practices under the belt, so they are a seamless part of you workflow. So don't be too hard on yourself (and your collaborators), when these guidelines aren't followed :o)
 
