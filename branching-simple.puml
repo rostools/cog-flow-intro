@@ -1,8 +1,8 @@
 @startuml branching-simple
 
 "Main branch" -> "New branch": Create new branch from main
-"New branch" -> "New branch": Add and/or change files\n
-"New branch" -> "Main branch": After PR and review, merge\nnew branch into main branch
+"New branch" -> "New branch": Add and/or change files
+"New branch" -> "Main branch": After pull request and review,\nmerge new branch into main
 "New branch" -> "New branch" !! : Delete
 
 
