@@ -1,6 +1,7 @@
 ---
 title: "Branching"
 date: last-modified
+order: 2
 ---
 
 {{< include /includes/_wip.qmd >}}

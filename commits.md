@@ -1,6 +1,7 @@
 ---
 title: "Commits"
 date: last-modified
+order: 3
 ---
 
 {{< include /includes/_wip.qmd >}}
