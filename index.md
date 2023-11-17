@@ -9,7 +9,7 @@ date: last-modified
 
 Note: In this and the following Git workflow posts, we assume that you know the basics of Git and GitHub. If this is not the case, go to the [Introduction to Git](git.md) post.
 
-When using Git individually or in a collaborative setting, there are several workflow conventions to choose from. In this and the following posts, we want to make explicit how to organise your work with [Git](https://git-scm.com/) and [GitHub](https://github.com) to ensure a more homogeneous and clear structure across contributions. This includes how and when to create *branches*, *pull requests*, *reviews*, *issues*, and *commits*, as well as naming conventions.
+When using Git individually or in a collaborative setting, there are several workflow conventions to choose from. In this and the following posts, we want to make explicit how to organise your work with [Git](https://git-scm.com/) and [GitHub](https://github.com) to ensure a more homogeneous and clear structure across contributions. This includes how and when to create *branches*, *commits*, *pull requests*, *reviews*, and *issues*, as well as naming conventions.
 
 In short, we encourage the practice of the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow), a simple, yet structured, Git workflow suitable for smaller teams and parallel development. In this post and the following posts, we will go through the practices of the GitHub flow as well as additional naming conventions. This is meant as guidelines for streamlining contributions to enable more effortless and efficient development and collaboration.
 
