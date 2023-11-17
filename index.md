@@ -7,8 +7,7 @@ date: last-modified
 
 ### Introduction
 
-Note: In this and the following Git workflow posts, we assume that you know the basics of what Git is. If this is not the case, the Git-scm website includes great documentation, videos to get you started, as well as cheat sheets. (from VS code post)
-Otherwise, we will briefly introduce Git below.
+Note: In this and the following Git workflow posts, we assume that you know the basics of Git and GitHub. If this is not the case, go to the [Introduction to Git](git.md) post.
 
 When using Git in individually or in a collaborative setting, there are several workflow conventions to choose from. In this and the following posts, we want to make explicit how to organise your work with [Git](https://git-scm.com/) and [GitHub](github.com) to ensure a more homogeneous and clear structure across contributions. This includes how and when to create *branches*, *pull requests*, *reviews*, *issues*, and *commits*, as well as naming conventions.
 
