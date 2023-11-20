@@ -6,19 +6,19 @@ order: 2
 
 {{< include /includes/_wip.qmd >}}
 
-*Branching* is a fundamental concept in Git that plays a crucial role in managing code changes and helping along smooth and organised development workflows. Branches are also is essential for parallel software development.
+**Branching** is a fundamental concept in Git that plays a crucial role in managing code changes and helping along smooth and organised development workflows. Branches are also is essential for parallel software development.
 
 This entry covers what a branch is, when to create branches and how much work a single branch should cover (following the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)), as well as branch naming conventions.
 
 ## Introduction to Branches
 
-When you create a Git repository, it will have a single *branch* by default, typically named `main`. Likewise, if you have ever visited a Git repository online and taken a look at the code, you will by default be on the `main` branch. Inherently, there is nothing special about the `main` branch, except that it is the default branch, and when you create a new Git repository, it will have this one branch. Whenever you want to add some new work to your repository or fix a bug, you can create additional branches to encapsulate your changes and develop in a "safe" environment away from the production ready code.
+When you create a Git repository, it will have a single **branch** by default, typically named `main`. Likewise, if you have ever visited a Git repository online and taken a look at the code, you will by default be on the `main` branch. Inherently, there is nothing special about the `main` branch, except that it is the default branch, and when you create a new Git repository, it will have this one branch. Whenever you want to add some new work to your repository or fix a bug, you can create additional branches to encapsulate your changes and develop in a "safe" environment away from the production ready code.
 
 In Git, a branch can be said to be a separate line of development that allows you to work on a feature, bug fix, or other changes without affecting the `main` branch of your repository. When you create a new branch, you essentially take a "snapshot" of the current codebase at that point in time and create a copy of it to work on separately. After you have created a new branch, you can add and/or change files to complete the new work in this contained part of the repository while the code on the `main` branch remains unchanged (see figure below). When your work is complete, the changes can be reviewed and merged to the `main` branch. More on this in the [pull requests](prs.md) post. After merging, the new branch is deleted, since the changes on that branch have been added to the `main` branch.
 
 ![Example of simple branching.](../images/branching-simple.png)
 
-As a consequence, branches provide isolation during the development of e.g., new features, bug fixes, or documentation. Branching enables parallel development by allowing multiple developers to work on different parts of a project simultaneously without interfering with each other's work. This speeds up development and reduces conflicts that may arise when multiple people modify the codebase at the same time. Note, however, that altering the same files in two different branches could result in [*merge conflicts*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts), which is when you try to merge to branches with "competing" changes to the same file or line, and you have to tell Git which changes to keep.
+As a consequence, branches provide isolation during the development of e.g., new features, bug fixes, or documentation. Branching enables parallel development by allowing multiple developers to work on different parts of a project simultaneously without interfering with each other's work. This speeds up development and reduces conflicts that may arise when multiple people modify the codebase at the same time. Note, however, that altering the same files in two different branches could result in [**merge conflicts**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts), which is when you try to merge to branches with "competing" changes to the same file or line, and you have to tell Git which changes to keep.
 
 In the figure below, showing an example of parallel development, two branches are created from the `main` branch by two developers: bugfix/fix-data-cleaning-function created by Developer 1 and feature/add-scatter-plot created by Developer 2. This branching allows for each developer to work on their changes in isolation before creating a pull request and merging the changes into the `main` branch.
 
@@ -50,7 +50,7 @@ We encourage the use of prefixes so it is easy to identify what kind of work is 
 | Hotfix | For quickly fixing critical issues, usually with a temporary solution | hotfix/(short-description) | hotfix/fix-select-button |
 | Docs | For writing, updating, or fixing documentation | docs/(short-description) | docs/git-guidelines |
 
-In the "Pattern" column in the table above, "short-description" is a short phrase, concisely describing the work done on the branch. Examples of short descriptions could be *fix-data-cleaning-function*, *add-scatter-plot*, or *fix-recursive-loop*, or *git-guidelines*. As with file naming, we recommend the [kebab-case](https://www.tuple.nl/knowledge-base/kebab-case) naming convention (i.e., hyphens between words). :warning: not written anywhere why we do it or that we do it. Should we add a decision post on this somewhere? :warning:
+In the "Pattern" column in the table above, "short-description" is a short phrase, concisely describing the work done on the branch. Examples of short descriptions could be `fix-data-cleaning-function`, `add-scatter-plot`, `fix-recursive-loop`, or `git-guidelines`. As with file naming, we recommend the [kebab-case](https://www.tuple.nl/knowledge-base/kebab-case) naming convention (i.e., hyphens between words). :warning: not written anywhere why we do it or that we do it. Should we add a decision post on this somewhere? :warning:
 
 If you want your branch to refer to a specific [issue](issues.md), you can also be include this in the branch name. For example, the branch name "feature/30-optimise-data-load-with-parquets" shows that the work on this branch includes a feature related to issue number 30 which related to optimising the data loading process with parquets (which is a column-oriented data storage format). Remember to still add a short description of the work being done on the branch. If you only include the issue ID, you force your collaborators to go to that issue and read about it, instead of just knowing what the work covers from the branch name.
 
@@ -78,7 +78,7 @@ To check which branch you are currently on, write the following in the Terminal:
 git status
 ```
 
-The Terminal will write "On branch name-of-branch", where name-of-branch could be e.g., *`main`* or *feature/add-scatter-plot*.
+The Terminal will write "On branch name-of-branch", where name-of-branch could be e.g., `main` or `feature/add-scatter-plot`.
 
 To see the local branches currently in your repository:
 
@@ -106,9 +106,9 @@ If you want to learn how to use the Terminal within VS Code, the [Terminal Basic
 
 When you have cloned, i.e., downloaded a Git repository or created your own, open that folder in VS Code. If you are in a Git repository in VS Code, you can see which branch you are currently on in the bottom left corner of the window.
 
-To switch branches, you can click on the branch name, and a window with a "+ Create New Branch" option will appear.
+To switch branches, you can click on the branch name, and a window with the option to `+ Create New Branch` will appear.
 
-Alternatively, you can open the Command Palette by pressing `shift+cmd+P` on a Mac or `shift+ctrl+P` on a Windows computer. Then, write "Git: Create Branch". If you want to switch to an existing branch, write "Git: Checkout to"
+Alternatively, you can open the Command Palette by pressing `shift+cmd+P` on a Mac or `shift+ctrl+P` on a Windows computer. Then, write `Git: Create Branch`. If you want to switch to an existing branch, write `Git: Checkout to`.
 
 If you would like to *see* these steps, go to the [Branches and Tags](https://code.visualstudio.com/docs/sourcecontrol/overview#_branches-and-tags) part of the [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository) post.
 
@@ -118,11 +118,11 @@ If you would like to *see* these steps, go to the [Branches and Tags](https://co
 
 - By default, a Git repository has one branch, usually called `main`
 - Additional branches should be created frp, `main` whenever you want to modify or add to your repository (following the GitHub flow). This enables several developers to work in parallel
-- A branch should be created for one particular purpose and have a short descriptive name, like "feature/add-scatter-plot"
-- We recommend using prefixes to clearly show what kind of work has been done in this branch. E.g., "feature", "bugfix", or "docs"
-- In addition, we recommend the use of forward slash (/) after the prefix to create a nice ordering in many IDEs. E.g., "feature/"
-- If the work you are doing on a branch should refer to a particular issue, you can add the issue ID to the branch name after the prefix. Remember to still include a short description of the work being done on the branch. E.g., "feature/12-fix-data-cleaning-function"
-- Collecting these recommendations, a branch name could be "feature/add-scatter-plot" or "bugfix/12-fix-data-cleaning-function"
+- A branch should be created for one particular purpose and have a short descriptive name, like `feature/add-scatter-plot`
+- We recommend using prefixes to clearly show what kind of work has been done in this branch. E.g., `feature`, `bugfix`, or `docs`
+- In addition, we recommend the use of forward slash (/) after the prefix to create a nice ordering in many IDEs. E.g., `feature/`
+- If the work you are doing on a branch should refer to a particular issue, you can add the issue ID to the branch name after the prefix. Remember to still include a short description of the work being done on the branch. E.g., `feature/12-fix-data-cleaning-function`
+- Collecting these recommendations, a branch name could be `feature/add-scatter-plot` or `bugfix/12-fix-data-cleaning-function`
 - When you have chosen a branch naming convention, be consistent and stick to it
 
 **The branch naming scheme presented here is inspired by the following posts:**
