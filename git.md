@@ -6,10 +6,6 @@ order: 1
 
 {{< include /includes/_wip.qmd >}}
 
-:warning: Maybe even more a collection of random notes than a wip or a draft :warning:
-
-:warning: I'm debating with myself whether this is too basic. I guess it would be necessary for a "intro to git and github practices module", but might be too basic for describing the workflow practices of our team? :warning:
-
 **Disclaimer**: If you are already familiar with Git and version control, you can skip this section.
 
 ## Introduction
