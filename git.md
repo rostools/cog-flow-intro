@@ -18,24 +18,13 @@ This post will briefly go over what Git and version control is all about. Furthe
 
 ## What is Git?
 
-In short, [Git](https://git-scm.com/) is a free and open source distributed version control system. With version control, ...
+In short, [Git](https://git-scm.com/) is a free and open source distributed version control system. *Version control* means that changes are saved over time without overwriting previous versions, i.e., we have a history of how our files have evolved over time. The smart thing about version control is that you instead of having "v1", "v2", "v3", etc. of your files, you only need one, and with that file, you will have the history of how it looked at each stage that you have saved (in Git these "save points" are called "commits"). This means that you can always go back to a previous version of your work. Nice!
+
+With Git, you create a "repository" (often called "repo") that serves as a container for the project's code and history. Everything within this container is tracked by Git.
+
+The "distributed" part of Git refers to the fact that every developer who works with a Git repository can have their own copy of that entire repository. Each developers version of the repository is connected to a shared repository (more on that in the section [Repositories: Local and Remote](#repositories-local-and-remote) below). This connection enables easy collaboration with others.
 
 GitHub Docs has a great introduction to Git. Follow [this link](https://docs.github.com/en/get-started/using-git/about-git).
-
-Sections below are copied from <https://github.com/git-guides>
-Git is distributed version control software. Version control is a way to save changes over time without overwriting previous versions. Being distributed means that every developer working with a Git repository has a copy of that entire repository - every commit, every branch, every file. If you're used to working with centralized version control systems, this is a big difference!
-
-Whether or not you've worked with version control before, there are a few things you should know before getting started with Git:
-
-Branches are lightweight and cheap, so it's OK to have many of them
-Git stores changes in SHA hashes, which work by compressing text files. That makes Git a very good version control system (VCS) for software programming, but not so good for binary files like images or videos.
-Git repositories can be connected, so you can work on one locally on your own machine, and connect it to a shared repository. This way, you can push and pull changes to a repository and easily collaborate with others.
-
-Why Use Git?
-
-Version control is very important - without it, you risk losing your work. With Git, you can make a "commit", or a save point, as often as you'd like. You can also go back to previous commits. This takes the pressure off of you while you're working. Commit often and commit early, and you'll never have that gut sinking feeling of overwriting or losing changes.
-
-There are many version control systems out there - but Git has some major advantages.
 
 ... Could also include sections from [R Cubed Intro - Version Control](https://r-cubed-intro.rostools.org/sessions/version-control)
 
