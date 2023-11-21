@@ -1,0 +1,16 @@
+@startuml local-vs-remote-repo
+
+title Local and Remote Repositories
+agent "Remote Repository" as rr
+agent "Developer 1:\nLocal Repository" as lr1
+agent "Developer 2:\nLocal Repository" as lr2
+
+rr -->lr1: "Clone\nPull"
+lr1 --> rr: Push
+lr1 --> lr1: "Add\nCommit"
+
+rr -->lr2: "Clone\nPull"
+lr2 --> rr: Push
+lr2 --> lr2: "Add\nCommit"
+
+@enduml
