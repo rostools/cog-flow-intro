@@ -30,7 +30,29 @@ GitHub Docs has a great introduction to Git. Follow [this link](https://docs.git
 
 - Sections "6.1 What is version control?", "6.2 What is Git?", and "6.3 Basics of Git" could be relevant here
 
-This could also be the place for explaining how Git tracks files and local vs. remote repositories?
+## Repositories: Local and remote
+
+When we want to work on a Git repository, usually, we either create a new one or we want to clone (i.e., download) an existing one to our computer. When we have such a repository residing on our local machine, we call it a *local* repository.
+
+The purpose of a local repository is to make changes to our code, create new branches, and committing the changes. It also allows you to work offline, without needing a network connection.
+
+In contrast, a *remote* repository is a repository hosted on a server or centralised platform (such as GitHub or GitLab). Because this copy of the repository is stored on a remote server, it allows for multiple developers to collaborate on the same codebase by interacting with this shared repository.
+
+The purpose of a remote repository is to serve as a centralised hub for collaboration. Each developer can push their local changes to the remote repository, pull changes made by others, and in this way coordinate their work.
+
+As a result, a local repository is where you do your individual work and manage your project's history on your local machine. The remote repository is a shared, centralised location where you can collaborate and synchronise work with your collaborators.
+
+This interaction between the local and remote repositories is a fundamental aspect of Git.
+
+The figure below shows this interaction between the local and remote repositories (inspired by [this post](https://www.cs.swarthmore.edu/~adanner/help/git/)):
+
+![The interaction between local and remote repositories](../images/local-vs-remote-repo.png)
+
+In the figure, Developer 1 and Developer 2 has each their own local repository. They have cloned (i.e., downloaded) their local repository from the remote repository on e.g., GitHub. In their local repository, they complete their work by adding new files or modified existing ones ("Add" in the figure) and they manage the history by saving their changes (In Git, these "save points" are called commits, "Commits" in the figure).
+
+When they have completed their changes, they can push them to the remote repository for review by their collaborators (more on this process later).
+
+So see the changes that their collaborators have made and pushed to the remote repository, they can "pull" the changes to their local repository.
 
 ### Git workflows in practice ... remove/move?
 
