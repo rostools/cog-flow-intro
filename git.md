@@ -22,9 +22,9 @@ In short, [Git](https://git-scm.com/) is a free and open source distributed vers
 
 With Git, you create a "repository" (often called "repo") that serves as a container for the project's code and history. Everything within this container is tracked by Git.
 
-The "distributed" part of Git refers to the fact that every developer who works with a Git repository can have their own copy of that entire repository. Each developers version of the repository is connected to a shared repository (more on that in the section [Repositories: Local and Remote](#repositories-local-and-remote) below). This connection enables easy collaboration with others.
+The *distributed* part of Git refers to the fact that every developer who works with a Git repository can have their own copy of that entire repository. Each developers version of the repository is connected to a shared repository (more on that in the section [Repositories: Local and Remote](#repositories-local-and-remote) below). This connection enables easy collaboration with others.
 
-GitHub Docs has a great introduction to Git. Follow [this link](https://docs.github.com/en/get-started/using-git/about-git).
+If you want to learn more, [GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git) has a great introduction to Git.
 
 ... Could also include sections from [R Cubed Intro - Version Control](https://r-cubed-intro.rostools.org/sessions/version-control)
 
