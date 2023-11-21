@@ -14,7 +14,7 @@ order: 1
 
 ## Introduction
 
-This post will briefly go over what Git and version control is all about. Since [git-scm](https://git-scm.com/) has some great documentation, cheat sheets, and introductory videos, go check out their documentation. We will link some of them below as well. ... :warning: will we though? :warning:
+This post will briefly go over what Git and version control is all about. Furthermore, we'll go through what repositories are (and the interaction between local and remote repositories), as well as take a look at how Git tracks files and file changes.
 
 ## What is Git?
 
