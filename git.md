@@ -30,7 +30,7 @@ If you want to learn more, [GitHub Docs](https://docs.github.com/en/get-started/
 
 ## Repositories: Local and remote
 
-When we want to work on a Git repository, we either create a new one or we clone (i.e., download) an existing one to our computer. When we have such a repository residing on our local machine, it's called a *local* repository. :warning: do we want to include how to init and clone a repo or it that taking it too far? :warning:
+When we want to work on a Git repository, we either create a new one or we clone (i.e., download) an existing one to our computer. When we have such a repository residing on our local machine, it's called a *local* repository.
 
 The purpose of a local repository is to make changes to our code, create new branches (more on this in the [Branching](branching.md) post), and committing the changes. It also allows you to work offline, without needing a network connection.
 
