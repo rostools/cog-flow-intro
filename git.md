@@ -52,7 +52,87 @@ When they have completed their changes, they can *push* them to the remote repos
 
 To see the changes that their collaborators have made and pushed to the remote repository or update their local repository with the changes in the remote repository, they "pull" the changes to their local repository.
 
-### Git workflows in practice ... remove/move?
+## Initialising a Git Repository
+
+Note: To be able to create a Git repository, you will need to have Git installed. Go to [git-scm.scm](https://git-scm.com/) or search online on how to install Git.
+
+When you're starting a new project, you should create (i.e., initialise) a new Git repository to start keeping track of how your work progresses.
+
+After you have initialised your new repository, you need to publish it to e.g., GitHub, to allow others to see and work on it too. When you publish a local repository to GitHub, this will create a new repository on your GitHub account. This allows for the code you have created locally to be pushed to GitHub and, in this way, it will be backed up and allow for others to see and collaborate to your project.
+
+::: panel-tabset
+
+### Initialise and Publish a Repo in VS Code
+
+#### Initialise Local Repository in VS Code
+
+First, open VS Code and press the *Explorer* view in the sidebar. Choose "Open Folder" and choose the folder on your computer where you would like your new repository to be located.
+
+Then, in the *Source Control* view in the sidebar, click the "Initialize Repository" button. Now, you have created a new Git repository in the folder you chose.
+
+#### Publish to GitHub in VS Code
+
+In the *Source Control* view, click the "Publish to GitHub" button. Afterwards, you can name and describe the repository as well as decide whether it should be public or private.
+
+When this is done, your code will be pushed to the remote repository and your code will be backed up and you can start collaborating with others on the project.
+
+### Initialise and Publish a Repo using the Terminal
+
+#### Initialise Local Repository using the Terminal
+
+First, open a Terminal in the folder you would like to create your repository in. To navigate to folders in the Terminal, use the `cd` command. If you can't remember which folders are accessible, press `Tab` to see them.
+
+```bash
+cd /path/to/your/project/folder 
+```
+
+Then, initialise the new repository:
+
+```bash
+git init
+```
+
+This will create a `.git` folder in the repository (which might be hidden depending on the setting on your computer).
+
+Then, create a README.md as the first file to your repository (this could be any file, but it's good practice to have a README in the repository that documents and introduces what's in the repository). For now, we will just create a README with a single header:
+
+```bash
+echo "# <my-project>" >> README.md
+```
+
+Change `<my-project>` to the name of your repository or the title of your project.
+The `echo` command print the text `# <my-project>` to the Terminal, and the `>> README.md` command appends the output to a file named README.md. If the file doesn't exist, as in this case, this command will create the README.md file.
+
+Now, we will add and commit the README.md file (what that means will be covered in the [Commits.md](commits.md) post).
+
+```bash
+git add README.md
+git commit -m "Initial commit"
+```
+
+#### Publish to GitHub using the Terminal (and GitHub.com)
+
+Go to [GitHub](https://github.com/) and log in to your account (or create an account if you don't have one).
+
+Click "+" > "New repository" and follow the instructions.
+
+To add the remote repository, insert your username and the name of your repository in the command below and run it in the Terminal:
+
+```bash
+git remote add origin https://github.com/<your-username>/<your-repository>.git
+```
+
+Now, push your local repository to GitHub:
+
+```bash
+git push -u origin main
+```
+
+And you're done! You have now initialised a Git repository and published it on GitHub.
+
+:::
+
+## Cloning an Existing Git Repository
 
 If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contains thorough description of git commands, and this [video](https://www.youtube.com/watch?v=USjZcfj8yxE) goes through the basics of Git in 15 minuntes.
 
