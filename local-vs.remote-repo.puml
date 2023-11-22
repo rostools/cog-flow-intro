@@ -1,9 +1,9 @@
 @startuml local-vs-remote-repo
 
 title Local and Remote Repositories
-agent "Remote Repository" as rr
-agent "Developer 1:\nLocal Repository" as lr1
-agent "Developer 2:\nLocal Repository" as lr2
+agent "Remote Repository\n(Location: GitHub/GitLab)" as rr
+agent "Local Repository\n(Location: Developer 1's computer)" as lr1
+agent "Local Repository\n(Developer 2's computer)" as lr2
 
 rr -->lr1: "Clone\nPull"
 lr1 --> rr: Push
