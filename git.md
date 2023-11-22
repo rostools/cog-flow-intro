@@ -57,3 +57,13 @@ To see the changes that their collaborators have made and pushed to the remote r
 If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contains thorough description of git commands, and this [video](https://www.youtube.com/watch?v=USjZcfj8yxE) goes through the basics of Git in 15 minuntes.
 
 If you prefer not to use the Terminal, [GitHub](https://github.com/git-guides) and [VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) has great documentation on how to use Git.
+
+## Summary
+
+- *Git* is a free and open source distributed version control system
+- *Version control* means that Git tracks how the files changes over time
+- *Distributed* means that you can have your own copy of the Git repository on your local computer, which is connected to a shared repository
+- A *repository* is a container for the project's code and history which includes all files and folders of the projects
+- A *remote repository* is a shared repository hosted on a server or a centralised platform, such as GitHub or GitLab. It's a shared, centralised location where you can collaborate and synchronise work with your collaborators.
+- A *local repository* is a local copy of the remote repository on e.g., your own computer. This is where you do your individual work and manage your project’s history on your local machine.
+
