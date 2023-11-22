@@ -134,7 +134,43 @@ And you're done! You have now initialised a Git repository and published it on G
 
 ## Cloning an Existing Git Repository
 
-If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contains thorough description of git commands, and this [video](https://www.youtube.com/watch?v=USjZcfj8yxE) goes through the basics of Git in 15 minuntes.
+If you want to work locally on a repository that already exists on e.g., GitHub, you will need to clone (i.e., download) the repository to your computer.
+
+::: panel-tabset
+
+### Cloning a Repository in VS Code
+
+In VS Code, go to the *Explorer* view in the sidebar, and open the folder where you would like to locate the Git repository.
+
+Then, go to the *Source Control* view and click the "Clone Repository" button.
+
+If you want to clone a repository from GitHub, press the option "Clone from GitHub". Now, you will be prompted to authenticate with GitHub to connect to your account.
+Furthermore, this allows you to search all available repositories and clone private repositories directly from VS Code.
+
+Select the repository you want to clone, and you are good to go!
+
+### Cloning a Git Repository using the Terminal
+
+First, go to the GitHub repository you want to clone on GitHub. Then, click the green "Code" button ans copy the repository URL.
+
+Then, open a Terminal in the folder you would like to clone the repository in. To navigate folders in the Terminal, use the `cd` command. If you can't remember which folders are accessible, press `Tab` to see them.
+
+```bash
+cd /path/to/your/project/folder 
+```
+
+To clone the repository, use the `git clone`command` followed by the repository URL you just copied:
+
+```bash
+Copy code
+git clone <repository-url>
+```
+
+Replace `<repository-url>` with the URL you copied from GitHub.
+
+Now you have  cloned a GitHub repository to your local machine!
+
+:::
 
 If you prefer not to use the Terminal, [GitHub](https://github.com/git-guides) and [VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) has great documentation on how to use Git.
 
