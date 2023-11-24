@@ -62,9 +62,9 @@ Fear not, we have some tips for you! The first tip concerns best practices for c
 
 ## Commit Messages
 
-What constitutes a good commit message can differ according to different conventions, but generally, we recommend the following guidelines for writing commit messages (inspired by the [Conventional Commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/), the post [A note about Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) by Tim Pope, [Writing Good Commit Messages: A Practical Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/) by Bolaji Ayodeji, and [Bad Commit Messages Hall of Shame](https://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/))
+What constitutes a good commit message can differ according to different conventions, but generally, we recommend the following guidelines for writing commit messages (inspired by the [Conventional Commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/), the post [A note about Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html), [Writing Good Commit Messages: A Practical Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/), and [Bad Commit Messages Hall of Shame](https://www.codelord.net/2015/03/16/bad-commit-messages-hall-of-shame/)).
 
-Generally, commit messages should be structured like so:
+According to the Conventional Commits convention, commit messages should be structured like so:
 
 ```bash
 <type>([optional scope]): <description>
@@ -74,44 +74,41 @@ Generally, commit messages should be structured like so:
 [optional footer]
 ```
 
-Below, we unpack this structure by first presenting the required items and, subsequently, the optional items:
+Below, this structure is unpacked by first presenting the required items and, subsequently, the optional items:
 
-- **type**: Specify the type of commit, using one of the types below:
-  - feat: Introduces a new feature to the codebase
-  - fix: Fixes a bug in the codebase
-  - style: Introduces updates related to styling
-  - refactor: Refactors a specific section of the codebase
-  - test: Everything related to testing
-  - docs: Everything related to documentation
-  - chore: Regular code maintenance
+- **`<type>`**: Specifies what the kind of commit it is, using one of the types below:
+  - `feat`: Introduces a new feature
+  - `fix`: Fixes a bug
+  - `style`: Introduces updates related to styling (i.e., changes that don't affect the meaning of the code, such as white-space, formatting, missing semi-colons, etc.)
+  - `refactor`: Refactors a specific section of the codebase (change that neither fixes a bug nor adds a feature).
+    - Note: Refactoring is the process of restructuring code, while not changing its original functionality.
+  - `test`: Everything related to testing (such as adding missing tests or correcting existing tests)
+  - `docs`: Everything related to documentation
+  - `chore`: Regular code maintenance, i.e., other changes that doesn't modify source or test files
+  - `revert`: If a mistake has been made in a previous commit that you would like undo/revert
 
-- **description**: A short, precise summary of the code changes, immediately following the colon and space after the type/scope prefix.
+- **`<description>`**: A short, precise summary of the code changes written in imperative mood, immediately following the colon and space after the type/scope prefix.
   - The description briefly describes what was done, enabling future collaborators or your future self to effectively glance through the history and find what is needed
-  - It's written in present tense: "Fix button disappearance on click", not "Fixed", "Fixing", or "Fixes"
+  - It's written in imperative mood. i.e., "Fix button disappearance on click", not "Fixed", "Fixing", or "Fixes"
   - It's self-contained. You can refer to an issue that the commit fixes using hash (e.g., #13), but remember to include what the changes were, so the reviewer don't have to go to that issue to understand the changes
 
-- **optional scope**: If needed, provide additional contextual information
+- **`[optional scope]`**: If needed, provide additional contextual information.
+  - A scope should be a noun describing a section of the codebase surrounded by parenthesis.
 
-- **optional body**: If needed, provide additional contextual information about the code changes in the body.
-  - If your commit requires additional text, separate the subject from the body with a blank line. Use the body to explain the changes you made and *why* you made them. This way you ensure that the reviewer understand what the original problem was.
+- **`[optional body]`**: If needed, provide additional contextual information about the code changes in the body.
+  - If your commit requires additional text, separate the subject from the body with a blank line.
+  - Use the body to explain the changes you made and *why* you made them. This way you ensure that the reviewer (and your future self) understands what the original problem was.
 
-- **optional footer**: If needed, provide one or more footers consisting of a word token, :<space> or <space>#, and a string value
+- **`[optional footer]`**: If needed, provide one or more footers consisting of a word token, `:<space>` or `<space>#`, and a string value
   - In the footer, you can refer to who has reviewed the changes or refer to an issue this commit solves.
   - E.g., "Reviewed-by: Z" and/or "Issue: #123"
-  - :warning: maybe not include footer? I would rarely use it, and I think it just complicates things? :warning:
 
-To help you visualise this, here are some examples:
+To aid the understanding of all these parts of a conventional commit message, here are some examples:
 
-### Commit Message with Only Required Items
-
-```bash
-fix: allow users to filter based on age
-```
-
-### Commit Message with Optional Items (except body)
+### Commit Message with Only Required Items (Prefix and Description)
 
 ```bash
-feat(parser): add ability to parse arrays
+fix: reduce data point opacity for a clearer regression line in the scatter plot
 ```
 
 ### Commit Message with All Optional Items
@@ -119,17 +116,31 @@ feat(parser): add ability to parse arrays
 ```bash
 docs(decision-posts): update headers to fit template
 
-The headers of these posts to not follow the new decision post template. 
-Therefore, I have re-ordered the sections to fit this new template.
+The headers of these posts did not follow the new decision post template.
+Therefore, I have re-ordered the sections to fit the updated template.
+
+Issue: #31 (update decision posts to fit new template)
 ```
 
-Remember to follow the commit convention defined by your team. The conventions might change depending on the needs of the particular project or team you are working with.
+### Commit Message with Required Items + Scope and Body
 
-If you make an error in your commit, there are ways to undo them and rewrite your repository's history. Importantly, this is a lot "safer" as long as you haven't pushed your commit to the remote repository on e.g., GitHub. Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-commits-in-git) for a run-through of how to undo a commit.
+```bash
+feat(t-test): add option to change significance level
 
-## Example
+For the second part of our analysis, we want to be able to change the 
+significance level to 0.01 following existing literature. 
+The default is still 0.05.
+```
 
-Let's say you want to create a scatter plot in your code. Since we follow, the GitHub flow, you need to create a new branch for your changes. Adding a scatter plot will be to add a new feature, and following the branching naming convention described in [Branching](branching.md), the branch will be called `feature/add-scatter-plot`. When you have switched to this new branch, you can start making the scatter plot.
+As you can see in the examples above, following the conventional commit structure makes the work included in the commit quite explicit and clear. However, including all items from the conventional commits convention can result in quite long commit messages. All items are, therefore, not required for all commits. But, when you make larger changes or changes where additional context is needed to understand *why* the change was made, including the body and/or footer can be very useful.
+
+When going through a repository's history, consistency is key. Therefore, try to follow the commit convention specified by your team or your project and stick to them throughout the project.
+
+## Example of Atomic Commits using the Conventional Commit Structure
+
+:warning: Verbose? Maybe remove this example? However, it does remind the reader of branching practices and how commits fit into the scheme of the GitHub flow. ... this post is just very long by now ... :warning:
+
+Let's say you want to create a scatter plot for your analysis. To follow the GitHub flow, you first need to create a new branch for your changes. Adding a scatter plot will be to add a new feature, and following the branching naming convention described in [Branching](branching.md), the branch can be called `feature/add-scatter-plot`. When you have switched to this new branch, you can start making the scatter plot.
 
 ![Figure of committing workflow following the guidelines in this post. NB: Within the GitHub flow, you always create a supporting branch, commit your changes there, and after a PR and review, the approved changes will be merged into main.
 ](../images/commits.png)
@@ -138,9 +149,9 @@ First, you create the initial version of the scatter plot showing the data point
 
 Then, you decide that it would be nice to add a linear regression line to the scatter plot to see the trend line in the data points. You commit these changes with the message `feat: add regression line`.
 
-After your commit, you found that data points make the regression line a bit difficult to see. Therefore, you lower the opacity of the data points, and commit these changes with the message `fix: lower opacity of data points to see regression line more clearly`.
+Then, you add legends to the plot to make it easier to understand. You commit these changes with the message `feat: add legends`.
 
-Last, you add legends to the plot to make it easier to understand. You commit these changes with the message `feat: add legends`.
+Last, you found that data points make the regression line a bit difficult to see. Therefore, you lower the opacity of the data points, and commit these changes with the message `fix: reduce data point opacity for a clearer regression line in the scatter plot`.
 
 Now your work on the scatter plot is complete and you would like feedback from your collaborators before the changes are merged to the main branch. So, you create a pull request (more on those in the [Pull Request](prs.md) post). After your changes has been reviewed, your feature branch `feature/add-scatter-plot` is merged into the main branch and deleted.
 
