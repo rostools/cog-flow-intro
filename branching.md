@@ -10,6 +10,8 @@ order: 2
 
 This entry covers what a branch is, when to create branches and how much work a single branch should cover (following the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)), as well as branch naming conventions.
 
+![Branching within the GitHub flow](../images/github-flow-branching.png)
+
 ## Introduction to Branches
 
 When you create a Git repository, it will have a single **branch** by default, typically named `main`. Likewise, if you have ever visited a Git repository online and taken a look at the code, you will by default be on the `main` branch. Inherently, there is nothing special about the `main` branch, except that it is the default branch, and when you create a new Git repository, it will have this one branch. Whenever you want to add some new work to your repository or fix a bug, you can create additional branches to encapsulate your changes and develop in a "safe" environment away from the production ready code.

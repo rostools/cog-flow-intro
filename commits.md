@@ -14,6 +14,8 @@ Since your repository's history is logged through commits, how you structure the
 
 This post covers what commits are, how often you should commit, good practices for commit messages, as well as how to do commits using either the Terminal or the sidebar in VS Code.
 
+![Commits within the GitHub flow](../images/github-flow-commits.png)
+
 ## Introduction to Commits
 
 **Commits** are the building blocks of save points within Git's version control and can be thought of as "snapshots" or "milestones" along the timeline of your Git repository. These snapshots are not saved automatically in Git, as you create or modify files in your repository. Rather, you decide when to take these snapshots and which changes to include in them.

@@ -5,6 +5,7 @@ order: 4
 ---
 
 {{< include /includes/_wip.qmd >}}
+![Pull requests and reviews within the GitHub flow](../images/github-flow-pr.png)
 
 ## Introduction to Pull Requests
 
