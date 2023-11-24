@@ -239,50 +239,68 @@ GitHub's [Git Guides](https://github.com/git-guides/git-commit) go through the d
 
 Sometimes, when you are working on a project, you start to add do several things before you start committing. This can seem like a no-go when we want to create atomic commits, but don't worry: Git can handle this with partial commits.
 
+A *partial commit* is when you commit some parts of the changes you have made in a file but not all of them.
+
 ::: panel-tabset
 
-## Using VS Code
+## Partial Commit using VS Code
 
-After you have completed some changes and you want to commit them, go to the "Source Control" Panel in the menu on the left.
+After you have completed some changes and you want to commit them, go to the *Source Control* view in the sidebar on the left of the screen.
 
-Click on the file you would like to do a partial commit on. This will show you the "working tree" of the file, i.e., the changes you have made since the last commit.
+Click on the file you would like to do a partial commit on. This will show you the *working tree* of the file, i.e., the changes you have made since the last commit.
 
-Select the lines you would like to add to the staging area, and right click. Choose "Stage Selected Lines" to add the lines to the staging area.
+Mark the lines you would like to add to the staging area, and right click. Choose *Stage Selected Lines* to add the lines to the staging area.
 
 Repeat until you have staged the lines you would like to include in your next commit.
 
-Then, write a commit message in the box saying "Message" and press the "Commit" button.
+Then, write a commit message in the box saying *Message* and press the *Commit* button.
 
 Now, you have completed a partial commit!
 
-## Using the command line
+## Partial commit using the Terminal
 
-There are multiple ways to do a partial commit in the command line. A beginner-friendly way is to use the interactive flag with the git add command, like so:
+There are multiple ways to do a partial commit in the Terminal. One way is to use the patch flag (`-p`) with the git add command:
 
 ```bash
-git add -i <name-of-file>
+git add -p <name-of-file>
 ```
 
-This brings up a Commands menu and Git asks you "What now". Press 5 for "patch" and press Enter.
+Where `<name-of-file>` is the name of the file you would like to do a partial commit on.
 
-Now, you will see a list of files (only one if you specified the file git add -i command above). Choose the number of the file you want to do a partial commit and then Enter (you might have to press Enter twice).
+This command will show you the first chunk with changes with edited or deleted text shown in red and the new text shown in green. Black text is unchanged.
 
-Now, Git will show you the first part of the file with changes and you have to choose whether you want to add it to the staging area. You'll have many options, including "y" (for yes) and "n" (for no).
-Press "y" or "n" followed by Enter, depending on whether you want to add this part of the file to the staging area.
+In Git, a changed part is called a *hunk* and you will have the following options for the shown hunk:
 
-Continue with this until you reach the end of the file changes. The Commands menu will return. Press "7" to quit.
+```bash
+y = Stage this hunk to commit next.
+n = Don’t stage this hunk to commit next.
+q = Quit. Don’t stage this or any other remaining hunks.
+a = Stage this hunk and all later hunks to commit next.
+d = Don’t stage this hunk or any other remaining to commit next.
+g = Select a hunk to go to.
+/ = Search for a hunk matching the given regex.
+j = Leave this hunk undecided, and see the next undecided hunk.
+J = Leave this hunk undecided, and see the next hunk.
+k = Leave this hunk undecided, and see the previous undecided hunk.
+K = Leave this hunk undecided, and see the previous hunk.
+s = Split the current hunk into smaller hunks.
+e = Manually edit the current hunk.
+? = Print the hunk help.
+```
 
-Now you have added the parts of the file that you pressed "y" to to the staging area, ready for commit.
+Continue with choosing the appropriate options until you are through the file(s) you want to add to the staging area.
 
-To commit and write the commit message, write:
+To commit and write the commit message in the Terminal:
 
 ```bash
 git commit -m <commit-message>
 ```
 
+Change `<commit-message>` to a short sentence describing your work, potentially following the structure from Conventional Commits.
+
 Now, you have completed a partial commit!
 
-These steps are also shown in the video below:
+:::
 
 {{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
 
