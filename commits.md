@@ -330,7 +330,7 @@ If you want to learn more about commits in VS Code, see the [Commit](https://cod
 
 To undo a commit in a Terminal, we first need to open a Terminal. This can be done using the command pallet by pressing `cmd+shift+P` (Macbook) or `ctrl+shit+P` (Windows). Then type "Terminal" and click the "Terminal: Create New Terminal" option.
 
-As described in GitHub's [Git Guides](https://github.com/git-guides/git-commit), the safest way - and in most cases the **recommended way** - to undo a commit, is to use the following command: 
+As described in GitHub's [Git Guides](https://github.com/git-guides/git-commit), the safest way - and in most cases the **recommended way** - to undo a commit, is to use the following command:
 
 ```bash
 git revert <commit>
