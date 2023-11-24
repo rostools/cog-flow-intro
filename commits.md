@@ -48,18 +48,17 @@ After you have pushed your commits, your work will be backed up on the remote st
 
 ## Atomic Commits
 
-Now you should have an understanding of that commits are, but how often should you commit, and how do you choose what to include in a commit?
+Now we have looked at the phases of commits, but how often should you commit, and how much work should you include in a commit?
 
-Ideally, you should commit often, based around isolated, complete changes, a practice called **atomic** commits. This means that each commit should document a *single, complete unit of work* that represents a specific idea (as described in the post [Make Atomic Git Commits](https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/#atomic-commits-and-the-single-responsibility-principle) and the [Git guides](https://github.com/git-guides/git-commit)). As a result, that one commit should do one - and only one - thing, which can be summed up in a short, simple sentence (i.e., in the commit message).
+A good practice is to commit often based around isolated, complete changes. This practice is called **atomic** commits. This means that each commit should document a *single, complete unit of work* that represents a specific idea (as described in the posts [Make Atomic Git Commits](https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/#atomic-commits-and-the-single-responsibility-principle) and the [Git guides](https://github.com/git-guides/git-commit)). As a result, that one commit should do one - and only one - thing, which can be summed up in a short, simple sentence (i.e., in the *commit message*).
 
-An atomic commit can also be described as a commit of the smallest possible size, that can be undone without any unwanted side effects apart from what would be expected based on its commit message. A commit is not atomic, if undoing it removes other changes than described.
+An atomic commit can also be described as a commit of the smallest possible size that can be undone without any unwanted side effects apart from what would be expected based on its commit message. Following on this description, a commit is not atomic, if undoing it removes other changes than described.
 
-In other words, it's not important how many lines of code or text you have created or modified, or how many files it concerns. Rather, as long as you can describe the change in a short, simple message without the need to add information about some unrelated work that you did, the "size" of the changes (in terms of the number of modified lines) doesn't matter.
+It's not important how many lines of code or text you have created or modified, or how many files it concerns. Rather, as long as you commit a single, complete unit of work that can be described in a short, simple message, the "size" of the changes (in terms of the number of modified lines) doesn't matter.
 
-This might sound simple, but working with atomic commits takes practice.
-You might start working on a couple of different problems before you commit, and how do you describe that work in a short, simple sentence?
+Working with atomic commits can sound simple, but it takes practice. How do you describe your work in a short, clear message and what if you start working on a couple of different things before you commit?
 
-Fear not, we have some tips for you! The first tip concerns best practices for commit messages, the second covers how to do partial commits (i.e., including some, but not all, of the changes you have made to the same file).
+Fear not, we have some tips for you! The first tip concerns best practices for commit messages, the second covers how to do partial commits (i.e., including some, but not all, of the changes you have made to the same file). Lastly, we'll go through how to undo commits.
 
 ## Commit Messages
 
