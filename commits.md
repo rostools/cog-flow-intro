@@ -302,8 +302,47 @@ Now, you have completed a partial commit!
 
 :::
 
-{{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
+## Undoing a Commit
+
+If you make an error in your commit, there are ways to undo them without rewriting your repository's history. Importantly, it's a lot "safer" to undo a local commit, i.e., a commit you haven't pushed to the remote repository on e.g., GitHub. It is possible to undo a pushed commit, but this is a more delicate operation and should be done with caution.
+
+In general, it's considered bad practice to directly modify the commit history that has been pushed to a shared repository, especially if others are collaborating on the same codebase. For example, if others have already pulled the changes you pushed, modifying the commit history can lead to inconsistencies and conflicts in their local repositories.
+
+Therefore, especially if you are new to Git, we recommend to avoid undoing commits that you have pushed. If you have already pushed your commit, revert the change with a commit message using the `revert` prefix.
+
+If you would like to undo a commit (without rewriting the history of your repository), this is how to do it:
+
+::: panel-tabset
+
+## Undo the Most Recent Local Commit in VS Code
+
+In VS Code, we can use the command palette to undo a commit. Get the command palette by pressing `cmd+shift+P` (Macbook) or `ctrl+shit+P` (Windows). Then type "Git: Undo last commit" and click that option.
+
+Alternatively, we can click "Undo Last Commit" in the "Source Control" sidebar, as shown in the video below:
+
+{{< video <https://www.youtube.com/watch?v=HRn2lcOcjw4> >}}
+
+Voila! We have undone our last commit using VS Code.
+
+If you want to learn more about commits in VS Code, see the [Commit](https://code.visualstudio.com/docs/sourcecontrol/overview#_commit) section in the VS Code documentation.
+
+## Undo the Most Recent Local Commit Using a Terminal
+
+To undo a commit in a Terminal, we first need to open a Terminal. This can be done using the command pallet by pressing `cmd+shift+P` (Macbook) or `ctrl+shit+P` (Windows). Then type "Terminal" and click the "Terminal: Create New Terminal" option.
+
+As described in GitHub's [Git Guides](https://github.com/git-guides/git-commit), the safest way - and in most cases the **recommended way** - to undo a commit, is to use the following command: 
+
+```bash
+git revert <commit>
+```
+
+This command looks at the commit specified and then applies the inverse of those changes in a new commit. In this way, you undo the changes without altering the repository's history. `<commit>` can be specified in multiple manners (for additional information, see the [git-revert](https://git-scm.com/docs/git-revert) documentation). An easy way to specific a commit is in relation to `HEAD` (the branch's most recent commit). If you want to revert the last commit, write `git revert HEAD~1`. Alternatively, if you want to revert the fourth last commit, write `git revert HEAD~3`.
+
+In the [git revert documentation](https://git-scm.com/docs/git-revert), it is strongly recommended to explain *why* the original commit was reverted.
+
+Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-commits-in-git) for a run-through of how to undo a commit.
 
 :::
+
 
 ## Summary
