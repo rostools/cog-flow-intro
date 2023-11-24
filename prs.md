@@ -30,7 +30,7 @@ You don't have to wait until you have incorporated your changes, before creating
 
 But how to use PRs well? Like with [branching](branching.md#when-to-create-branches-and-how-much-they-should-cover), create one PR for one purpose. The shorter the changes, the easier it will be for your collaborators to review. This will result in faster reviews and faster merging.
 
-When you create a PR, you will add a title to it. Think of this title as an email subject line: It should be concise so that your collaborators will be able to look at the title and know what's going to be in the PR.
+When you create a PR, you will add a title to it. Think of this title as an email subject line: It should be concise so that your collaborators will be able to look at the title and know what's going to be in the PR. You should also include a summary of the changes you have made in the PR description. This description should include a description of the changes proposed in the pull request and, if relevant, a reference to a related issue in your repository.
 
 In addition, you will need to add the reviewers as well as assignees of the PR. A *reviewer* will be actively reviewing a pull request, while being an *assignee* means you own the pull request and are getting it into a merge-ready state.
 :yellow_circle: and facilitate collaboration among team members by allowing them to work on their individual branches and then merge their changes into the main branch when they're ready. Once you've completed your work in a branch and tested it thoroughly, you can merge it back into the main branch through a pull request (PR).:yellow_circle:
