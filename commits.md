@@ -344,7 +344,6 @@ Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-comm
 
 :::
 
-
 ## Summary
 
 - *Commits* are the save points within Git’s version control and can be thought of as snapshots along the timeline of your Git repository
