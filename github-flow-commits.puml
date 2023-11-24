@@ -1,0 +1,13 @@
+@startuml github-flow-commits
+
+title GitHub Flow: Commits
+"Main branch" -> "New branch": Create new branch from main
+group Commits
+"New branch" -> "New branch": Add and/or change files\n to implement e.g., new feature
+end
+"New branch" --> "Main branch": Create pull request
+"New branch" -> "New branch": Review from collaborators
+"New branch" --> "New branch": Discuss and implement\nsuggested changes (if any)
+"New branch" -> "Main branch": When approved, merge\nthe new branch with main
+"New branch" -> "New branch" !! : Delete
+@enduml
