@@ -155,25 +155,83 @@ Last, you found that data points make the regression line a bit difficult to see
 
 Now your work on the scatter plot is complete and you would like feedback from your collaborators before the changes are merged to the main branch. So, you create a pull request (more on those in the [Pull Request](prs.md) post). After your changes has been reviewed, your feature branch `feature/add-scatter-plot` is merged into the main branch and deleted.
 
-## Commits in Practice
+## Commits in Practice (the Basics)
 
-Staging and committing files are possible both through the command line and with most Git interfaces. Whether you use the command line or an interface like VS Code, how this is done specifically looks a little different, but the concepts are the same.
+Like most things in Git, committing files are possible both through the Terminal and with most Git interfaces.
 
-See below for resources on how to use the command line and VS Code for committing. If you use another source-code editor, try searching online - there's typically plenty of nice guides out there.
+Below, we'll go through how to stage, commit, and push to the remote repository using VS Code and the Terminal. If you use another source-code editor, try searching online - there's typically plenty of nice guides out there.
+
+Importantly, commits are created on the branch you are currently on. Therefore, always remember to check that you are on the branch you intend to be on before you commit. If you don't remember how you check which branch you are on or how to create a new branch, go to the [Branching in Practice](branching.md#branching-in-practice) section in the Branching post.
 
 ::: panel-tabset
 
-### Using VS Code
+### Commit using VS Code
 
-If you use VS Code, see their posts [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) and [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
+If you use VS Code, go to the *Source Control* view in the sidebar on the left. This view shows the changes you have made since your last commit. You can click on each file you have made changes to, to see the lines that have changed (highlighted).
 
-If you want to follow the Conventional Commits convention, the VS Code extension *Conventional Commits* eases the process. To see how this extension works in VS Code, go to [this video](https://www.youtube.com/watch?v=lwGcnDgwmFc).
+As described above, the first phase of a commit is to stage the changes you want to commit. To stage a file, go to the *Source Control* view and click the `+` icon next to the file. If you stage a file by mistake, you can press the `-` icon next to the file name.
 
-### Using the command line
+The next phase of a commit is to stage the selected changes. You can type the commit message in the text box in the upper part of the sidebar and click the `Commit` button when you're done. Now, you have completed your commit and the changes has been saved as a "snapshot" in your local repository.
 
-GitHub's [Git Guides](https://github.com/git-guides/git-commit) go through the different steps of committing using the command line.
+Remember, if you want to backup your changes and allow your collaborators to see your work, you have to push your changes to the remote repository.
+In VS Code, this is done by pressing the `···` button at the top left of the *Source Control* view and click `Push` in the dropdown menu.
 
-The [Git Documentation](https://git-scm.com/docs/git-commit) also covers how to commit, however, in a bit more technical manner.
+We want to emphasise that you should commit often, since this will allow more versions to revert to, if need be. VS Code allows you to navigate through local changes and commits in the *Explorer* view, by clicking on the *Timeline* view in the bottom of the sidebar.
+
+If you would like visualisations on how to stage and commit, go to VS Code's posts [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_staging-and-committing-code-changes) and [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
+
+::: {.callout-tip}
+
+The VS Code extension [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) helps with writing commit messages following the Conventional Commits convention. To see how this extension works in VS Code, go to [this video](https://www.youtube.com/watch?v=lwGcnDgwmFc).
+
+:::
+
+### Commit using the Terminal
+
+If you want to commit using the Terminal, you first have to open a Terminal.
+
+If you use VS Code to edit your code, you can open a Terminal using the command palette (press `Cmd+Shift+P` or `Ctrl+Shift+P`, depending on whether you have a Macbook or a Windows) and write "Terminal". Choose the option `Terminal: Open New Terminal`.
+
+Once you have opened a Terminal, you can start by checking the status of your Git repository:
+
+```bash
+git status
+```
+
+It is always a good idea to run this command before committing, since it tells you which branch you are on and shows you which files have been created or changed since the last commit.
+
+Then, you stage the files, with the `git add` command:
+
+```bash
+# stage specific file
+git add <file-name>
+
+# stage all modified and untracked files
+git add .
+```
+
+In the first command, you stage a specific file by changing `<file-name>` with the relative path to the file you want to stage. The relative path in this case is the path from your root directory (i.e., your repository folder) to the file.
+
+If you want to stage all changes you have made, you can use a period `.` after the command, as seen in the second command above.
+
+Next, you want to commit your staged changes and write a commit message using the `-m` flag:
+
+```bash
+git commit -m "<commit-message>"
+```
+
+The `-m` flag enables you to write your commit message directly in the Terminal. Without this flag, the command will open your default text editor, which is probably VIM (if this happens, you can press `esc`, then `:q` and `Enter`).
+Replace `<commit-message>` with a short description of your changes, preferably following the Conventional Commits structure. Remember quotation marks around your message, otherwise Git will try to parse it as a file name.
+
+Now, you have completed the two phases of a commit. Remember, if you want to backup your changes and allow your collaborators to see your work, you have to push your changes to the remote repository. In the Terminal, you push by writing:
+
+```bash
+git push
+```
+
+We want to emphasise that you should commit often, since this will allow more versions to revert to, if need be. Git you to navigate through previous commits using the `git log` command. To escape the log, press `q` in the Terminal.
+
+GitHub's [Git Guides](https://github.com/git-guides/git-commit) go through the different steps of committing using the Terminal. The [Git Documentation](https://git-scm.com/docs/git-commit) also covers how to commit in a more technical manner.
 
 :::
 
