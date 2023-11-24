@@ -6,15 +6,13 @@ order: 3
 
 {{< include /includes/_wip.qmd >}}
 
-**Focus more on why the change was made, not what.**
+After you have created a new branch, you probably want to start implementing some changes to your repository, like adding a new feature to your code.
 
-After you have created a new branch, you probably want to start implementing some changes to your repository. This work could be adding a new feature to your code, fixing a bug, updating the documentation, or something else.
+With Git, you log the process of your work through *commits*, the save points within Git's version control. Git does not log these save points automatically as you modify files in your repository, so you have to choose when you want to commit (i.e., log) your changes and what to include in each commit.
 
-In Git, you log the process of your work through *commits*, the "save points" within Git's version control. Git does not log these save points automatically as you modify files in your repository, so you need to choose at which stages you want to commit/log your changes.
+Since your repository's history is logged through commits, how you structure these commits are important - both for you (your future self) and your collaborators. If the history of the repository messy and non-transparent, it will be difficult for you and your collaborators to trace back how the the current state of the repository came to be. For example, when and why you decided to add a particular figure or when and why you changed the significant levels of your analysis.
 
-Since your repository's history is logged through commits, how you structure these commits is important - both for you (your future self) and your collaborators. If the history of the repository is a mess, it will be difficult for you and your collaborators to trace back what led to the current state of the repository.
-
-This post covers an introduction to what commits are, how often you should commit, good practices for commit messages, as well as how to do commits using both the Terminal and by clicking around in VS Code. :warning: better phrasing of "clicking around in VS Code" needed :warning:
+This post covers what commits are, how often you should commit, good practices for commit messages, as well as how to do commits using either the Terminal or the sidebar in VS Code.
 
 ## Introduction to Commits
 
