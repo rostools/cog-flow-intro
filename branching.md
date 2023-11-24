@@ -106,7 +106,7 @@ If you want to learn how to use the Terminal within VS Code, the [Terminal Basic
 
 When you have cloned, i.e., downloaded a Git repository or created your own, open that folder in VS Code. If you are in a Git repository in VS Code, you can see which branch you are currently on in the bottom left corner of the window.
 
-To switch branches, you can click on the branch name, and a window with the option to `+ Create New Branch` will appear.
+To switch branches, you can click on the branch name, and a window with the option to `+ Create New Branch` will appear along the names of the branches that already exist in your local repository.
 
 Alternatively, you can open the Command Palette by pressing `shift+cmd+P` on a Mac or `shift+ctrl+P` on a Windows computer. Then, write `Git: Create Branch`. If you want to switch to an existing branch, write `Git: Checkout to`.
 
