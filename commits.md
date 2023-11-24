@@ -346,3 +346,21 @@ Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-comm
 
 
 ## Summary
+
+- *Commits* are the save points within Git’s version control and can be thought of as snapshots along the timeline of your Git repository
+- There are two stages to commits: *Staging* (i.e., preparing which changes to include in the next commit) and *committing*
+- Commits include a *commit message* as well as meta data, such as author and time of commit
+- You should commit often based around isolated, complete changes (*atomic* commits)
+- Following the *Conventional Commits* convention, a commit message should have this structure:
+
+  ```bash
+  <type>([optional scope]): <description>
+
+  [optional body]
+
+  [optional footer]
+  ```
+
+- In this post, we have shown how to stage, commit, and push using VS Code and the Terminal
+- Furthermore, we have looked at *partial commits*, i.e., committing only a part of a file instead of the entire file. This practice gives you more control on how you structure your commits.
+- Lastly, we have looked at how to undo a commit, without rewriting the history of your repository.
