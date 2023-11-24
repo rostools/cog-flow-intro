@@ -5,6 +5,17 @@ order: 4
 ---
 
 {{< include /includes/_wip.qmd >}}
+
+Say that you are following the [GitHub flow](index.md#branching-strategy-github-flow), have created a [branch](branching.md) and have [committed and pushed](commits.md) your local changes to the remote repository. What then? The next step is to get your changes to *reviewed* by your collaborates, before they can be merged to the `main` branch. This review process is facilitated by *pull requests*.
+
+Ensuring that the changes are reviewed by others before they are merged into the codebase, serves multiple purposes. This process:
+  
+  1. Helps to maintain the code quality (and minimise the risk of errors)
+  2. Facilitate collaboration (review and discussion of suggested changes)
+  3. Provides a structured process for integrating new developments into the project
+
+*Pull requests* and *reviews* are essential parts of collaborate development, and in this post, we will introduce you to these processes as well as presenting good practices. Lastly, we'll go through what to do, when *merge conflicts* arise, something that happens, when branches have conflicting changes.
+
 ![Pull requests and reviews within the GitHub flow](../images/github-flow-pr.png)
 
 ## Introduction to Pull Requests
