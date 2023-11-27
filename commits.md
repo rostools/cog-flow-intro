@@ -56,7 +56,7 @@ What constitutes a good commit message can differ according to different convent
 
 According to the Conventional Commits convention, commit messages should be structured like so:
 
-```bash
+```default
 <type>([optional scope]): <description>
 
 [optional body]
@@ -97,13 +97,13 @@ To aid the understanding of all these parts of a conventional commit message, he
 
 ### Commit Message with Only Required Items (Prefix and Description)
 
-```bash
+```default
 fix: reduce data point opacity for a clearer regression line in the scatter plot
 ```
 
 ### Commit Message with All Optional Items
 
-```bash
+```default
 docs(decision-posts): update headers to fit template
 
 The headers of these posts did not follow the new decision post template.
@@ -114,7 +114,7 @@ Issue: #31 (update decision posts to fit new template)
 
 ### Commit Message with Required Items + Scope and Body
 
-```bash
+```default
 feat(t-test): add option to change significance level
 
 For the second part of our analysis, we want to be able to change the 
@@ -261,7 +261,7 @@ This command will show you the first chunk with changes with edited or deleted t
 
 In Git, a changed part is called a *hunk* and you will have the following options for the shown hunk:
 
-```bash
+```default
 y = Stage this hunk to commit next.
 n = Don’t stage this hunk to commit next.
 q = Quit. Don’t stage this or any other remaining hunks.
@@ -342,7 +342,7 @@ Go to the [Git Guides](https://github.com/git-guides/git-commit#how-to-undo-comm
 - You should commit often based around isolated, complete changes (*atomic* commits)
 - Following the *Conventional Commits* convention, a commit message should have this structure:
 
-  ```bash
+  ```default
   <type>([optional scope]): <description>
 
   [optional body]
