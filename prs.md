@@ -7,6 +7,7 @@ order: 4
 {{< include /includes/_wip.qmd >}}
 
 Say that you are following the [GitHub flow](index.md#branching-strategy-github-flow), have created a [branch](branching.md) and have [committed and pushed](commits.md) your local changes to the remote repository. What then? The next step is to get your changes to *reviewed* by your collaborates, before they can be merged to the `main` branch. This review process is facilitated by *pull requests*.
+![Pull requests and reviews within the GitHub flow](../images/github-flow-pr.png)
 
 Ensuring that the changes are reviewed by others before they are merged into the codebase, serves multiple purposes. This process:
   
