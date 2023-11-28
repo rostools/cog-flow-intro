@@ -22,10 +22,12 @@ As the American software developer (and founder of Stack Exchange) Jeff Atwood [
 
 Accordingly, *pull requests* and *reviews* are essential parts of collaborate development. In this post, we will introduce you to these processes as well as presenting good practices for them. Lastly, we'll go through what to do, when branches have conflicting changes, something called *merge conflicts*.
 
+## Introduction to Pull Requests and Reviews
 
-*Pull requests* (PRs) are a feature of Git that allows for collaboration and code review within a repository. They are, in essence, proposed changes from one branch to another. Within the GitHub flow, you start by creating a branch, and implemented the changes you want on this branch. Then, you push them to the remote repository (potentially on GitHub or GitLab) and propose those changes to be a part of the `main` branch, see figure above. 
-When a PR is initiated, the review process can begin. And this process, with feedback and discussions, is essential within collaborative development.
-If you are working by yourself without any feedback, you are not going to enrich your learning. By allowing for your collaborators to provide feedback on your changes, you can learn from each other's experience and expertise.
+*Pull requests* (PRs) are a feature of Git that allows for collaboration and code review within a repository. As described in the introduction to the [GitHub flow](index.md#branching-strategy-github-flow), PRs are where the actual collaboration happens. In essence, a PR is a proposal of adding changes from one branch to another. Creating a PR is telling your collaborators about the changes you have made and that you would like them to look over your changes. This will start a discussion of the changes through their reviews, and you can add follow-up commits to incorporate potential suggested changes, before merging the branch to `main`.
+
+When a PR is initiated, the review process can begin. As pointed out above, this process, with feedback and discussions, is essential within collaborative development. By allowing for your collaborators to provide feedback on your changes, you can learn from each other and harvest the team's experience and expertise to create a better product more efficiently. Usually, this process will lead to higher quality work than if you worked alone.
+Your collaborators will be able to add review comments, request changes, contribute to the discussion of the implemented changes, and even add commits to the PR.
 
 PRs also work as documentation, since they will be a part of the repository forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
 
