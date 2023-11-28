@@ -24,35 +24,44 @@ If you are working by yourself without any feedback, you are not going to enrich
 
 PRs also work as documentation, since they will be a part of the repository forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
 
-You don't have to wait until you have incorporated your changes, before creating a PR. A good tip is to create your PRs early on, as soon as you have incorporated meaningful changes and have an idea of the full implementation. This way, you can communicate to your collaborators what you are currently working on and you ensure that you get their feedback on your changes early on. Maybe they have some other ideas on how to implement these changes and you can start the discussion already then and there, instead of waiting until after you have spent time on initial implementation idea. Furthermore, you ensure that they know what you are working on, so they don't start up a similar implementation in the meantime. If your PR is still a work in progress, remember to mark the PR as a [draft](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft)
+## Review Guidelines
 
-But how to use PRs well? Like with [branching](branching.md#when-to-create-branches-and-how-much-they-should-cover), create one PR for one purpose. The shorter the changes, the easier it will be for your collaborators to review. This will result in faster reviews and faster merging.
+So how do you do a review of a pull request? Thankfully GitHub has a
+pretty decent set of instructions on how to do them.
 
-When you create a PR, you will add a title to it. Think of this title as an email subject line: It should be concise so that your collaborators will be able to look at the title and know what's going to be in the PR. You should also include a summary of the changes you have made in the PR description. This description should include a description of the changes proposed in the pull request and, if relevant, a reference to a related issue in your repository.
+- This is the [main listing
+    page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests)
+    of the documents related to doing reviews.
 
-In addition, you will need to add the reviewers as well as assignees of the PR. A *reviewer* will be actively reviewing a pull request, while being an *assignee* means you own the pull request and are getting it into a merge-ready state.
-:yellow_circle: and facilitate collaboration among team members by allowing them to work on their individual branches and then merge their changes into the main branch when they're ready. Once you've completed your work in a branch and tested it thoroughly, you can merge it back into the main branch through a pull request (PR).:yellow_circle:
+- These two instruction pages
+    [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+    and
+    [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
+    detail how to add comments to a pull request.
 
-## Creating a Pull Request (Checklist)?
+Briefly, the steps you take to review a pull request is:
 
-- Naming (see below)
-- Description
-- Assign assignee and reviewer
-  - Assignee: Assignee means you own the pull request or issue and are getting it into a merge-ready state. If you are no longer owning a given pull request or issue, take your name off as assignee.
-  - Reviewer: Reviewer means you are actively reviewing a pull request.
-- Is it still a draft?
+1. Open the pull request you have been asked to review on GitHub.
+2. Go to the "Files changed" tab. This tab shows what text has been
+    added (in green) or removed (in red).
+3. Review the removed and added changes. If you have comments to give,
+    hover with the cursor on the line you want to comment on. There will
+    be a blue plus button that pops up on the left of the line number.
+4. To add a comment, click the blue button and a text box will pop up.
+    Write your comment there. Almost always, you will want to click the
+    "Start a review" green button.
+5. When you are, scroll to the top and click the green "Review changes"
+    button. You can optionally write a general comment in the text box,
+    otherwise, select one of the options: "Approve", "Request changes",
+    or "Comment". Then click the "Submit review".
+6. You have now finished the review!
 
-## Pull Request Naming
+For a short 4 minute demonstration, check out the YouTube below on doing
+a pull request review.
 
-Pull requests (PRs) are proposed changes from one branch to another. However, they are more than just changes; they are the start of a discussion
+{{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
 
-- You don't want to work in a silo; you are not going to enrich your own software development learning, if you are working by yourself - you are not getting any feedback and learn from your collaborators experience, if you haven't talked to them.
 
-- And that talking, that collaboration, is so important.
-
-A PR starts with a branch, then you work on that branch and implement the changes you want (push them to GitHub), and then you propose those changes back to the main branch in a PR.
-
-**PR title: Concise; compare to an email subject line; I want to be able to look at the subject line and know what's going to be in the email**
 **Comment: Remember to comment.**
 
 PRs also works as documentation, since they are up there forever
