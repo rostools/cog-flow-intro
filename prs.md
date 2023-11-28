@@ -12,11 +12,9 @@ Ensuring that the changes are reviewed by others before they are merged into the
   
   1. Helps to maintain the code quality (and minimise the risk of errors)
   2. Facilitate collaboration (review and discussion of suggested changes)
-  3. Provides a structured process for integrating new developments into the project
+As the American software developer (and founder of Stack Exchange) Jeff Atwood [wrote](https://blog.codinghorror.com/code-reviews-just-do-it/?ref=hackernoon.com):
 
-*Pull requests* and *reviews* are essential parts of collaborate development, and in this post, we will introduce you to these processes as well as presenting good practices. Lastly, we'll go through what to do, when *merge conflicts* arise, something that happens, when branches have conflicting changes.
-
-![Pull requests and reviews within the GitHub flow](../images/github-flow-pr.png)
+> "**Peer Code Reviews are the single biggest thing you can do to improve your code**. If you're not doing code reviews right now with another developer, you're missing a lot of bugs in your code and cheating yourself out of some key professional development opportunities. As far as I'm concerned, my code isn't done until I've gone over it with a fellow developer."
 
 ## Introduction to Pull Requests
 
