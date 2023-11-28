@@ -7,17 +7,21 @@ order: 4
 {{< include /includes/_wip.qmd >}}
 
 Say that you are following the [GitHub flow](index.md#branching-strategy-github-flow), have created a [branch](branching.md) and have [committed and pushed](commits.md) your local changes to the remote repository. What then? The next step is to get your changes to *reviewed* by your collaborates, before they can be merged to the `main` branch. This review process is facilitated by *pull requests*.
+
 ![Pull requests and reviews within the GitHub flow](../images/github-flow-pr.png)
 
 Ensuring that the changes are reviewed by others before they are merged into the codebase, serves multiple purposes. This process:
   
   1. Helps to maintain the code quality (and minimise the risk of errors)
   2. Facilitate collaboration (review and discussion of suggested changes)
+  3. Provides a structured process for integrating new developments into a project
+
 As the American software developer (and founder of Stack Exchange) Jeff Atwood [wrote](https://blog.codinghorror.com/code-reviews-just-do-it/?ref=hackernoon.com):
 
 > "**Peer Code Reviews are the single biggest thing you can do to improve your code**. If you're not doing code reviews right now with another developer, you're missing a lot of bugs in your code and cheating yourself out of some key professional development opportunities. As far as I'm concerned, my code isn't done until I've gone over it with a fellow developer."
 
-## Introduction to Pull Requests
+Accordingly, *pull requests* and *reviews* are essential parts of collaborate development. In this post, we will introduce you to these processes as well as presenting good practices for them. Lastly, we'll go through what to do, when branches have conflicting changes, something called *merge conflicts*.
+
 
 *Pull requests* (PRs) are a feature of Git that allows for collaboration and code review within a repository. They are, in essence, proposed changes from one branch to another. Within the GitHub flow, you start by creating a branch, and implemented the changes you want on this branch. Then, you push them to the remote repository (potentially on GitHub or GitLab) and propose those changes to be a part of the `main` branch, see figure above. 
 When a PR is initiated, the review process can begin. And this process, with feedback and discussions, is essential within collaborative development.
