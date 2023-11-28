@@ -65,40 +65,36 @@ a pull request review.
 
 **Comment: Remember to comment.**
 
-PRs also works as documentation, since they are up there forever
+## Merge Conflicts
 
-- when a new developer comes in, sees this piece of code change, and want to know the motivation behind the change, you have a URL you can send to them "here's the conversation that we had, where's why" - and if they want to comment on that change, they should comment on that PR
+Most of the time, when you want to merge new changes into the main branch, the merge happens without problems. In these cases, Git can handle the changes between the branches and merge automatically, because the changes are on different lines or in different files.
 
-How to use PRs well?
+*Merge conflicts* arise when you want to merge branches that have competing changes - i.e., if the branches you want to merge have diverging changes on the same line in a file of if a file has been edited in one branch and deleted in the other. Git cannot automatically handle these situations and decide which changes to keep and which to discard. Therefore, merge conflicts require that you manually edit the conflicting files and decide what to keep and what to discard.
 
-- The shorter the changes, the faster it will be reviewed
-  - Also: Create your PRs early (don't wait until your feature is complete bc then someone else might start working on it) - and then you will have something to talk about
-  - Change something to talk about and then send the PR
-- CI pipeline; tests run automatically - in the PR (so they will be a part of the story of that feature) - to ensure that your PR is merged with confidence
+To minimise the risk of merge conflicts, it's good practice to integrate remote changes into your local repository. This includes:
 
-"Peer Code Reviews are the single biggest thing you can do to improve your code"
+1. Keeping your local `main` branch up-to-date with the remote `main` branch by periodically pulling to fetch and merge remote changes
+2. Integrating the local main branch updates into your local feature branch by merging your local `main` into the feature branch, while you are working on a local feature branch.
+3. Pushing your local feature branch to the remote branch on GitHub to back up your work.
 
-- Jeff Atwood
+However, if a merge conflict does arise. Here's how to resolve it using either VS Code, a Terminal, or GitHub:
 
-In GitHub repositories, the main branch is protected, which means that an admin (?) at Seedcase needs to review and approve the changes before they can be pushed to the main branch.
+:warning: I have just linked to useful websites below. Is that too lazy? :grimacing: :warning:
 
-Summary
+::: panel-tabset
 
-- If you need code review, decide what's best for your team
-  - Culture of communicating on the PRs, ask to review work
-- If you want more code review, use the API or a service like ReviewNinja
+### Resolving Merge Conflicts in VS Code
 
-- At it's core, GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
-- Allows us to be flexible with the code review
+The [VS Code Documentation](https://code.visualstudio.com/docs/sourcecontrol/overview#_merge-conflicts) includes how to handle merge conflicts using the 3-way merge editor. Moreover, they recommend watching the video below:
 
-### How to name and describe PRs?
+{{< video <https://www.youtube.com/watch?v=HosPml1qkrg> >}}
 
-- PR templates (hurray)
+### Resolving Merge Conflicts in a Terminal
 
-### Review guidelines
+It is also possible to resolve merge conflicts using a Terminal, see [Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line) in the GitHub Docs.
 
-For guidelines on how to review a pr, see the post [Review through pull requests](https://seedcase-project.org/community/guide-entries/reviewing-prs/index.html) <- maybe move that info here instead.
+### Resolving Merge Conflicts on GitHub
 
-Tip: How to view "Rich diff" in pull requests --> very helpful for html and markdown reviewing!
+In the [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) how to resolve a merge conflict on GitHub is described thoroughly.
 
-- Go to "Files changed" and press the "Rich diff" button in the (looks like a document, much like a "Blank document"-button in Word)
+:::
