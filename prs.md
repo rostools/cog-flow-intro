@@ -44,6 +44,7 @@ Briefly, the steps you take to review a pull request is:
 1. Open the pull request you have been asked to review on GitHub.
 2. Go to the "Files changed" tab. This tab shows what text has been
     added (in green) or removed (in red).
+    - Tip: if you're reviewing a text file (Markdown or Quarto), you can press the "Rich diff" button in the (looks like a document, much like a "Blank document"-button in Word) to see the changes in a more readable view.
 3. Review the removed and added changes. If you have comments to give,
     hover with the cursor on the line you want to comment on. There will
     be a blue plus button that pops up on the left of the line number.
