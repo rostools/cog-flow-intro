@@ -50,7 +50,7 @@ Briefly, the steps you take to review a pull request is:
 4. To add a comment, click the blue button and a text box will pop up.
     Write your comment there. Almost always, you will want to click the
     "Start a review" green button.
-5. When you are, scroll to the top and click the green "Review changes"
+5. When you are through, scroll to the top and click the green "Review changes"
     button. You can optionally write a general comment in the text box,
     otherwise, select one of the options: "Approve", "Request changes",
     or "Comment". Then click the "Submit review".
