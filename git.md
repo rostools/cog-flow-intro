@@ -181,6 +181,6 @@ If you prefer not to use the Terminal, [GitHub](https://github.com/git-guides) a
 - A *repository* is a container for the project's code and history which includes all files and folders of the projects
 - A *remote repository* is a shared repository hosted on a server or a centralised platform, such as GitHub or GitLab. It's a shared, centralised location where you can collaborate and synchronise work with your collaborators.
 - A *local repository* is a local copy of the remote repository on e.g., your own computer. This is where you do your individual work and manage your project’s history on your local machine.
-- To use Git, you first need to install it
-- To publish or clone a repository from GitHub, you need a GitHub account
+- To use Git, you first need to install it.
+- To publish a repository to or clone a repository from GitHub, you need a GitHub account.
 - Git repositories can be initialised and cloned in different ways. In this post, we have seen how it can be done in VS Code and the Terminal.
