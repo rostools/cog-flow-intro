@@ -171,7 +171,18 @@ Now you have  cloned a GitHub repository to your local machine!
 
 :::
 
-If you prefer not to use the Terminal, [GitHub](https://github.com/git-guides) and [VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) has great documentation on how to use Git.
+## Git Workflows in Practice
+
+Throughout the following posts, you will be introduced to git commands and good practices following the GitHub flow, using a Terminal, VS Code, and GitHub.
+
+Below, we have gathered some useful resources on how to use Git. These can be quite helpful (along with regular internet searches), when you can't remember how to do certain things with Git.
+
+If you like to use the Terminal, the [Git documentation](https://git-scm.com/docs) contains thorough description of git commands, and this [video](https://www.youtube.com/watch?v=USjZcfj8yxE) goes through the basics of Git in 15 minutes.
+
+If you prefer to use GitHub or VS Code, GitHub has some great[Git Guides](https://github.com/git-guides) and VS Code has a great [introduction to Git](htts://code.visualstudio.com/docs/sourcecontrol/intro-to-git).
+
+:warning: Could also include a "cheat sheet" with common Git commands used in the Terminal + how to do the same things in VS Code? Or is that verbose, when that's basically what we'll unpack in the following posts? :warning:
+
 
 ## Summary
 
