@@ -114,6 +114,14 @@ Alternatively, you can open the Command Palette by pressing `shift+cmd+P` on a M
 
 If you would like to *see* these steps, go to the [Branches and Tags](https://code.visualstudio.com/docs/sourcecontrol/overview#_branches-and-tags) part of the [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository) post.
 
+::: {.callout-tip}
+
+In VS Code, the extension [Conventional Branch](https://marketplace.visualstudio.com/items?itemName=pshaddel.conventional-branch) helps you standardise your branch naming with customisable prefixes and structures.
+
+Note: This is not a widely used extension (~400 downloads as of November 2023) and might not be maintained properly.
+
+:::
+
 :::
 
 ## Summary
