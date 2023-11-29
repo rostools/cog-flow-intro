@@ -1,8 +1,0 @@
-
-@startuml file-tracking-in-git
-
-"Unmodified" -> "Modified": Save changes to existing or new file(s)
-"Modified" -> "Staged": Phase 1 of commit:\nAdd selected changes to staging area
-"Staged" -> "Unmodified": Phase 2 of commit:\nCommit staged changes
-
-@enduml 
