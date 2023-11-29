@@ -80,7 +80,7 @@ To check which branch you are currently on, write the following in the Terminal:
 git status
 ```
 
-The Terminal will write "On branch name-of-branch", where name-of-branch could be e.g., `main` or `feature/add-scatter-plot`.
+The Terminal will write `On branch <name-of-branch>`, where `<name-of-branch>` could be e.g., `main` or something like `feature/add-scatter-plot`.
 
 To see the local branches currently in your repository:
 
