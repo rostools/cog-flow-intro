@@ -162,7 +162,6 @@ cd /path/to/your/project/folder
 To clone the repository, use the `git clone`command` followed by the repository URL you just copied:
 
 ```bash
-Copy code
 git clone <repository-url>
 ```
 
