@@ -190,7 +190,7 @@ We decided on using the GitHib flow branching strategy because:
 6) not overly complex for a smaller team like ours
 7) allows for continuous development with the same simple processes for both
 
-For a more thorough review of this branching strategy and how we use it, including naming schemes, see the post [Git workflow guidelines](../git-workflow-guidelines.md).
+For a more thorough review of this branching strategy and how we use it, including naming schemes, see the post [Git workflow guidelines](../git-workflow-guidelines/index.md).
 
 ### Consequences
 
