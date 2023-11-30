@@ -63,7 +63,7 @@ For a bug report, it is important to include the steps to reproduce the bug to c
 You can use the “>” symbol to show the steps.
 For example:
 
-```
+```default
 1. Go to settings > Profile (this would take user to new screen)
 2. Tap on More Options > Delete Account
 ```
@@ -80,7 +80,7 @@ Remember to be specific about the user this change will benefit, and the functio
 
 The structure looks like this:
 
-```bash
+```default
 As a <user>
 I want to <functionality>
 so that <benefit>
