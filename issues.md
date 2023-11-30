@@ -94,7 +94,7 @@ Where:
 
 ::: {.callout-tip}
 
-A way to standardise issues within your project is to utilise [issue templates]().
+A way to standardise issues within your project is to use [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) in your repository.
 
 For examples of issue templates, see the [issue templates](https://github.com/seedcase-project/.github/tree/main/.github/ISSUE_TEMPLATE) of the Seedcase Organisation on GitHub.
 
