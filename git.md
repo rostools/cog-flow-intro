@@ -6,27 +6,25 @@ order: 1
 
 {{< include /includes/_wip.qmd >}}
 
-**Disclaimer**: If you are already familiar with Git and version control, you can skip this section.
+::: callout-note
+If you are already familiar with the basics of Git and version control (such as committing, history, and pushing/pulling to a remote repository), you can skip this section.
+:::
 
 ## Introduction
 
-This post will briefly go over what Git and version control is all about. Furthermore, we'll go through what repositories are (and the interaction between local and remote repositories), as well as take a look at how Git tracks files and file changes.
+This post will cover some of the basics of Git and version control. We'll cover what repositories are, the interaction between local and remote repositories, as well as how Git tracks files and file changes.
 
 ## What is Git?
 
-In short, [Git](https://git-scm.com/) is a free and open source distributed version control system. *Version control* means that changes are saved over time without overwriting previous versions, i.e., we have a history of how our files have evolved over time. The smart thing about version control is that you instead of having "v1", "v2", "v3", etc. of your files, you only need one, and with that file, you will have the history of how it looked at each stage that you have saved (in Git these "save points" are called "commits", something you'll learn more about in the [Commits](commits.md) post). This means that you can always go back to a previous version of your work. Nice!
+In short, [Git](https://git-scm.com/) is a free and open source distributed version control system. *Version control* means that changes are saved over time without overwriting previous versions, meaning that we record a history of how our files have evolved over time. So instead of having "v1", "v2", "v3", etc. in the name of your files, you only have one name for your files (e.g. "report.docx"). Along with that file, you will have the history of all the changes made to it at each stage that you have saved it. In Git, these "save points" are called "commits", which will be explained more in the [Commits](commits.md) post. This means that you can always go back to a previous version of your work. Nice! :tada:
 
-With Git, you create a "repository" (often called "repo") that serves as a container for the project's code and history. This container includes all files and folders associated with the project as well as the revision history of all files. Everything within the repository is tracked by Git.
+With Git, you create something called a "repository" (often abbreviated to "repo") that serves as a "container" for all files and folders contained within the folder that you tell Git to track. This repo not only includes all the files and folders kept inside the "parent" or "main" folder, but also the entire revision history of all those files. Everything within the parent folder is tracked by Git.
 
-The *distributed* part of Git refers to the fact that every developer who works with a Git repository can have their own copy of that entire repository. Each developer's version of the repository is connected to a shared repository (more on that in the section [Repositories: Local and Remote](#repositories-local-and-remote) below). This connection enables easy collaboration with others.
+The *distributed* part of Git refers to the fact that every person who works with a Git repository can have their own copy of that entire repository on their own computer, rather than on a central server. Each person's version of the repository could be connected to a shared repository. We'll cover that more in the the later section called [Repositories: Local and Remote](#repositories-local-and-remote). This connection enables easy collaboration with others.
 
-If you want to learn more, [GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git) has a great introduction to Git.
+If you want to learn more, the [GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git) website has a great introduction to Git. Below is a quote from that website that explains this fairly well:
 
-- :warning: I like this part from the link above
-  - "The file history appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because Git is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more." :warning:
-
-- Could also include sections from [R Cubed Intro - Version Control](https://r-cubed-intro.rostools.org/sessions/version-control)
-  - Sections "6.1 What is version control?", "6.2 What is Git?", and "6.3 Basics of Git" could be relevant here
+> "The file history appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because Git is a \[distributed version control system\], repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more."
 
 ## Repositories: Local and remote
 
@@ -195,3 +193,7 @@ If you prefer to use GitHub or VS Code, GitHub has some great[Git Guides](https:
 - To use Git, you first need to install it.
 - To publish a repository to or clone a repository from GitHub, you need a GitHub account.
 - Git repositories can be initialised and cloned in different ways. In this post, we have seen how it can be done in VS Code and the Terminal.
+
+## Additional resources
+
+- [Introduction to Reproducible Research in R: Version Control with Git](https://r-cubed-intro.rostools.org/sessions/version-control).
