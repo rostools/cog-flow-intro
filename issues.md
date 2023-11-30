@@ -92,14 +92,11 @@ Where:
 - **Functionality** is the change requested, i.e., the action that the issue is about, and
 - **Benefit** is the reason why this is needed amd the benefit of this change is.
 
-- Issue templates. Which kinds of issues do we expect?
-  - Documentation Clarification
-  - Feature Request
-  - Bug Report
-  - Report a Safety Vulnerability
-    - <https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates>
-    - <https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository>
+::: {.callout-tip}
 
-- Advanced: Creating issue templates for your repository?
+A way to standardise issues within your project is to utilise [issue templates]().
 
-Maybe: GitHub Action for issues: E.g., label, assign (maybe to someone per default?), is the issue reproducible?
+For examples of issue templates, see the [issue templates](https://github.com/seedcase-project/.github/tree/main/.github/ISSUE_TEMPLATE) of the Seedcase Organisation on GitHub.
+
+:::
+
