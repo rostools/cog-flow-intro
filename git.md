@@ -181,7 +181,6 @@ If you prefer to use GitHub or VS Code, GitHub has some great[Git Guides](https:
 
 :warning: Could also include a "cheat sheet" with common Git commands used in the Terminal + how to do the same things in VS Code? Or is that verbose, when that's basically what we'll unpack in the following posts? :warning:
 
-
 ## Summary
 
 - *Git* is a free and open source distributed version control system

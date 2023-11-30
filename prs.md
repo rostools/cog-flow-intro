@@ -29,7 +29,7 @@ Accordingly, *pull requests* and *reviews* are essential parts of collaborate de
 When a PR is initiated, the review process can begin. As pointed out above, this process, with feedback and discussions, is essential within collaborative development. By allowing for your collaborators to provide feedback on your changes, you can learn from each other and harvest the team's experience and expertise to create a better product more efficiently. Usually, this process will lead to higher quality work than if you worked alone.
 Your collaborators will be able to add review comments, request changes, contribute to the discussion of the implemented changes, and even add commits to the PR.
 
-PRs also work as documentation, since they will be a part of the repository forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
+PRs also work as documentation, since they will be a part of the repository's history forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
 
 ## Review Guidelines
 
