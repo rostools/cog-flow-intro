@@ -32,10 +32,53 @@ Central aspects of creating issues include:
 
 - **Check that the issue doesn't already exist:** Before you create a new issue, use the search feature on GitHub to check that the bug or feature hasn't already been reported or requested.
 
+## Types of Issues
 
-One way to structure an issue is in the form of a [user story](https://www.atlassian.com/agile/project-management/user-stories). When writing the issue, this structure helps with explicitly 1) keeping the user in mind, 2) explicitly stating the functionality of the change requested, and 3) how this will benefit this kind of user.
+As described above, issues is quite a versatile feature of GitHub and issues can be used to raise awareness of different types of future work. Which "types" that are relevant is highly dependent on the project. In the sections below, we will highlight three types of issues and what isi relevant to include in those. This includes:
 
-The structure is like so:
+- Feature Requests
+- Bug Reports
+- User Stories
+
+Essential to all issue types is, naturally, a clear title and description that enables your collaborators to quickly get an overview and understanding of the issue raised.
+
+In addition, always remember to check if the issue or a similar one already has been raised in the repository.
+
+### Feature Requests
+
+A *feature request* is a suggestion of a new feature, functionality, or improvement to be implemented in the codebase.
+
+When creating a feature request, first present the feature you want implemented. This includes a concise description of the problem to be addressed. A good practice is to be clear as you can on what parts of the problem that are considered to be in-scope and out-of-scope of the issue.
+
+If possible, yuo can include a concise suggestion to a solution Things to address include details of the technical implementation, tradeoffs made in design decisions, and caveats and considerations for the future.
+
+To clearly communicate that an issue is a feature request, you  can add this to the title of the issue like so: `feature request: <concise title describing the issue>`.
+
+### Bug Reports
+
+If you find an error, a *bug* in a repository, you file a *bug report*, describing the bug.
+
+For a bug report, it is important to include the steps to reproduce the bug to clarify how the bug is triggered. Reduce the reproduction steps to their bare minimum and be precise.
+
+You can use the “>” symbol to show the steps.
+For example:
+
+```
+1. Go to settings > Profile (this would take user to new screen)
+2. Tap on More Options > Delete Account
+```
+
+Remember to out your instructions before filing the report to ensure that they reproduce the error.
+
+After the reproduction steps, include a description of the expected result (i.e., what *should* happen, whe the steps are followed) as well as the actual results (the bug). When describing the bug, be as specific as you can. It can be helpful to include screenshots or videos here.
+
+### User Stories
+
+One way to structure an issue is in the form of a [user story](https://www.atlassian.com/agile/project-management/user-stories). When writing the issue, this structure helps with explicitly 1) phrasing the issue/change from the the user's perspective, 2) stating the functionality of the change requested, and 3) stating how this will benefit this kind of user.
+
+Remember to be specific about the user this change will benefit, and the functionality you would like to see implemented
+
+The structure looks like this:
 
 ```bash
 As a <user>
@@ -43,9 +86,11 @@ I want to <functionality>
 so that <benefit>
 ```
 
-- **User**: Role, capability, skills
-- **Functionality**: Action, change requested
-- **Benefit**: Reason why this is needed/what is the benefit of this change?
+Where:
+
+- **User** is a specific user type, i.e., a specific role. Remember to think about the capabilities and skills of such users.
+- **Functionality** is the change requested, i.e., the action that the issue is about, and
+- **Benefit** is the reason why this is needed amd the benefit of this change is.
 
 - Issue templates. Which kinds of issues do we expect?
   - Documentation Clarification
