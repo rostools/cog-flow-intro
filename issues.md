@@ -6,9 +6,11 @@ order: 5
 
 {{< include /includes/_wip.qmd >}}
 
-When you find that something is wrong in the codebase on GitHub, or you would like to request a feature to the code, you can add an *issue* to the repository.
+When you stumble upon a bug or get an idea for an enhancement or new feature for the codebase, you can add an *issue* to the repository on GitHub.
 
-This post will introduce the notion of issues on GitHub as well as guidelines on how to write an issue.
+GitHub issues facilitates a transparent environment where it is easy to get an overview of ongoing challenges and feature requests within the project. They also provide a centralised platform for discussion of issues and collaboration among collaborators. As many things within Git and GitHub repositories, issues are logged and serve as a historical record of the project. With issues, everything from the initial issue to the discussion and final solution are documented.
+
+This post will introduce the notion of issues on GitHub and good practices for writing **actionable** issues.
 
 ## Introduction to Issues
 
