@@ -14,19 +14,24 @@ This post will introduce the notion of issues on GitHub and good practices for w
 
 ## Introduction to Issues
 
-In [GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues#), issues are described as a way to track ideas, feedback, tasks, or bugs for work on GitHub.
+Issues is a feature on GitHub that enables you and your collaborators track ideas, feedback, tasks, or bugs for your project. They serve as a central space for discussing ideas, challenges, and resolving bugs. In this way, issues are a versatile feature that helps with streamlining these processes and aids with effective communication and coordination.
 
-Since issues are a part of GitHub, they are well-documented in GitHub's documentation. Go to the [Quick start for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart) post for an introduction to what they are and how to open a blank issue and filling in information.
+Since issues are a part of GitHub, they are well-documented in GitHub's documentation. You can go to the [Quick start for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart) post for an introduction to what they are and how to open a blank issue and filling in information.
 
-## Cross-reference
+Central aspects of creating issues include:
 
-Issues can be cross-referenced in other issues or pull requests to keep track of related work. If you are working on solving an issue, you show that work is in progress by linking the issue to the pull request. When an issue is linked to a pull request, it will automatically close, when the pull request is merged.
+- **Title and Description:** For each issue, you will fill out a title and description. Like with PR titles, think of the issue title as a subject line in an email; it should be concise and convey what the issue is about. Similarly, ensure that the description is clear and makes it easy to understand the problem or proposed improvement. It's possible to add lines of code (using *permalinks*) or screenshots to the description help clarifying what the issue addresses.
 
-You can find information on linking an issue and a pull request in [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) oin GitHub Docs.
+- **Assignees:** Like with PRs, you should assign a person or team that is responsible for addressing the issue.
 
-## Issue Naming
+- **Comments and Discussions:** An important part of issues is the comment section where you and your collaborators can discuss the whys and hows of the issue. You can use @mentions to alert a person or a team about a specific comment.
 
-## Issue Templates
+- **Link to related issues or PRs:** Issues can be cross-referenced in other issues or pull requests to keep track of related work and how they connect. If you are working on solving an issue, you show that work is in progress by linking the issue to the pull request. When an issue is linked to a pull request, it will automatically close, when the pull request is merged. You can find information on linking an issue and a pull request in [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) in the GitHub Docs.
+
+- **Break large issues into smaller issues:** This makes the work more manageable and enables collaborators to work in parallel. Since issues and PRs usually are connected, making smaller issues also leads to smaller pull requests that are easier to review and, therefore, will be merged faster. You can facilitate the process of breaking larger issues into smaller ones, using [task lists](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#adding-a-task-list).
+
+- **Check that the issue doesn't already exist:** Before you create a new issue, use the search feature on GitHub to check that the bug or feature hasn't already been reported or requested.
+
 
 One way to structure an issue is in the form of a [user story](https://www.atlassian.com/agile/project-management/user-stories). When writing the issue, this structure helps with explicitly 1) keeping the user in mind, 2) explicitly stating the functionality of the change requested, and 3) how this will benefit this kind of user.
 
