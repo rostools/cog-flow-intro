@@ -130,8 +130,46 @@ a pull request review.
 
 {{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
 
+## Reviews in Practice
+
+In practice, the review process is iterative. First, the person responsible for the PR (the assignee), creates it and request a review from relevant collaborators. Then, these collaborators review the changes and might suggest changes to the implementation, after which the assignee implements the suggested changes and/or start a discussion on the feedback. This initiates a back-and-forth, where the assignee might request the reviewers to review the updated version of the PR again (and again) until a consensus is reached.
+
+Good practices as reviewer and assignee:  <https://learn.microsoft.com/en-us/azure/devops/repos/git/review-pull-requests?view=azure-devops&tabs=browser#make-comments>
+
+- Vote
+
+As a reviewer, here are a few things to keep in mind when you're giving feedback:
+
+- Make sure that your feedback is easy to understand and has a clear intention
+- If you identify issues, give specific suggestions on what to do differently
+- Leave comments:
+  - Both authors and reviewers can communicate with each other by adding and responding to PR comments. When you review a PR, use comments to point out issues with the proposed changes, suggest changes, and respond to previous comments. Aim for constructive feedback that's precise and easy to understand. Address recipients directly by using their @username. Reference work items by using #workitemID and other PRs by using !pullrequestID. Sometimes, PR authors create comments for themselves for documentation purposes. from:
 
 **Comment: Remember to comment.**
+
+<https://learn.microsoft.com/en-us/azure/devops/repos/git/about-pull-requests?view=azure-devops>
+
+Re-review --> how to!
+
+## Merging a PR
+
+When the reviews have been finalised and suggested changes have been implemented, it is time to merge the new branch into `main`.
+
+You can merge a PR on GitHub, but also in VS Code or using a Terminal:
+
+::: panel-tabset
+
+### Merge PR in VS Code
+
+Extension: Pull Requests
+
+### Merge PR using a Terminal
+
+### Merge PR on GitHub
+
+For a guide on how to merge a PR on GitHub, go to this [post](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request#merging-a-pull-request) in the GitHub Docs.
+
+:::
 
 ## Merge Conflicts
 
@@ -166,3 +204,19 @@ It is also possible to resolve merge conflicts using a Terminal, see [Resolving 
 In the [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) how to resolve a merge conflict on GitHub is described thoroughly.
 
 :::
+
+## Summary
+
+- What is a pull request?
+  - When to request a review
+- Pull request best practices
+  - Naming scheme
+  - What to include?
+  - Assignee + reviewer assignment (+ re-request)
+  - Draft
+- What is a review?
+- Review best practices
+  - No single comment - video
+  - Collected "summary" of review
+  -
+- Handling merge conflicts
