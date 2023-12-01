@@ -104,3 +104,7 @@ For examples of issue templates, see the [issue templates](https://github.com/se
 
 :::
 
+## Issues in Practice
+
+Since issues can be so multifaceted, they can be created in a lot of different ways. In GitHub Docs, how to [create an issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) in different ways are thoroughly documented.
+
