@@ -52,7 +52,7 @@ When creating a feature request, first present the feature you want implemented.
 
 If possible, yuo can include a concise suggestion to a solution Things to address include details of the technical implementation, tradeoffs made in design decisions, and caveats and considerations for the future.
 
-To clearly communicate that an issue is a feature request, you  can add this to the title of the issue like so: `feature request: <concise title describing the issue>`.
+To clearly communicate that an issue is a feature request, you can add this to the title of the issue like so: `feature: <issue-title>`. Remember the the title should be concise and clearly communicate the 
 
 ### Bug Reports
 
@@ -71,6 +71,8 @@ For example:
 Remember to out your instructions before filing the report to ensure that they reproduce the error.
 
 After the reproduction steps, include a description of the expected result (i.e., what *should* happen, whe the steps are followed) as well as the actual results (the bug). When describing the bug, be as specific as you can. It can be helpful to include screenshots or videos here.
+
+You can add the prefix `bug report` to the issue title: `bug report story: <issue-title>`.
 
 ### User Stories
 
@@ -91,6 +93,8 @@ Where:
 - **User** is a specific user type, i.e., a specific role. Remember to think about the capabilities and skills of such users.
 - **Functionality** is the change requested, i.e., the action that the issue is about, and
 - **Benefit** is the reason why this is needed amd the benefit of this change is.
+
+In the issue title, you can add the prefix `user story` like so: `user story: <issue-title>`.
 
 ::: {.callout-tip}
 
