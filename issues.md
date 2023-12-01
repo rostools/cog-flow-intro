@@ -108,3 +108,41 @@ For examples of issue templates, see the [issue templates](https://github.com/se
 
 Since issues can be so multifaceted, they can be created in a lot of different ways. In GitHub Docs, how to [create an issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) in different ways are thoroughly documented.
 
+::: panel-tabset
+
+### Issues using the Command Line
+
+To create an issue using the command line, you will need [GitHub CLI](https://cli.github.com/), an open-source command-line interface for GitHub. 
+If you want to learn more about GitHub CLI, see the [About GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) post in GitHub Docs.
+
+Once you have GitHub CLI  installed, you can create an issue from the command line (when you are within your Git repository) using the following command:
+
+```bash
+gh issue create --title "<issue-title>" --body "<issue-description>"
+```
+
+`gh issue create` is a subcommand of `gh issue` which creates a new issue. The `--title` and `--body` flags are used to add a title and description to the new issue. Replace `<issue-title>` above with a concise title describing, maybe with a prefix describing the issue type.
+
+You can also add additional flags to this command, e.g., assignees with the `--assignee` flag:
+
+```bash
+gh issue create --title "<issue-title>" --body "<issue-description>" --assignee @me,my-collaborator
+```
+
+For the assignee flag, you should use your or your collaborators' GitHub username with an `@` before the first assignee.
+
+Source: [GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-with-github-cli)
+
+Go to GitHub CLI's documentation on [gh issue](https://cli.github.com/manual/gh_issue) for all gh commands related to issues.
+
+### Issues using GitHub
+
+If you go to your repository on GitHub, you will find an *Issues* tab. Click this to get a list of all open issues. Here you can search for existing issues as well as create new ones by clicking the `New issue` button.
+
+WIP: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+
+### Issues in VS Code
+
+WIP: https://leonardomontini.dev/manage-issues-vscode-github/
+
+:::
