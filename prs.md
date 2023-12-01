@@ -31,6 +31,17 @@ Your collaborators will be able to add review comments, request changes, contrib
 
 PRs also work as documentation, since they will be a part of the repository's history forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
 
+## Pull Requests in Practice
+
+When you follow the [GitHub flow](index.md#branching-strategy-github-flow) and want to implement changes to your repository, you start by creating a new branch from `main`. Then, you begin implementing the changes on this new branch. As described in the [branching post](branching.md#introduction-to-branches), a branch acts as an isolated container to implement your changes before they are ready to be merged into `main`. Then, you push your changes to the remote repository (potentially on GitHub or GitLab) and create a PR, i.e., you ask your collaborators to review your changes before they can be added to the `main` branch.
+
+When you create a PR, you will have to add a title to it. Think of this title as an email subject line: It should be concise so that your collaborators will be able to look at the title and know what's going to be in the PR. You should also include a summary of the changes proposed in the PR and, if relevant, a reference to a related issue in your repository (issues are references using a `#`, e.g., `#22`).
+
+In addition, you need to request *reviewers* to your PRs, i.e., who you want to review your changes. These reviewers will be actively reviewing your PR. You should also add an *assignee*, which is the owner of the PR who is responsible for getting it into a merge-ready state. Most of the time, you will be the assignee of the PRs you create.
+
+Like with [branching](branching.md#when-to-create-branches-and-how-much-they-should-cover), create one PR for one purpose. The shorter the changes, the easier it will be for your collaborators to review. This will result in faster reviews and faster merging. The commit history of the branch you have created a PR from will appear in chronological order and help your collaborators get an overview of the changes you have made. This is one of the reasons why writing good [commit messages](commits.md#commit-messages) is so important: it enables your collaborators to get a quick overview of the changes you have made.
+
+
 ## Review Guidelines
 
 So how do you do a review of a pull request? Thankfully GitHub has a
