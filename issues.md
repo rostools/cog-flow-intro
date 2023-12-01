@@ -146,3 +146,7 @@ WIP: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a
 WIP: https://leonardomontini.dev/manage-issues-vscode-github/
 
 :::
+
+## Summary
+
+- 
