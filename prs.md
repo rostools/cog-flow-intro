@@ -41,6 +41,16 @@ In addition, you need to request *reviewers* to your PRs, i.e., who you want to 
 
 Like with [branching](branching.md#when-to-create-branches-and-how-much-they-should-cover), create one PR for one purpose. The shorter the changes, the easier it will be for your collaborators to review. This will result in faster reviews and faster merging. The commit history of the branch you have created a PR from will appear in chronological order and help your collaborators get an overview of the changes you have made. This is one of the reasons why writing good [commit messages](commits.md#commit-messages) is so important: it enables your collaborators to get a quick overview of the changes you have made.
 
+::: {.callout-tip}
+
+You don't have to wait until you have fully-incorporated your changes, before you create a PR.
+
+As noted at[GitHub Universe](https://www.youtube.com/watch?v=vCwuZfK0VG4&list=PL0lo9MOBetEHWqH1OLA0qOL4rPDJLHl15), you should create your PRs early on, as soon as you have incorporated meaningful changes and have an idea of the full implementation, This way, you get your collaborators' feedback on your changes before you have spend a lot of time on your initial implementation idea. Maybe they have some alternative ideas on how to implement these changes, and you can start the discussion early. Furthermore, you ensure that they know what you are working on, so they don't start up a similar implementation in the meantime.
+
+If your PR is still a work in progress, remember to mark the PR as a [draft](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft).
+
+:::
+
 
 ## Review Guidelines
 
