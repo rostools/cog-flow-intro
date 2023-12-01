@@ -51,6 +51,15 @@ If your PR is still a work in progress, remember to mark the PR as a [draft](htt
 
 :::
 
+::: {.callout-tip}
+
+One way to ensure that a PR incorporates the information you find necessary for your project is to include a PR template in your project.
+
+A PR templates adds default content to PRs that will show up automatically in the body of the PR. The [GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) described how to include PR templates to your repository.
+
+For examples, see the [PR templates](https://github.com/seedcase-project/.github/tree/main/.github) in the Seedcase Organisation.
+:::
+
 
 ## Review Guidelines
 
