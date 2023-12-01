@@ -60,6 +60,37 @@ A PR templates adds default content to PRs that will show up automatically in th
 For examples, see the [PR templates](https://github.com/seedcase-project/.github/tree/main/.github) in the Seedcase Organisation.
 :::
 
+::: panel-tabset
+
+### Create a Pull Request from VS Code
+
+To be able to create pull requests to GitHub from within VS Code, you first need to install the extension [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). You can find and install this extension by going to the `Extension` view in the left sidebar of VS Code and search for it.
+
+Once you have installed it, VS Code will prompt you to link to your GitHub account by signing in and giving access.
+
+Now, in the `Source Control` view, a pull request icon will appear above the commit message box. When you click it, you will switch to the `GitHub Pull Request` view.
+
+In this view, you can fill our the `TITLE` and `DESCRIPTION` boxes, as well as mark it as a draft, if your work is still a work-in-progress.
+
+Note: Double check that you are in the correct repository and on the correct branch before you continue to the next step.
+
+Then, click the `Create` button at the bottom of the sidebar.
+
+Now, VS Code will show you the pull request on GitHub and in this view, you can add reviewers and assignees.
+
+Voila, you have now created a pull request!
+
+<https://github.com/git-guides#open-a-pull-request>
+
+### Create a Pull Request on GitHub
+
+Go to <GitHub.com>.
+
+### Create a Pull Request using the Command Line
+
+:warning: I have never done this. Is this a good practice? :warning:
+
+:::
 
 ## Review Guidelines
 
