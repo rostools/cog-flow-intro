@@ -124,6 +124,8 @@ Note: This is not a widely used extension (~400 downloads as of November 2023) a
 
 :::
 
+:warning: Add section on how to fetch remote branches :warning:
+
 ## Summary
 
 - By default, a Git repository has one branch, usually called `main`
