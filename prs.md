@@ -31,6 +31,67 @@ Your collaborators will be able to add review comments, request changes, contrib
 
 PRs also work as documentation, since they will be a part of the repository's history forever. They enable new collaborators to read about the motivation of changes and the conversations your team had about these changes, before they were implemented.
 
+## Pull Requests in Practice
+
+When you follow the [GitHub flow](index.md#branching-strategy-github-flow) and want to implement changes to your repository, you start by creating a new branch from `main`. Then, you begin implementing the changes on this new branch. As described in the [branching post](branching.md#introduction-to-branches), a branch acts as an isolated container to implement your changes before they are ready to be merged into `main`. Then, you push your changes to the remote repository (potentially on GitHub or GitLab) and create a PR, i.e., you ask your collaborators to review your changes before they can be added to the `main` branch.
+
+When you create a PR, you will have to add a title to it. Think of this title as an email subject line: It should be concise so that your collaborators will be able to look at the title and know what's going to be in the PR. You should also include a summary of the changes proposed in the PR and, if relevant, a reference to a related issue in your repository (issues are references using a `#`, e.g., `#22`).
+
+In addition, you need to request *reviewers* to your PRs, i.e., who you want to review your changes. These reviewers will be actively reviewing your PR. You should also add an *assignee*, which is the owner of the PR who is responsible for getting it into a merge-ready state. Most of the time, you will be the assignee of the PRs you create.
+
+Like with [branching](branching.md#when-to-create-branches-and-how-much-they-should-cover), create one PR for one purpose. The shorter the changes, the easier it will be for your collaborators to review. This will result in faster reviews and faster merging. The commit history of the branch you have created a PR from will appear in chronological order and help your collaborators get an overview of the changes you have made. This is one of the reasons why writing good [commit messages](commits.md#commit-messages) is so important: it enables your collaborators to get a quick overview of the changes you have made.
+
+::: {.callout-tip}
+
+You don't have to wait until you have fully-incorporated your changes, before you create a PR.
+
+As noted at[GitHub Universe](https://www.youtube.com/watch?v=vCwuZfK0VG4&list=PL0lo9MOBetEHWqH1OLA0qOL4rPDJLHl15), you should create your PRs early on, as soon as you have incorporated meaningful changes and have an idea of the full implementation, This way, you get your collaborators' feedback on your changes before you have spend a lot of time on your initial implementation idea. Maybe they have some alternative ideas on how to implement these changes, and you can start the discussion early. Furthermore, you ensure that they know what you are working on, so they don't start up a similar implementation in the meantime.
+
+If your PR is still a work in progress, remember to mark the PR as a [draft](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft).
+
+:::
+
+::: {.callout-tip}
+
+One way to ensure that a PR incorporates the information you find necessary for your project is to include a PR template in your project.
+
+A PR templates adds default content to PRs that will show up automatically in the body of the PR. The [GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) described how to include PR templates to your repository.
+
+For examples, see the [PR templates](https://github.com/seedcase-project/.github/tree/main/.github) in the Seedcase Organisation.
+:::
+
+::: panel-tabset
+
+### Create a Pull Request from VS Code
+
+To be able to create pull requests to GitHub from within VS Code, you first need to install the extension [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). You can find and install this extension by going to the `Extension` view in the left sidebar of VS Code and search for it.
+
+Once you have installed it, VS Code will prompt you to link to your GitHub account by signing in and giving access.
+
+Now, in the `Source Control` view, a pull request icon will appear above the commit message box. When you click it, you will switch to the `GitHub Pull Request` view.
+
+In this view, you can fill our the `TITLE` and `DESCRIPTION` boxes, as well as mark it as a draft, if your work is still a work-in-progress.
+
+Note: Double check that you are in the correct repository and on the correct branch before you continue to the next step.
+
+Then, click the `Create` button at the bottom of the sidebar.
+
+Now, VS Code will show you the pull request on GitHub and in this view, you can add reviewers and assignees.
+
+Voila, you have now created a pull request!
+
+<https://github.com/git-guides#open-a-pull-request>
+
+### Create a Pull Request on GitHub
+
+Go to <GitHub.com>.
+
+### Create a Pull Request using the Command Line
+
+:warning: I have never done this. Is this a good practice? :warning:
+
+:::
+
 ## Review Guidelines
 
 So how do you do a review of a pull request? Thankfully GitHub has a
@@ -69,8 +130,46 @@ a pull request review.
 
 {{< video <https://www.youtube.com/embed/lSnbOtw4izI> >}}
 
+## Reviews in Practice
+
+In practice, the review process is iterative. First, the person responsible for the PR (the assignee), creates it and request a review from relevant collaborators. Then, these collaborators review the changes and might suggest changes to the implementation, after which the assignee implements the suggested changes and/or start a discussion on the feedback. This initiates a back-and-forth, where the assignee might request the reviewers to review the updated version of the PR again (and again) until a consensus is reached.
+
+Good practices as reviewer and assignee:  <https://learn.microsoft.com/en-us/azure/devops/repos/git/review-pull-requests?view=azure-devops&tabs=browser#make-comments>
+
+- Vote
+
+As a reviewer, here are a few things to keep in mind when you're giving feedback:
+
+- Make sure that your feedback is easy to understand and has a clear intention
+- If you identify issues, give specific suggestions on what to do differently
+- Leave comments:
+  - Both authors and reviewers can communicate with each other by adding and responding to PR comments. When you review a PR, use comments to point out issues with the proposed changes, suggest changes, and respond to previous comments. Aim for constructive feedback that's precise and easy to understand. Address recipients directly by using their @username. Reference work items by using #workitemID and other PRs by using !pullrequestID. Sometimes, PR authors create comments for themselves for documentation purposes. from:
 
 **Comment: Remember to comment.**
+
+<https://learn.microsoft.com/en-us/azure/devops/repos/git/about-pull-requests?view=azure-devops>
+
+Re-review --> how to!
+
+## Merging a PR
+
+When the reviews have been finalised and suggested changes have been implemented, it is time to merge the new branch into `main`.
+
+You can merge a PR on GitHub, but also in VS Code or using a Terminal:
+
+::: panel-tabset
+
+### Merge PR in VS Code
+
+Extension: Pull Requests
+
+### Merge PR using a Terminal
+
+### Merge PR on GitHub
+
+For a guide on how to merge a PR on GitHub, go to this [post](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request#merging-a-pull-request) in the GitHub Docs.
+
+:::
 
 ## Merge Conflicts
 
@@ -105,3 +204,19 @@ It is also possible to resolve merge conflicts using a Terminal, see [Resolving 
 In the [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) how to resolve a merge conflict on GitHub is described thoroughly.
 
 :::
+
+## Summary
+
+- What is a pull request?
+  - When to request a review
+- Pull request best practices
+  - Naming scheme
+  - What to include?
+  - Assignee + reviewer assignment (+ re-request)
+  - Draft
+- What is a review?
+- Review best practices
+  - No single comment - video
+  - Collected "summary" of review
+  -
+- Handling merge conflicts

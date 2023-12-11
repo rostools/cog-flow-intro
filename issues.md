@@ -52,7 +52,7 @@ When creating a feature request, first present the feature you want implemented.
 
 If possible, yuo can include a concise suggestion to a solution Things to address include details of the technical implementation, tradeoffs made in design decisions, and caveats and considerations for the future.
 
-To clearly communicate that an issue is a feature request, you  can add this to the title of the issue like so: `feature request: <concise title describing the issue>`.
+To clearly communicate that an issue is a feature request, you can add this to the title of the issue like so: `feature: <issue-title>`. Remember the the title should be concise and clearly communicate the 
 
 ### Bug Reports
 
@@ -63,7 +63,7 @@ For a bug report, it is important to include the steps to reproduce the bug to c
 You can use the “>” symbol to show the steps.
 For example:
 
-```
+```default
 1. Go to settings > Profile (this would take user to new screen)
 2. Tap on More Options > Delete Account
 ```
@@ -71,6 +71,8 @@ For example:
 Remember to out your instructions before filing the report to ensure that they reproduce the error.
 
 After the reproduction steps, include a description of the expected result (i.e., what *should* happen, whe the steps are followed) as well as the actual results (the bug). When describing the bug, be as specific as you can. It can be helpful to include screenshots or videos here.
+
+You can add the prefix `bug report` to the issue title: `bug report story: <issue-title>`.
 
 ### User Stories
 
@@ -80,7 +82,7 @@ Remember to be specific about the user this change will benefit, and the functio
 
 The structure looks like this:
 
-```bash
+```default
 As a <user>
 I want to <functionality>
 so that <benefit>
@@ -92,14 +94,59 @@ Where:
 - **Functionality** is the change requested, i.e., the action that the issue is about, and
 - **Benefit** is the reason why this is needed amd the benefit of this change is.
 
-- Issue templates. Which kinds of issues do we expect?
-  - Documentation Clarification
-  - Feature Request
-  - Bug Report
-  - Report a Safety Vulnerability
-    - <https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates>
-    - <https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository>
+In the issue title, you can add the prefix `user story` like so: `user story: <issue-title>`.
 
-- Advanced: Creating issue templates for your repository?
+::: {.callout-tip}
 
-Maybe: GitHub Action for issues: E.g., label, assign (maybe to someone per default?), is the issue reproducible?
+A way to standardise issues within your project is to use [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) in your repository.
+
+For examples of issue templates, see the [issue templates](https://github.com/seedcase-project/.github/tree/main/.github/ISSUE_TEMPLATE) of the Seedcase Organisation on GitHub.
+
+:::
+
+## Issues in Practice
+
+Since issues can be so multifaceted, they can be created in a lot of different ways. In GitHub Docs, how to [create an issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) in different ways are thoroughly documented.
+
+::: panel-tabset
+
+### Issues using the Command Line
+
+To create an issue using the command line, you will need [GitHub CLI](https://cli.github.com/), an open-source command-line interface for GitHub. 
+If you want to learn more about GitHub CLI, see the [About GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) post in GitHub Docs.
+
+Once you have GitHub CLI  installed, you can create an issue from the command line (when you are within your Git repository) using the following command:
+
+```bash
+gh issue create --title "<issue-title>" --body "<issue-description>"
+```
+
+`gh issue create` is a subcommand of `gh issue` which creates a new issue. The `--title` and `--body` flags are used to add a title and description to the new issue. Replace `<issue-title>` above with a concise title describing, maybe with a prefix describing the issue type.
+
+You can also add additional flags to this command, e.g., assignees with the `--assignee` flag:
+
+```bash
+gh issue create --title "<issue-title>" --body "<issue-description>" --assignee @me,my-collaborator
+```
+
+For the assignee flag, you should use your or your collaborators' GitHub username with an `@` before the first assignee.
+
+Source: [GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-with-github-cli)
+
+Go to GitHub CLI's documentation on [gh issue](https://cli.github.com/manual/gh_issue) for all gh commands related to issues.
+
+### Issues using GitHub
+
+If you go to your repository on GitHub, you will find an *Issues* tab. Click this to get a list of all open issues. Here you can search for existing issues as well as create new ones by clicking the `New issue` button.
+
+WIP: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+
+### Issues in VS Code
+
+WIP: https://leonardomontini.dev/manage-issues-vscode-github/
+
+:::
+
+## Summary
+
+- 
