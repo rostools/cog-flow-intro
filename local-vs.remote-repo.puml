@@ -5,11 +5,11 @@ agent "Remote Repository\n(Location: GitHub/GitLab)" as rr
 agent "Local Repository\n(Location: Developer 1's computer)" as lr1
 agent "Local Repository\n(Developer 2's computer)" as lr2
 
-rr -->lr1: "Clone\nPull"
+rr -->lr1: "Clone\nor Pull"
 lr1 --> rr: Push
 lr1 --> lr1: "Add\nCommit"
 
-rr -->lr2: "Clone\nPull"
+rr -->lr2: "Clone\nor Pull"
 lr2 --> rr: Push
 lr2 --> lr2: "Add\nCommit"
 
