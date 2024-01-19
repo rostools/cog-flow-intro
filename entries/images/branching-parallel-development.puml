@@ -1,0 +1,12 @@
+@startuml branching-parallel-development
+
+"Main branch" -> "Developer 1\nbugfix/data-cleaning-function": Developer 1 creates a new branch\nto fix bug in data cleaning function
+"Main branch" -> "Developer 2\nfeature/add-scatter-plot": Developer 2 creates a new branch\nto add a scatter plot
+"Developer 1\nbugfix/data-cleaning-function" -> "Developer 1\nbugfix/data-cleaning-function": Developer 1 adds and/or changes\nfiles to fix bug in data cleaning
+"Developer 2\nfeature/add-scatter-plot" -> "Developer 2\nfeature/add-scatter-plot": Developer 2 adds and/or changes\nfiles to create scatter plot
+"Developer 1\nbugfix/data-cleaning-function" -> "Main branch": After PR and review,\nchanges are merged into main
+"Developer 1\nbugfix/data-cleaning-function" -> "Developer 1\nbugfix/data-cleaning-function" !! : Delete
+"Developer 2\nfeature/add-scatter-plot" -> "Main branch": After PR and review,\nchanges are merged into main
+"Developer 2\nfeature/add-scatter-plot" -> "Developer 2\nfeature/add-scatter-plot" !! : Delete
+
+@enduml 

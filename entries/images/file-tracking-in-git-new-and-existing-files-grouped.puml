@@ -1,0 +1,23 @@
+
+@startuml file-tracking-in-git-new-vs-existing-files-grouped
+
+' add order of boxes, called "participants" in puml
+participant Untracked order 10
+participant Unmodified order 20
+participant Modified order 30
+participant Staged order 40
+
+group New file(s)
+  Untracked -> Untracked: Create new file(s)
+  Untracked -> Staged: Phase 1: Staging\nStage selected changes
+  Staged -> Unmodified: Phase 2: Committing\nCommit staged changes
+  Unmodified -> Untracked: Remove file
+end
+group Existing file(s)
+  Unmodified -> "Modified": Save changes\nto existing file(s)
+  "Modified" -> Staged: Phase 1: Staging\nStage selected changes
+  Staged -> Unmodified: Phase 2: Committing\nCommit staged changes
+  Unmodified -> Untracked: Remove file
+end
+
+@enduml 
