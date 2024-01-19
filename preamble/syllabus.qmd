@@ -1,0 +1,26 @@
+# Syllabus {#sec-syllabus}
+
+{{< include ../includes/_wip.qmd >}}
+
+Objectives:
+
+-   Item 1
+
+## Is this course for you? {#sec-is-it-for-you}
+
+To help manage expectations and develop the material for this course, we
+make a few assumptions about *who you are* as a participant in the
+course:
+
+-   Assumptions
+
+While we have these assumptions to help focus the content of the course,
+if you have an interest in learning R but don't fit any of the above
+assumptions, *you are still welcome to attend the course*! We welcome
+everyone, that is until the course capacity is reached.
+
+In addition to the assumptions, we also have a fairly focused scope for
+teaching and expectations for learning. So this may also help you decide
+if this course is for you.
+
+-   List of what we will teach and won't teach

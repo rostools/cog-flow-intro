@@ -1,0 +1,24 @@
+# Introduction to course {#sec-introduction}
+
+{{< include ../includes/_wip.qmd >}}
+
+> [**Introduction slides**](../slides/introduction.html)
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="../slides/introduction.html"></iframe>
+```
+
+</div>
+
+::: {.callout-note collapse="true"}
+## Instructor note
+
+The slides contain speaking notes that you can view by pressing 'S' on
+the keyboard.
+:::
+
+## The Big Picture
+
+TODO: Add text highlighting the bigger picture of why we teach this.

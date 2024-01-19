@@ -1,0 +1,33 @@
+# TODO: Lesson title here
+
+{{< include ../includes/_wip.qmd >}}
+
+```{r setup}
+#| include: false
+```
+
+<!-- TODO: Add an introduction here -->
+
+**Session objectives**:
+
+## TODO: Section
+
+::: callout-note
+## Reading task: \~4 minutes
+
+TODO: Reading text
+:::
+
+## Exercise: TODO: Add title
+
+> Time: \## minutes.
+
+```{r solution-LABEL}
+#| eval: false
+#| code-fold: true
+#| code-summary: "**Click for the solution**. Only click if you are struggling or are out of time."
+```
+
+## Summary
+
+-   TODO: List of summary items
