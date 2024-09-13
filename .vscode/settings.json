@@ -17,6 +17,9 @@
     ],
     "cSpell.language": "en,en-GB",
     "conventionalCommits.scopes": [
-        "devops"
+        "devops",
+        "sessions",
+        "exercises",
+        "appendix",
     ],
   }
