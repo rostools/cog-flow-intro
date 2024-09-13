@@ -12,7 +12,10 @@ To help manage expectations and develop the material for this course, we
 make a few assumptions about *who you are* as a participant in the
 course:
 
--   Assumptions
+-   You want to work more effectively within a team-based setting on a
+    common set of files
+-   You have a desire to work together in a more open and transparent
+    way in your team(s)
 
 While we have these assumptions to help focus the content of the course,
 if you have an interest in learning R but don't fit any of the above
