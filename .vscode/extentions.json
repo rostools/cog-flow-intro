@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"quarto.quarto",
+		"streetsidesoftware.code-spell-checker",
+		"vivaxy.vscode-conventional-commits",
+		"pshaddel.conventional-branch",
+		"felipecaputo.git-project-manager",
+		"GitHub.vscode-pull-request-github"
+	]
+}

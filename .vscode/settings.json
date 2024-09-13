@@ -1,0 +1,23 @@
+{
+    "files.autoSave": "onFocusChange",
+    "conventional-branch.type": [
+      "build", // Changes that affect the build system or external dependencies
+      "ci", // Changes to our CI configuration files and scripts
+      "docs", // Documentation only changes
+      "fix", // A bug fix
+      "refactor", // A change that neither fixes a bug nor adds a feature
+      "style", // Changes that do not affect meaning (e.g., formatting)
+      "chore", // Misc things, like renaming or deleting files
+    ],
+    "conventional-branch.format": "{Type}/{Branch}",
+    "cSpell.enableFiletypes": [
+      "quarto"
+    ],
+    "cSpell.language": "en,en-GB",
+    "conventionalCommits.scopes": [
+        "devops",
+        "sessions",
+        "exercises",
+        "appendix",
+    ],
+  }
