@@ -18,7 +18,7 @@ course:
     way in your team(s)
 
 While we have these assumptions to help focus the content of the course,
-if you have an interest in learning R but don't fit any of the above
+if you have an interest in learning what we teach but don't fit any of the above
 assumptions, *you are still welcome to attend the course*! We welcome
 everyone, that is until the course capacity is reached.
 
