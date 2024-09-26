@@ -11,7 +11,8 @@ book:
       orcid: 0000-0003-4169-2616
     - name: Signe Kirk Brødbæk
   date: last-modified
-  repo-url: https://github.com/rostools/r-cubed
+  site-url: https://cog-flow-intro.rostools.org
+  repo-url: https://github.com/rostools/cog-flow-intro
   chapters:
     - index.qmd
     - part: "Preamble"
