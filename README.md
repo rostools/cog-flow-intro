@@ -1,4 +1,4 @@
-# r-cubed: TODO TITLE <img src="_extensions/r3-theme/favicon.ico" align="right" height="100"/>
+# Collaboration with Git and GitHub: A gentle introduction to a team-based collaborative workflow using Git and GitHub
 
 ## Description
 
@@ -11,7 +11,8 @@ This repository contains the lesson, lecture, and assignment material
 for the course, including the website source files and other associated
 course administration files.
 
-For more detail on the course, check out the [welcome page]().
+For more detail on the course, check out the [welcome
+page](https://cog-flow-intro.rostools.org).
 
 ## Instructional Design
 
@@ -29,15 +30,15 @@ course website for participants to refer to during lectures.
 
 The teaching material is found mainly in these locations:
 
--   `index.Rmd`: Contains the overview of the course.
--   `preamble/` folder: Contains the files necessary for use before the
+- `index.Rmd`: Contains the overview of the course.
+- `preamble/` folder: Contains the files necessary for use before the
     course, for instance the syllabus, schedule, and pre-course tasks.
--   `sessions/` folder: Contains the files used during the course (e.g.
+- `sessions/` folder: Contains the files used during the course (e.g.
     code-along material)
--   `appendix/` folder: Contains the files used to support the course,
+- `appendix/` folder: Contains the files used to support the course,
     such as pre-course tasks, code of conduct, resources, and
     instructions for instructors.
--   `slides/`: The lecture slides are rendered into HTML slides from
+- `slides/`: The lecture slides are rendered into HTML slides from
     Markdown.
 
 The website is generated from [Quarto](https://quarto.org/), so it
@@ -47,8 +48,8 @@ follows the file and folder structure conventions from that package.
 
 If you are interested in contributing to the course material, please
 refer to the [contributing guidelines](CONTRIBUTING.md). For guidelines
-on how to be a helper or instructor, check out the [For
-Instructors](https://r-cubed.rostools.org/for-instructors.html) page.
+on how to be a helper or instructor, check out the [Teaching in
+class](https://guides.rostools.org/instructors) page.
 
 Please note that the project is released with a [Contributor Code of
 Conduct](CODE_OF_CONDUCT.md). By contributing to or being involved in
@@ -63,19 +64,18 @@ found throughout this page. The only thing you might want to make as
 your own would be the slides, however, they are also good enough to use
 on their own too.
 
-But if you want to customize a bit more, the best approach is to [fork
-the repository]() into your own GitLab account and modify it to fit your
-needs from there. The website is built automatically with GitHub Actions
-and then published as a website through Netlify. More detail on how to
-build your own website from the material is outside the scope of this
-document but you can find more information on Quarto's
+Since this is a CC-BY licensed course, you are free to take and modify
+the content to fit your purposes (as long as appropriate attribution is
+given). The website is built automatically with GitHub Actions and then
+published as a website through Netlify. More detail on how to build your
+own website from the material is outside the scope of this document but
+you can find more information on Quarto's
 [Publishing](https://quarto.org/docs/publishing/) page.
 
 To help with general admin tasks of running the course, there is the
-[r3admin](https://github.com/rostools/r3admin) R package. For details of
-the license and acknowledgement of content used from sources, see the
-[license](TODO) page of the website.
+[r3admin](https://github.com/rostools/r3admin) R package.
 
+<!--
 ### How to cite the material
 
 Please cite the material as:
@@ -85,4 +85,4 @@ Please cite the material as:
 Or as BibTeX:
 
 TODO: Update
-
+-->
