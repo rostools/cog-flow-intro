@@ -2,9 +2,46 @@
 
 {{< include ../includes/_wip.qmd >}}
 
-Objectives:
+## Learning outcomes
 
--   Item 1
+Our overall learning outcome for the course is:
+
+1.  Describe some core features of effective team-based, collaborative
+    workflows and identify the components that make these workflows
+    effective compared to other workflows. Then use a set of tools and
+    approaches that strongly support effective collaboration.
+
+This outcome is broken down into specific learning objectives that will
+be addressed within the individual sessions:
+
+1.  Explain what humans as a group need psychologically and
+    organizationally in order to work well together as a team. (*this is
+    to remove thoughts people have that "this doesn't work for me, I
+    work best in chaos", to emphasize, it isn't about individuals, it's
+    about the group*)
+2.  Discuss the different ways people work together as a team and
+    identify how some ways work better than others for doing effective
+    teamwork.
+3.  Describe how the widely used Git and GitHub are used for
+    collaboration and explain their biggest strengths (and weaknesses)
+    over alternatives, as well as review the basics of using Git and
+    GitHub.
+4.  Setup a project on GitHub (called a repository) and apply some key
+    settings on GitHub to improve collaboration and teamwork.
+5.  Differentiate between contributor and reviewer/admin roles in a team
+    and why they should be dynamic and explicit.
+6.  Create and use a task list (called issues) to assign team members to
+    tasks that they are responsible for.
+7.  Apply a contributor workflow of selecting an issue to work on,
+    creating an isolated section of a repository (called branches),
+    making small and distinct changes to files (called atomic commits)
+    with clear messages on why or what was changed, and contributing
+    those changes into the main branch of a repository in small and
+    distinct steps (called pull requests).
+8.  Apply a reviewer/admin workflow of reviewing a pull request with
+    changes, giving suggestions and feedback, and identifying how (and
+    if) the changes should be merged back into the main branch of a
+    repository.
 
 ## Is this course for you? {#sec-is-it-for-you}
 
