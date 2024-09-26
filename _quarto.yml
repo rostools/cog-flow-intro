@@ -6,7 +6,10 @@ project:
 
 book:
   title: Testing
-  author: Luke W. Johnston
+  author: 
+    - name: Luke W. Johnston
+      orcid: 0000-0003-4169-2616
+    - name: Signe Kirk Brødbæk
   date: last-modified
   repo-url: https://github.com/rostools/r-cubed
   chapters:
