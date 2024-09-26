@@ -16,6 +16,9 @@ course:
     common set of files
 -   You have a desire to work together in a more open and transparent
     way in your team(s)
+-   You have used Git and/or GitHub a bit, either through GitHub's UI,
+    RStudio, or GitHub Desktop, but not regularly or in a team or a
+    collaborative setting.
 
 While we have these assumptions to help focus the content of the course,
 if you have an interest in learning what we teach but don't fit any of
