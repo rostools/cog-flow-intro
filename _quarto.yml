@@ -8,7 +8,8 @@ book:
   title: Testing
   author: Luke W. Johnston
   date: last-modified
-  repo-url: https://github.com/rostools/r-cubed
+  site-url: https://cog-flow-intro.rostools.org
+  repo-url: https://github.com/rostools/cog-flow-intro
   chapters:
     - index.qmd
     - part: "Preamble"
