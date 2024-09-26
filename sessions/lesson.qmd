@@ -2,10 +2,6 @@
 
 {{< include ../includes/_wip.qmd >}}
 
-```{r setup}
-#| include: false
-```
-
 <!-- TODO: Add an introduction here -->
 
 **Session objectives**:
@@ -21,12 +17,6 @@ TODO: Reading text
 ## Exercise: TODO: Add title
 
 > Time: \## minutes.
-
-```{r solution-LABEL}
-#| eval: false
-#| code-fold: true
-#| code-summary: "**Click for the solution**. Only click if you are struggling or are out of time."
-```
 
 ## Summary
 
