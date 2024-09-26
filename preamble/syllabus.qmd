@@ -38,3 +38,9 @@ This course will cover:
 
 -   Working with plain text files (as Markdown `.md` )
 
+This course will **NOT** cover:
+
+-   Using any programming language (like R or Python)
+
+-   Any project management, for example related to tasks/issues (even
+    though we briefly cover issues)
