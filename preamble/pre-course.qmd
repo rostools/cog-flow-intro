@@ -20,15 +20,15 @@ early* to make sure everything is properly installed and setup.
 Here's a quick overview of the tasks you need to do. Specific details
 about them are found as you work through the tasks.
 
-1.  Install a version of Git that is as updated
-    as possible. For some people, depending on their institution, this
-    task can take the **longest amount of time** because you have to
-    contact your IT to install these packages.
-3.  TODO: Add more tasks
-4.  Read the syllabus (@sec-syllabus).
-5.  Read the [Code of
+1.  Install a version of Git that is as updated as possible. For some
+    people, depending on their institution, this task can take the
+    **longest amount of time** because you have to contact your IT to
+    install these packages.
+2.  TODO: Add more tasks
+3.  Read the syllabus (@sec-syllabus).
+4.  Read the [Code of
     Conduct](https://guides.rostools.org/conduct.html).
-6.  Complete the pre-course [survey](): This survey is pretty quick,
+5.  Complete the pre-course [survey](): This survey is pretty quick,
     maybe \~10 minutes. There will be some bits from the tasks that you
     will need to paste into this survey.
 
@@ -78,11 +78,11 @@ for help.
 > *A note to those who have or use work laptops with restrictive
 > administrative privileges*: You may encounter problems installing
 > software due to administrative reasons (e.g. you don't have permission
-> to install things). 
-> Git is not a commonly used software for some organizations, so you
-> may not have it installed and you *will* need to ask IT to install it.
-> We *require* it for the course, so please make sure to give IT enough
-> time to be able to install it for you prior to the course.
+> to install things). Git is not a commonly used software for some
+> organizations, so you may not have it installed and you *will* need to
+> ask IT to install it. We *require* it for the course, so please make
+> sure to give IT enough time to be able to install it for you prior to
+> the course.
 
 *If you encounter any troubles during these pre-course tasks*, try as
 best as you can to complete the task and then let us know about the
@@ -103,9 +103,9 @@ if you understand what you'll learn in the course.
 
 One goal of the course is to teach about openness, and true to our
 mission, we practice what we preach. The course material is publicly
-accessible (all on this website) and [openly licensed](/LICENSE.md) so you can
-(re-)use it for free! The material is organized in the order that we
-will cover it in the course.
+accessible (all on this website) and [openly licensed](/LICENSE.md) so
+you can (re-)use it for free! The material is organized in the order
+that we will cover it in the course.
 
 We have a [Code of Conduct](https://guides.rostools.org/conduct.html).
 If you haven't read it, **read it now**. The survey involves a question

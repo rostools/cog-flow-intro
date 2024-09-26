@@ -18,9 +18,9 @@ course:
     way in your team(s)
 
 While we have these assumptions to help focus the content of the course,
-if you have an interest in learning what we teach but don't fit any of the above
-assumptions, *you are still welcome to attend the course*! We welcome
-everyone, that is until the course capacity is reached.
+if you have an interest in learning what we teach but don't fit any of
+the above assumptions, *you are still welcome to attend the course*! We
+welcome everyone, that is until the course capacity is reached.
 
 In addition to the assumptions, we also have a fairly focused scope for
 teaching and expectations for learning. So this may also help you decide
