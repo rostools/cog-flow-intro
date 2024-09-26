@@ -26,4 +26,15 @@ In addition to the assumptions, we also have a fairly focused scope for
 teaching and expectations for learning. So this may also help you decide
 if this course is for you.
 
--   List of what we will teach and won't teach
+This course will cover:
+
+-   Using Git
+
+-   Using GitHub
+
+-   Working with at least one other person
+
+-   Using \<IDE\>
+
+-   Working with plain text files (as Markdown `.md` )
+
