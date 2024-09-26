@@ -1,28 +1,11 @@
+name: Build and deploy website
+
 on:
   push:
-    branches:
-      - main
-
-name: Render and Publish
+    branches: main
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          # To install LaTeX to build PDF book
-          tinytex: false
-          # uncomment below and fill to pin a version
-          # version: SPECIFIC-QUARTO-VERSION-HERE
-
-      - name: Publish to Netlify (and render)
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: netlify
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  build-deploy-website:
+    uses: rostools/.github/.github/workflows/build-website.yml@main
+    secrets: 
+      netlify-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
