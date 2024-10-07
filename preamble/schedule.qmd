@@ -21,41 +21,41 @@ guide and overview.
 | Time | Session topic |
 |------------------------------------|------------------------------------|
 | 9:30 | {{< fa mug-hot >}} Arrival. Coffee and snacks |
-| 10:00 | [{{< fa person-chalkboard >}} Introduction to the course](../sessions/introduction.qmd) |
-| 10:30 | [{{< fa person-chalkboard >}} Theory on collaboration and teamwork]() |
+| 10:00 | {{< fa person-chalkboard >}} [Introduction to the course](../sessions/introduction.qmd) |
+| 10:30 | {{< fa person-chalkboard >}} [Theory on collaboration and teamwork]() |
 | 12:30 | {{< fa utensils >}} Lunch |
-| 13:15 | [{{< fa user-group >}} Networking and social activity](../appendix/social.qmd#social-day-one) |
-| 13:35 | [{{< fa laptop-code >}} Review of Git and GitHub]() |
+| 13:15 | {{< fa user-group >}} [Networking and social activity](../appendix/social.qmd#social-day-one) |
+| 13:35 | {{< fa laptop-code >}} [Review of Git and GitHub]() |
 | 14:30 | {{< fa mug-hot >}} Break with coffee and snacks |
-| 15:30 | [{{< fa laptop-code >}} Setting up GitHub for a team-based project]() |
-| 17:00 | [{{< fa comment-dots >}} End of day survey]() |
+| 15:30 | {{< fa laptop-code >}} [Setting up GitHub for a team-based project]() |
+| 17:00 | {{< fa comment-dots >}} [End of day survey]() |
 
 
 ## Day 2
 
 | Time | Session topic |
 |------------------------------------|------------------------------------|
-| 9:00 | [{{< fa person-chalkboard >}} Contributor workflow (branches)]() |
+| 9:00 | {{< fa person-chalkboard >}} [Contributor workflow (branches)]() |
 | 10:15 | {{< fa mug-hot >}} Break with coffee and snacks |
-| 10:30 | [{{< fa laptop-code >}} Contributor workflow (commits)]() |
+| 10:30 | {{< fa laptop-code >}} [Contributor workflow (commits)]() |
 | 12:15 | {{< fa utensils >}} Lunch |
-| 13:00 | [{{< fa user-group >}} Networking and social activity](../appendix/social.qmd#social-day-two) |
-| 13:20 | [{{< fa laptop-code >}} Contributor workflow (commits continued and issues)]() |
+| 13:00 | {{< fa user-group >}} [Networking and social activity](../appendix/social.qmd#social-day-two) |
+| 13:20 | {{< fa laptop-code >}} [Contributor workflow (commits continued and issues)]() |
 | 14:45 | {{< fa mug-hot >}} Break with coffee and snacks |
-| 15:00 | [{{< fa laptop-code >}} Contributor workflow (create pull requests)]() |
-| 17:00 | [{{< fa comment-dots >}} End of day survey]() |
+| 15:00 | {{< fa laptop-code >}} [Contributor workflow (create pull requests)]() |
+| 17:00 | {{< fa comment-dots >}} [End of day survey]() |
 
 ## Day 3
 
 | Time | Session topic |
 |------------------------------------|------------------------------------|
-| 9:00 | [{{< fa laptop-code >}} Reviewer workflow (review pull requests)]() |
+| 9:00 | {{< fa laptop-code >}} [Reviewer workflow (review pull requests)]() |
 | 10:15 | {{< fa mug-hot >}} Break with coffee and snacks |
-| 10:30 | [{{< fa laptop-code >}} Reviewer workflow (merge pull requests)]() |
+| 10:30 | {{< fa laptop-code >}} [Reviewer workflow (merge pull requests)]() |
 | 12:15 | {{< fa utensils >}} Lunch |
-| 13:00 | [{{< fa people-carry-box >}} Group project](../appendix/group-project.qmd) |
+| 13:00 | {{< fa people-carry-box >}} [Group project](../appendix/group-project.qmd) |
 | 14:45 | {{< fa mug-hot >}} Break with coffee and snacks |
-| 15:00 | [{{< fa people-carry-box >}} Group project](../appendix/group-project.qmd) |
-| 16:30 | [{{< fa person-chalkboard >}} Closing remarks](../sessions/what-next.qmd) |
-| 16:45 | [{{< fa comment-dots >}} Short survey and farewell]() |
+| 15:00 | {{< fa people-carry-box >}} [Group project](../appendix/group-project.qmd) |
+| 16:30 | {{< fa person-chalkboard >}} [Closing remarks](../sessions/what-next.qmd) |
+| 16:45 | {{< fa comment-dots >}} [Short survey and farewell]() |
 :::
