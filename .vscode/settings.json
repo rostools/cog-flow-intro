@@ -15,9 +15,11 @@
     ],
     "cSpell.language": "en,en-GB",
     "conventionalCommits.scopes": [
-        "devops",
-        "sessions",
-        "exercises",
-        "appendix",
+      "devops",
+      "sessions",
+      "exercises",
+      "appendix",
+      "preamble", 
+      "slides"
     ],
   }
