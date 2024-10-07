@@ -1,3 +1,7 @@
+---
+tbl-colwidths: [20, 80]
+---
+
 # Schedule {#sec-schedule}
 
 {{< include ../includes/_wip.qmd >}}
