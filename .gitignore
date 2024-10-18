@@ -1,8 +1,11 @@
 .Rproj.user
 .Rhistory
-.RData
-.Ruserdata
-
-/.quarto/
+.Rdata
+.httr-oauth
+.DS_Store
+_book
 _site
 public
+_freeze
+/.quarto/
+.Rbuildignore
