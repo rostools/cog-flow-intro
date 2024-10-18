@@ -33,7 +33,7 @@ guide and overview.
 
 | Time  | Session topic                                                                                 |
 |------------------------------------|------------------------------------|
-| 9:00  | {{< fa person-chalkboard >}} [Contributor workflow (branches)]()                              |
+| 9:00  | {{< fa laptop-code >}} [Contributor workflow (branches)]()                              |
 | 10:15 | {{< fa mug-hot >}} Break with coffee and snacks                                               |
 | 10:30 | {{< fa laptop-code >}} [Contributor workflow (commits)]()                                     |
 | 12:15 | {{< fa utensils >}} Lunch                                                                     |
