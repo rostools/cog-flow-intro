@@ -7,9 +7,8 @@
 Our overall learning outcome for the course is:
 
 1.  Describe some core features of effective team-based, collaborative
-    workflows and identify the components that make these workflows
-    effective compared to other workflows. Then use Git and GitHub with
-    approaches that strongly support effective collaboration.
+    workflows and use Git and GitHub with approaches that support
+    effective collaboration.
 
 This outcome is broken down into specific learning objectives that will
 be addressed within the individual sessions:
