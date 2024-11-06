@@ -5,7 +5,7 @@ project:
   #   - slides/*.html
 
 book:
-  title: Git for Collaborative Teams (CATs)
+  title: Git for Collaborative Teams
   subtitle: "An introduction to team-based collaboration with Git and GitHub"
   author: 
     - name: Luke W. Johnston
