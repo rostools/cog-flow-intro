@@ -43,6 +43,19 @@ be addressed within the individual sessions:
 
 ## Is this course for you? {#sec-is-it-for-you}
 
+This course will cover:
+
+-   Using Git and GitHub with VS Code and the GitHub web interface
+-   Working with at least one other person on a project (*a Git
+    repository*)
+-   Working with plain text files (as Markdown `.md`)
+
+This course will **NOT** cover:
+
+-   Using any programming language (like R or Python)
+-   Any project management, for example related to tasks/issues (even
+    though we briefly cover issues) and kanban boards
+
 To help manage expectations and develop the material for this course, we
 make a few assumptions about *who you are* as a participant in the
 course:
@@ -59,26 +72,3 @@ These assumptions help guide the course content, but if you don't meet
 the assumption but are interested in learning, *you’re still welcome to
 join*! We welcome everyone, that is until the course capacity is
 reached.
-
-In addition to the assumptions, we also have a fairly focused scope for
-teaching and expectations for learning. So this may also help you decide
-if this course is for you.
-
-This course will cover:
-
--   Using Git
-
--   Using GitHub
-
--   Working with at least one other person
-
--   Using \<IDE\>
-
--   Working with plain text files (as Markdown `.md` )
-
-This course will **NOT** cover:
-
--   Using any programming language (like R or Python)
-
--   Any project management, for example related to tasks/issues (even
-    though we briefly cover issues)
