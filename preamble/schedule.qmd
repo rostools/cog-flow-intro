@@ -52,9 +52,9 @@ guide and overview.
 | 10:15 | {{< fa mug-hot >}} Break with coffee and snacks                            |
 | 10:30 | {{< fa laptop-code >}} [Reviewer workflow: Merge pull requests)](../sessions/merge-prs.qmd)         |
 | 12:15 | {{< fa utensils >}} Lunch                                                  |
-| 13:00 | {{< fa people-carry-box >}} [Group project](../session/group-project.qmd) |
+| 13:00 | {{< fa people-carry-box >}} [Group project](../sessions/group-project.qmd) |
 | 14:45 | {{< fa mug-hot >}} Break with coffee and snacks                            |
-| 15:00 | {{< fa people-carry-box >}} [Group project](../session/group-project.qmd) |
+| 15:00 | {{< fa people-carry-box >}} [Group project](../sessions/group-project.qmd) |
 | 16:30 | {{< fa person-chalkboard >}} [Closing remarks](../sessions/what-next.qmd)  |
 | 16:45 | {{< fa comment-dots >}} [Short survey and farewell]()                      |
 :::
