@@ -29,19 +29,17 @@ be addressed within the individual sessions:
 6.  Create and use a task list (called issues) to assign team members to
     tasks that they are responsible for.
 7.  Apply a contributor workflow that involves:
-		1. selecting an issue to work on,
-		2. creating an isolated section of a repository (called
-    	 branches), 
-    3. making small and distinct changes to files (known as
-    	 atomic commits) with clear messages explaining why or what
-    	 was changed, and 
-    4. contributing those changes into the main branch
-       of a repository (called pull requests).
+    1.  selecting an issue to work on,
+    2.  creating an isolated section of a repository (called branches),
+    3.  making small and distinct changes to files (known as atomic
+        commits), and
+    4.  contributing those changes to the project (called pull
+        requests).
 8.  Apply a reviewer/admin workflow that involves:
-		1. reviewing a pull request with changes, 
-		2. giving suggestions and feedback, and 
-		3. identifying how (and if) the changes should be merged 
-			 back into the main branch of a repository.
+    1.  reviewing a pull request,
+    2.  giving suggestions and feedback, and
+    3.  identifying how (and if) the changes should be merged into
+        project.
 
 ## Is this course for you? {#sec-is-it-for-you}
 
