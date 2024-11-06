@@ -13,11 +13,11 @@ Our overall learning outcome for the course is:
 This outcome is broken down into specific learning objectives that will
 be addressed within the individual sessions:
 
-1.  Explain what humans, both psychologically and 
-    organizationally, need in order to work well together as a team.
+1.  Explain what humans, both psychologically and organizationally, need
+    in order to work well together as a team.
 2.  Discuss the different ways people work together as a team and
-    identify how some of these ways work better than others for effective
-    teamwork.
+    identify how some of these ways work better than others for
+    effective teamwork.
 3.  Describe how the widely used Git and GitHub are used for
     collaboration, explain their biggest strengths and weaknesses
     compared to alternatives, and review the basics of using Git and
@@ -25,7 +25,7 @@ be addressed within the individual sessions:
 4.  Set up a project on GitHub (called a repository) and apply some key
     settings on GitHub to improve collaboration and teamwork.
 5.  Differentiate between contributor and reviewer/admin roles in a team
-    and why they should be dynamic and explicit.
+    and explain why they should be dynamic and explicit.
 6.  Create and use a task list (called issues) to assign team members to
     tasks that they are responsible for.
 7.  Apply a contributor workflow that involves:
@@ -51,14 +51,14 @@ course:
     common set of files
 -   You have a desire to work together in a more open and transparent
     way in your team(s)
--   You have used Git and/or GitHub a bit, either through GitHub's UI,
-    RStudio, VS Code, Jupyter Lab/Notebook, or GitHub Desktop, but not regularly or in a team or a
-    collaborative setting.
+-   You've used Git and/or GitHub a bit, maybe through GitHub's web
+    interface, RStudio, VS Code, Jupyter Lab/Notebook, or GitHub
+    Desktop, but not often or in a collaborative setting.
 
-While we have these assumptions to help focus the content of the course,
-if you have an interest in learning what we teach but don't fit any of
-the above assumptions, *you are still welcome to attend the course*! We
-welcome everyone, that is until the course capacity is reached.
+These assumptions help guide the course content, but if you don't meet
+the assumption but are interested in learning, *you’re still welcome to
+join*! We welcome everyone, that is until the course capacity is
+reached.
 
 In addition to the assumptions, we also have a fairly focused scope for
 teaching and expectations for learning. So this may also help you decide
