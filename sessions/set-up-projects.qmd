@@ -1,0 +1,1 @@
+# Setting up GitHub for a team-based project {#sec-set-up-projects}
