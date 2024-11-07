@@ -4,11 +4,10 @@
 
 ## Description
 
-This is an introductory course on team-based collaboration with Git and GitHub.
-Reproducibility and open scientific practices are increasingly being
+This is an introductory course on team-based collaboration with Git and GitHub. In line with other [rostools](https://github.com/rostools) courses, Git for Collaborative Teams is designed with reproducibility and open scientific practices in mind. These practises are increasingly being
 requested or required of scientists and researchers, but training on
 these practices has not kept pace. This course intends to help bridge
-that gap and covers the fundamentals and workflow of data analysis in R.
+that gap and covers the fundamentals and workflow of working with Git and GitHub in a collaborative team setting.
 
 This repository contains the lesson, lecture, and assignment material
 for the course, including the website source files and other associated
@@ -22,11 +21,10 @@ page](https://cog-flow-intro.rostools.org).
 The lectures and lessons in this course are designed to be presented
 primarily with a participatory live-coding approach. This involves an
 instructor typing and running code in
-[RStudio](https://posit.co/products/open-source/rstudio/) in front of
+[VS Code](https://code.visualstudio.com/) in front of
 the class, while the class follows along using their own computers.
 Challenges are interspersed in the lesson material, allowing
-participants to collaboratively work on smaller coding problems for a
-few minutes. All lesson materials are provided ahead of time on the
+participants to collaboratively work on smaller exercises and problems. All lesson materials are provided ahead of time on the
 course website for participants to refer to during lectures.
 
 ## Lesson content
