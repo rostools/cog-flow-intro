@@ -1,6 +1,7 @@
 # Git for Collaborative Teams
 #### An introductory course on team-based collaboration with Git and GitHub
 
+[![](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Description
 
