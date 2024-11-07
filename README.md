@@ -1,10 +1,10 @@
-# Git for Collaborative Teams
-#### An introductory course on team-based collaboration with Git and GitHub
+# :cat2: Git for Collaborative Teams
 
 [![](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Description
 
+This is an introductory course on team-based collaboration with Git and GitHub.
 Reproducibility and open scientific practices are increasingly being
 requested or required of scientists and researchers, but training on
 these practices has not kept pace. This course intends to help bridge
