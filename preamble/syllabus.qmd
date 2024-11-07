@@ -54,7 +54,7 @@ This course will **NOT** cover:
 
 -   Using any programming language (like R or Python)
 -   Any project management, for example related to tasks/issues (even
-    though we briefly cover issues) and kanban boards
+    though we briefly cover issues) and Kanban boards
 
 To help manage expectations and develop the material for this course, we
 make a few assumptions about *who you are* as a participant in the
