@@ -1,4 +1,6 @@
-# Collaboration with Git and GitHub: A gentle introduction to a team-based collaborative workflow using Git and GitHub
+# Git for Collaborative Teams
+#### An introductory course on team-based collaboration with Git and GitHub
+
 
 ## Description
 
