@@ -8,7 +8,7 @@ book:
   title: Git for Collaborative Teams
   subtitle: "An introductory course on team-based collaboration with Git and GitHub"
   body-header: |
-    ::: {.callout-warning icon="true"}
+    ::: {.callout-warning appearance="default" icon="true"}
     🚧 This course is still in active development 🚧
     :::
   author: 
