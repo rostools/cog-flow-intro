@@ -14,7 +14,7 @@ for the course, including the website source files and other associated
 course administration files.
 
 For more detail on the course, check out the [welcome
-page](https://cog-flow-intro.rostools.org).
+page](https://git4cats.rostools.org).
 
 ## Instructional Design
 
