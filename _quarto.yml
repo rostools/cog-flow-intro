@@ -1,6 +1,5 @@
 project:
   type: r3-theme
-  # pre-render: bash _build-slides.sh
   # resources:
   #   - slides/*.html
 
