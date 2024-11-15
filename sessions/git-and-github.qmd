@@ -18,7 +18,7 @@ This session’s **overall learning outcome** is to enable you to:
     -   Committing changes to track file history
     -   Using pull requests for integrating changes
     -   Managing tasks with GitHub issues
-3.  Recognise how Git and GitHub facilitate collaboration, focusing on:
+3.  Explain how Git and GitHub facilitate collaboration, focusing on:
     -   Coordinating changes between multiple contributors
     -   Tracking contributions and changes over time
     -   Encouraging transparency and accountability in projects
