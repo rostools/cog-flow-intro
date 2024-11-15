@@ -6,11 +6,24 @@
 
 The **overall learning** outcome of this session is to:
 
+1.  Outline the core concepts and functionalities of Git and GitHub and
+    understand their role in facilitating effective collaboration
+
 1.  
 
 Specific **objectives** are to:
 
-1.  
+1.  Explain the concept of "formal" version control and its key benefits
+2.  Describe the main features of Git and GitHub, including:
+    -   Local and remote repositories
+    -   Branching and its role in parallel work on the same project
+    -   Committing changes to track file history
+    -   Using pull requests for integrating changes
+    -   Managing tasks with GitHub issues
+3.  Recognise how Git and GitHub facilitate collaboration, focusing on:
+    -   Coordinating changes between multiple contributors
+    -   Tracking contributions and changes over time
+    -   Encouraging transparency and accountability in projects
 
 ## TODO: Section
 
