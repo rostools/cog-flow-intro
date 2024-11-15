@@ -4,8 +4,6 @@ tbl-colwidths: [20, 80]
 
 # Schedule {#sec-schedule}
 
-{{< include ../includes/_wip.qmd >}}
-
 The course is structured as a series of participatory live-coding
 sessions interspersed with hands-on exercises and group work. There are
 some lectures given, mainly at the start and end of the course. The

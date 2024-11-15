@@ -1,7 +1,5 @@
 # Syllabus {#sec-syllabus}
 
-{{< include ../includes/_wip.qmd >}}
-
 ## Learning outcomes
 
 Our overall learning outcome for the course is:
