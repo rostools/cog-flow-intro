@@ -4,7 +4,15 @@
 
 <!-- TODO: Add an introduction here -->
 
-**Session objectives**:
+## Learning objectives
+
+The **overall learning** outcome of this session is to:
+
+1.  
+
+Specific **objectives** are to:
+
+1.  
 
 ## TODO: Section
 
