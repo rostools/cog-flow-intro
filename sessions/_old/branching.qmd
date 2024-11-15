@@ -4,8 +4,6 @@ date: last-modified
 order: 2
 ---
 
-{{< include /includes/_wip.qmd >}}
-
 **Branching** is a fundamental concept in Git that plays a crucial role in managing code changes and helping along smooth and organised development workflows. Branches are also is essential for parallel software development.
 
 This entry covers what a branch is, when to create branches and how much work a single branch should cover (following the [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)), as well as branch naming conventions.

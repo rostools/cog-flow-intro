@@ -1,7 +1,5 @@
 # Welcome!
 
-{{< include includes/_wip.qmd >}}
-
 BACKGROUND: CHALLENGE
 
 BACKGROUND: NEED
