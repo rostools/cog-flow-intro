@@ -4,14 +4,12 @@
 
 ## Learning objectives
 
-The **overall learning** outcome of this session is to:
+This session’s **overall learning outcome** is to enable you to:
 
 1.  Outline the core concepts and functionalities of Git and GitHub and
     understand their role in facilitating effective collaboration
 
-1.  
-
-Specific **objectives** are to:
+**Specific objectives** are to:
 
 1.  Explain the concept of "formal" version control and its key benefits
 2.  Describe the main features of Git and GitHub, including:
