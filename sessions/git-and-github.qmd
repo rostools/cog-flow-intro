@@ -7,7 +7,7 @@
 This session’s **overall learning outcome** is to enable you to:
 
 1.  Outline the core concepts and functionalities of Git and GitHub and
-    understand their role in facilitating effective collaboration
+    describe their role in facilitating effective collaboration
 
 **Specific objectives** are to:
 
