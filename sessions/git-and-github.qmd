@@ -11,14 +11,18 @@ This session’s **overall learning outcome** is to enable you to:
 
 **Specific objectives** are to:
 
-1.  Explain the concept of "formal" version control and its key benefits
-2.  Describe the main features of Git and GitHub, including:
-    -   Local and remote repositories
-    -   Branching and its role in parallel work on the same project
-    -   Committing changes to track file history
-    -   Using pull requests for integrating changes
-    -   Managing tasks with GitHub issues
-3.  Explain how Git and GitHub facilitate collaboration, focusing on:
+1.  Explain the concept of formal **version control** and its key
+    benefits
+2.  Describe what a **repository** is in the context of Git and GitHub,
+    including the difference between **local** and **remote**
+    repositories.
+3.  Explain the role of **branching** in managing parallel work
+4.  Explain how **commits** are used to track changes and maintain a
+    history of files.
+5.  Describe how **pull requests** are used to integrate changes and
+    collaborate with team members.
+6.  Describe how GitHub **issues** can be used for managing tasks.
+7.  Explain how Git and GitHub facilitate collaboration by:
     -   Coordinating changes between multiple contributors
     -   Tracking contributions and changes over time
     -   Encouraging transparency and accountability in projects
