@@ -22,11 +22,15 @@ about them are found as you work through the tasks.
     people, depending on their institution, this task can take the
     **longest amount of time** because you have to contact your IT to
     install these packages.
-2.  TODO: Add more tasks
-3.  Read the syllabus (@sec-syllabus).
-4.  Read the [Code of
+2.  Create a [GitHub
+    account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github#signing-up-for-a-new-personal-account)
+    if you don't already have one. If you have one already, make sure you can
+    access it.
+3.  TODO: Add more tasks
+4.  Read the syllabus (@sec-syllabus).
+5.  Read the [Code of
     Conduct](https://guides.rostools.org/conduct.html).
-5.  Complete the pre-course [survey](): This survey is pretty quick,
+6.  Complete the pre-course [survey](): This survey is pretty quick,
     maybe \~10 minutes. There will be some bits from the tasks that you
     will need to paste into this survey.
 
