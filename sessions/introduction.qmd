@@ -21,4 +21,127 @@ the keyboard.
 
 ## The Big Picture
 
-TODO: Add text highlighting the bigger picture of why we teach this.
+This section gives a wide overview of the course, specifically what we
+are going to do, why we want to do it, how we are going to go about
+doing it, and what it will look like in the end. We'll use specific
+terminology below to explicitly describe what we will cover during the
+course.
+
+You may or may not be familiar with these terms. You will very likely
+feel confused about what many of the words written below actually mean.
+That feeling is very normal and very ok. As we go through the course,
+we'll explain each of these concepts so that hopefully by the end of the
+course, you will have a better understanding of these terms and
+concepts.
+
+::: callout-note
+### Reading task (\~10 min)
+
+### What we will do {.unnumbered}
+
+**We want to work effectively with one or more people on a project, in a
+way that takes less manual coordination of work and allows everyone to
+easily see the progress being made.**
+
+We'll do this by:
+
+-   Following a clear, explicit, and agreed-upon set of practices for
+    working together on a project.
+-   Working with Git either on your own computer or in the browser with
+    GitHub.
+-   Using GitHub to store the Git repository and use as a central
+    location for the project.
+-   Contributing to the project by using the "GitHub flow" using Git
+    branches and making pull requests.
+-   Communicating the changes you've made to files in the project (as a
+    Git repository) by structuring commits as "atomic" changes and
+    writing commit messages following the Conventional Commit standard.
+-   Collaborating together by reviewing each other's contributions in
+    pull requests by making comments and suggestions.
+-   Accepting contributions by merging changes back into the main branch
+    of the project.
+
+### Why we want that {.unnumbered}
+
+Working well together on a common project isn't easy nor a thing we can
+naturally do. It requires a lot of skill, knowledge, and actually
+applying these practices often in real settings. Above all though, it
+requires *explicitly* agreeing and committing to working a certain with
+your team members. Agreeing to work better together can be easy. Knowing
+*how exactly* to work together is hard, *explicitly* agreeing on those
+is harder, and actually committing to those practices is the hardest.
+
+Too often, we just say "oh, it's just a small thing" or "I have to do
+this quickly" or "It's too much learning or change for me, I'll just do
+it my way". But, if we don't agree and actually commit to working better
+together, we'll end up with a mess of a project, with no one knowing
+what's going on, who's doing what, and what the current state of the
+project is. By following the same agreed-upon collaborative practices,
+you as a team can focus on the content, on understanding what others are
+contributing to the project, and providing relevant feedback directly to
+where it is needed.
+
+So, to help with *knowing how exactly to work together*, here are the
+reasons why we use the tools and practices we do based on our
+experiences and research into what are the most optimal and effective
+ways to collaborate together as a team:
+
+-   We use Git and GitHub because they are both incredibly popular tools
+    for collaboration.
+-   We use the GitHub flow (using Git branches and pull requests)
+    because it allows each team member to work on their own part of the
+    project without interfering with others' work and makes it easy to
+    get feedback and reviews from others when that work is ready to be
+    added back to the main content of the project.
+-   We use "atomic" commits, which means the commit contains a single
+    conceptual change (e.g. only changes a typo), so that it is easier
+    for the reviewers (our team members) to understand what we changed
+    and why.
+-   We use the Conventional Commits standard to write commit messages
+    because it ensures that messages are consistent between team members
+    and it more clearly communicates what was done in a commit.
+-   We use GitHub pull requests to be able to directly comment on and
+    give feedback to changes made by other team members so that review,
+    discussions, and decisions can be visible to everyone on the team.
+
+For more reasons on why we use these tools and practices, see the
+[decision posts](https://decisions.seedcase-project.org) of our sibling
+the [Seedcase Project](https://seedcase-project.org).
+
+While the reasons for these choices are grounded in research,
+experience, and common practice in industry, there are costs related to
+these choices. The main one is that at this current time, few people who
+work in researcher use these practices. Part of the aim of this course
+is to spread awareness and education so that in the future more
+researchers and those in academia can be more familiar with the tools
+and practices that we will cover in this course.
+
+### How we will get there {.unnumbered}
+
+For this course, how you will learn to use more effective collaborative
+practices within a team setting is by:
+
+-   Participating in live-coding sessions where we will demonstrate how
+    to use Git and GitHub for collaboration.
+-   Discuss with your neighbour about what makes a collaborative
+    workflow effective.
+-   Working on hands-on exercises where you will practice using Git and
+    GitHub on making files, editing files, making pull requests,
+    reviewing pull requests, and merging pull requests.
+-   Work with at least one other person on a project, where you start
+    from the beginning and apply all the practices we've learned in the
+    course.
+
+### What it will look like {.unnumbered}
+
+By the end of the course, you will have:
+
+<!-- TODO: update these once we have a better idea of things -->
+
+-   Two GitHub repositories called LEARNING NAME and PROJECT NAME.
+-   Have NUMBER of files called FILENAMES in LEARNING NAME
+-   At least NUMBER of commits made to LEARNING REPO
+-   NUMBER of pull requests made to the LEARNING REPO
+-   Have at least NUMBER of files called FILENAMES
+-   NUMBER of pull requests reviewed in the PROJECT REPO
+:::
