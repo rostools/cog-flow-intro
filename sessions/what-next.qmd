@@ -1,7 +1,5 @@
 # What next
 
-{{< include ../includes/_wip.qmd >}}
-
 > [**Slides**](../slides/introduction.html)
 
 <div>

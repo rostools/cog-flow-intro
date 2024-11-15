@@ -1,7 +1,5 @@
 # Welcome!
 
-{{< include includes/_wip.qmd >}}
-
 BACKGROUND: CHALLENGE
 
 BACKGROUND: NEED
@@ -24,16 +22,16 @@ repository of the material, and [GitHub
 Actions](https://github.com/features/actions) with
 [Netlify](https://www.netlify.com/) to create and host the website. The
 original source material for this course is found on the
-[`cog-flow-intro`](https://github.com/rostools/cog-flow-intro) GitHub
+[`git4cats`](https://github.com/rostools/git4cats) GitHub
 repository.
 
 Want to contribute to this course? Check out the
-[README](https://github.com/rostools/cog-flow-intro/blob/main/README.md)
+[README](https://github.com/rostools/git4cats/blob/main/README.md)
 file as well as the
-[CONTRIBUTING](https://github.com/rostools/cog-flow-intro/blob/main/CONTRIBUTING.md)
+[CONTRIBUTING](https://github.com/rostools/git4cats/blob/main/CONTRIBUTING.md)
 file on the GitHub repository for more details. The main way to
 contribute is by using [GitHub](https://github.com/) and creating a [new
-Issue](https://github.com/rostools/cog-flow-intro/issues/new) to make
+Issue](https://github.com/rostools/git4cats/issues/new) to make
 comments and give feedback for the material.
 
 ## Re-use and licensing {#licensing}

@@ -4,8 +4,6 @@ date: last-modified
 order: 3
 ---
 
-{{< include /includes/_wip.qmd >}}
-
 After you have created a new branch, you probably want to start implementing some changes to your repository, like adding a new feature to your code.
 
 With Git, you log the process of your work through *commits*, the save points within Git's version control. Git does not log these save points automatically as you modify files in your repository, so you have to choose when you want to commit (i.e., log) your changes and what to include in each commit.

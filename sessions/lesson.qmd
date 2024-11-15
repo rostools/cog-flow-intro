@@ -1,16 +1,14 @@
 # TODO: Lesson title here
 
-{{< include ../includes/_wip.qmd >}}
-
 <!-- TODO: Add an introduction here -->
 
 ## Learning objectives
 
-The **overall learning** outcome of this session is to:
+This session’s **overall learning outcome** is to enable you to:
 
 1.  
 
-Specific **objectives** are to:
+**Specific objectives** are to:
 
 1.  
 
