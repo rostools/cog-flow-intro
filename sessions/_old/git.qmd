@@ -4,8 +4,6 @@ date: last-modified
 order: 1
 ---
 
-{{< include /includes/_wip.qmd >}}
-
 ::: callout-note
 If you are already familiar with the basics of Git and version control (such as committing, history, and pushing/pulling to a remote repository), you can skip this section.
 :::

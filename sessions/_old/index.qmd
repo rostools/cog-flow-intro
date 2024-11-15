@@ -3,8 +3,6 @@ title: "Git Workflow Guidelines"
 date: last-modified
 ---
 
-{{< include /includes/_wip.qmd >}}
-
 ## Introduction
 
 Note: In this and the following Git workflow posts, we assume that you know the basics of Git and GitHub. If this is not the case, go to the [Introduction to Git](git.md) post.

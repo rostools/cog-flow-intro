@@ -1,7 +1,5 @@
 # TODO: Lesson title here
 
-{{< include ../includes/_wip.qmd >}}
-
 <!-- TODO: Add an introduction here -->
 
 ## Learning objectives

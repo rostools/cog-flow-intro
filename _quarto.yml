@@ -7,6 +7,10 @@ project:
 book:
   title: Git for Collaborative Teams
   subtitle: "An introductory course on team-based collaboration with Git and GitHub"
+  body-header: |
+    ::: {.callout-warning appearance="default" icon="true"}
+    🚧 This course is still in active development 🚧
+    :::
   author: 
     - name: Luke W. Johnston
       orcid: 0000-0003-4169-2616
