@@ -12,7 +12,7 @@ This session’s **overall learning outcome** is to enable you to:
 **Specific objectives** are to:
 
 1.  Explain the concept of formal **version control** and its key
-    benefits
+    benefits.
 2.  Describe what a **repository** is in the context of Git and GitHub,
     including the difference between **local** and **remote**
     repositories.
@@ -22,10 +22,10 @@ This session’s **overall learning outcome** is to enable you to:
 5.  Describe how **pull requests** are used to integrate changes and
     collaborate with team members.
 6.  Describe how GitHub **issues** can be used for managing tasks.
-7.  Explain how Git and GitHub facilitate collaboration by:
-    -   Coordinating changes between multiple contributors
-    -   Tracking contributions and changes over time
-    -   Encouraging transparency and accountability in projects
+7.  Discuss and explain how Git and GitHub facilitate collaboration by:
+    -   Coordinating changes between multiple contributors.
+    -   Tracking contributions and changes over time.
+    -   Encouraging transparency and accountability in projects.
 
 ## TODO: Section
 
