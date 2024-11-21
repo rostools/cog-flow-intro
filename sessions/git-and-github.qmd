@@ -6,8 +6,9 @@
 
 This session’s **overall learning outcome** is to enable you to:
 
-1.  Outline the core concepts and functionalities of Git and GitHub and
-    describe their role in facilitating effective collaboration
+1.  Describe the core concepts and functionalities of Git and GitHub and
+    describe their role in facilitating effective collaboration, then use
+    some of the basic functionality of Git and GitHub on a shared repository.
 
 **Specific objectives** are to:
 
@@ -15,13 +16,18 @@ This session’s **overall learning outcome** is to enable you to:
     benefits.
 2.  Describe what a **repository** is in the context of Git and GitHub,
     including the difference between **local** and **remote**
-    repositories.
-3.  Explain the role of **branching** in managing parallel work
+    repositories, and then create a new repository in a way that you
+    can work on it with a team.
+3.  Explain the role of **branching** in managing parallel work and 
+		create a few branches on a team repository.
 4.  Explain how **commits** are used to track changes and maintain a
-    history of files.
+    history of files, and then to commit some changes in the branches
+    on the team repository.
 5.  Describe how **pull requests** are used to integrate changes and
-    collaborate with team members.
-6.  Describe how GitHub **issues** can be used for managing tasks.
+    collaborate with team members, then to create them on the team 
+    repository from the branches that you already committed changes to. 
+6.  Describe how GitHub **issues** can be used for managing tasks and 
+		make a few of them on your team GitHub repository.
 7.  Discuss and explain how Git and GitHub facilitate collaboration by:
     -   Coordinating changes between multiple contributors.
     -   Tracking contributions and changes over time.
