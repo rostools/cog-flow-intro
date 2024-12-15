@@ -1,11 +1,11 @@
-name: Build and deploy website
+name: Build website for course
 
 on:
   push:
     branches: main
 
 jobs:
-  build-deploy-website:
-    uses: rostools/.github/.github/workflows/build-website.yml@main
-    secrets: 
+  build-deploy-docs:
+    uses: rostools/.github/.github/workflows/reusable-build-website.yml@main
+    secrets:
       netlify-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
