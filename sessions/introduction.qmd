@@ -21,12 +21,13 @@ the keyboard.
 
 ## The Big Picture
 
-This section gives a wide overview of the course, specifically what we
-are going to do, why we want to do it, how we are going to go about
-doing it, and what it will look like in the end. We'll use specific
+This section gives a wide overview of the course. We'll go into what we
+are going to do during the course, why we want to do it, and how we are going to go about
+doing it. We'll also take a peak at what we will have created by the end of the course. 
+
+We'll use specific
 terminology below to explicitly describe what we will cover during the
 course.
-
 You may or may not be familiar with these terms. If you are not, you will probably
 feel confused about what many of the words written below actually mean.
 Don't worry! That's why we're doing this course! As we go through the course,
@@ -79,10 +80,13 @@ you as a team can focus on the content, on understanding what others are
 contributing to the project, and providing relevant feedback directly
 where it is needed.
 
-So, to help with *knowing how exactly to work together*, here are the
-reasons why we use the tools and practices we do based on our
-experiences and research into what are the most optimal and effective
-ways to collaborate together as a team:
+### How we will get there {.unnumbered}
+
+We've described why we want to work better together, but now *how* do we
+go about *explicitly* working better together. Below are some
+reasons for why we use and recommend these specific tools and practices as the most 
+optimal and effective for collaborating as a team, 
+based on our experiences and our research into what others also use:
 
 -   We use Git and GitHub because they are both incredibly popular tools
     for collaboration.
@@ -112,7 +116,7 @@ work in research use these practices. Part of the aim of this course
 is to spread awareness and educate researchers so that in the future
 the tools and practices covered in this course will become more common in academia.
 
-### How we will get there {.unnumbered}
+### What we will do in this course {.unnumbered}
 
 For this course, how you will learn to use more effective collaborative
 practices within a team setting is by:
