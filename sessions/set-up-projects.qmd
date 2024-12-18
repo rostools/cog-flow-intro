@@ -1,1 +1,38 @@
 # Setting up GitHub for a team-based project {#sec-set-up-projects}
+
+<!-- TODO: Add an introduction here -->
+
+## Learning objectives
+
+This session’s **overall learning outcome** is to enable you to:
+
+1.  Create and configure a GitHub repository for a team-based project.
+
+**Specific objectives** are to:
+
+1.  Create a new public **repository** on GitHub to serve as the
+    foundation for a team-based project.
+2.  Select and apply an appropriate **license** to the repository to
+    establish usage rights.
+3.  Configure **branch protection rules** for the `main` branch of the
+    repository to enforce code quality and security standards.
+4.  Define who are "responsible" for the project by adding **code
+    owners**
+5.  **Clone** the repository to create a local copy on your computer to
+    work on the project.
+
+## TODO: Section
+
+::: callout-note
+## Reading task: \~4 minutes
+
+TODO: Reading text
+:::
+
+## Exercise: TODO: Add title
+
+> Time: \## minutes.
+
+## Summary
+
+-   TODO: List of summary items
